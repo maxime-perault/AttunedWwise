@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{289293B5-F196-40D6-B5D2-13B33EF88828}" SchemaVersion="89">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{289293B5-F196-40D6-B5D2-13B33EF88828}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{289293B5-F196-40D6-B5D2-13B33EF88828}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Sinus440" ID="{10C2AF26-8239-45A0-9B55-1191E1374D50}">
+					<ChildrenList>
+						<Action Name="" ID="{6F8937B4-CB08-4C70-A860-063F22F0B8B2}" ShortID="969546756">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sinus440" ID="{65725816-74F4-4B0C-935B-E3CB6C1D985D}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sinus220" ID="{FBB306F3-AAC7-44AE-AF40-447F413A23D5}">
+					<ChildrenList>
+						<Action Name="" ID="{EB4E343E-9CF7-4B2A-9BDD-0CCA4126B900}" ShortID="856821424">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sinus220" ID="{00934BE2-EDBF-442E-9AC9-2A93F5CB203F}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

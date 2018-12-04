@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4107097007" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\AttunedSoundBank</ObjectPath>
+			<ShortName>AttunedSoundBank</ShortName>
+			<Path>AttunedSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2916087884" Name="Play_Sinus220" ObjectPath="\Events\Default Work Unit\Play_Sinus220"/>
+				<Event Id="936726232" Name="Play_Sinus440" ObjectPath="\Events\Default Work Unit\Play_Sinus440"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="336381021" Language="SFX">
+					<ShortName>Sinus220.wav</ShortName>
+					<Path>SFX\Sinus220_56D34C19.wem</Path>
+				</File>
+				<File Id="701208533" Language="SFX">
+					<ShortName>Sinus440.wav</ShortName>
+					<Path>SFX\Sinus440_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

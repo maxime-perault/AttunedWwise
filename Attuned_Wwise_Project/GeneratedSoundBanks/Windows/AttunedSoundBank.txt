@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	936726232	Play_Sinus440			\Default Work Unit\Play_Sinus440	
+	2916087884	Play_Sinus220			\Default Work Unit\Play_Sinus220	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	336381021	Sinus220	C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Sinus220_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sinus220		441064
+	701208533	Sinus440	C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Sinus440_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sinus440		441064
+
