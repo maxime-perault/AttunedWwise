@@ -31,6 +31,86 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="S_SFX_Footstep_Neutral" ID="{3BF075EB-AE9B-4046-94B2-379E020736FB}">
+					<ChildrenList>
+						<Action Name="" ID="{4F1D62A3-D15C-4781-8E2F-0C77DA60F248}" ShortID="404117793">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="S_SFX_Footstep_Neutral" ID="{73D7B96F-24B3-498F-96C5-178E441CF29A}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_SFX_Footstep_Rock" ID="{DD8A7154-CFA9-4734-91C1-86032F585D11}">
+					<ChildrenList>
+						<Action Name="" ID="{20EE3789-478A-48C7-A766-0835C323740C}" ShortID="1046708253">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="S_SFX_Footstep_Rock" ID="{9280A652-6558-4B6A-AC12-8F525B344946}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_SFX_Footstep_Sand" ID="{6C2B28E9-099A-4E09-B8D0-AD8F639E3117}">
+					<ChildrenList>
+						<Action Name="" ID="{7C7C6A73-9D4A-4109-BA40-74D95E88CAA0}" ShortID="401996090">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="S_SFX_Footstep_Sand" ID="{F24CBB37-3A16-4F4B-92A2-76FEE55532BD}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_SFX_Explosion_Rock" ID="{EC57F84C-4CBB-4770-A5E0-AD888E431750}">
+					<ChildrenList>
+						<Action Name="" ID="{FE08A513-AD95-4DEB-8048-D7405D38630C}" ShortID="672421298">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="S_SFX_Explosion_Rock" ID="{17614B1F-5D8F-467A-B955-9FB1BFD6D41A}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_SFX_Jump_Neutral" ID="{49A27A41-5DFB-489C-8F41-3F4062626CBD}">
+					<ChildrenList>
+						<Action Name="" ID="{A8C24320-E854-46DA-A857-BA666A61BDB3}" ShortID="367580985">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="S-SFX_Jump_Neutral" ID="{1DE2F7B2-EAC0-493F-9D19-66288277F4A8}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F6E901FB-A057-4C7C-83DA-31022D93EA36}" ShortID="162589367">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="S_SFX_Jump_Neutral_Impact" ID="{EB3D775C-AF54-40D8-B3E0-EF5C0EA1C834}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

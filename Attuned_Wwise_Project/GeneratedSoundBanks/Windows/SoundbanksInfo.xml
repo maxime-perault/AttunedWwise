@@ -23,15 +23,132 @@
 			<IncludedEvents>
 				<Event Id="2916087884" Name="Play_Sinus220" ObjectPath="\Events\Default Work Unit\Play_Sinus220"/>
 				<Event Id="936726232" Name="Play_Sinus440" ObjectPath="\Events\Default Work Unit\Play_Sinus440"/>
+				<Event Id="210248148" Name="S_SFX_Explosion_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Explosion_Rock"/>
+				<Event Id="1172889457" Name="S_SFX_Footstep_Neutral" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Neutral"/>
+				<Event Id="3848950919" Name="S_SFX_Footstep_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Rock"/>
+				<Event Id="1418976482" Name="S_SFX_Footstep_Sand" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Sand"/>
+				<Event Id="1097088795" Name="S_SFX_Jump_Neutral" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Neutral"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="24375498" Language="SFX">
+					<ShortName>S_SFX_Jump_Neutral_2.wav</ShortName>
+					<Path>SFX\S_SFX_Jump_Neutral_2_56D34C19.wem</Path>
+				</File>
+				<File Id="66359518" Language="SFX">
+					<ShortName>S_SFX_Jump_Neutral_3.wav</ShortName>
+					<Path>SFX\S_SFX_Jump_Neutral_3_56D34C19.wem</Path>
+				</File>
+				<File Id="85409426" Language="SFX">
+					<ShortName>S_SFX_Footstep_Neutral_4.wav</ShortName>
+					<Path>SFX\S_SFX_Footstep_Neutral_4_56D34C19.wem</Path>
+				</File>
+				<File Id="100737454" Language="SFX">
+					<ShortName>S_SFX_Footstep_Neutral_2.wav</ShortName>
+					<Path>SFX\S_SFX_Footstep_Neutral_2_56D34C19.wem</Path>
+				</File>
+				<File Id="230636122" Language="SFX">
+					<ShortName>S_SFX_Footstep_Neutral_5.wav</ShortName>
+					<Path>SFX\S_SFX_Footstep_Neutral_5_56D34C19.wem</Path>
+				</File>
+				<File Id="301628916" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Sandbis_2.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Sandbis_2_56D34C19.wem</Path>
+				</File>
 				<File Id="336381021" Language="SFX">
 					<ShortName>Sinus220.wav</ShortName>
 					<Path>SFX\Sinus220_56D34C19.wem</Path>
 				</File>
+				<File Id="356869894" Language="SFX">
+					<ShortName>S_SFX_Footstep_Neutral_7.wav</ShortName>
+					<Path>SFX\S_SFX_Footstep_Neutral_7_56D34C19.wem</Path>
+				</File>
+				<File Id="366713706" Language="SFX">
+					<ShortName>S_SFX_Footstep_Neutral_1.wav</ShortName>
+					<Path>SFX\S_SFX_Footstep_Neutral_1_56D34C19.wem</Path>
+				</File>
+				<File Id="450787419" Language="SFX">
+					<ShortName>S_SFX_Footstep_Neutral_9.wav</ShortName>
+					<Path>SFX\S_SFX_Footstep_Neutral_9_56D34C19.wem</Path>
+				</File>
+				<File Id="460932166" Language="SFX">
+					<ShortName>S_SFX_Footstep_Neutral_8.wav</ShortName>
+					<Path>SFX\S_SFX_Footstep_Neutral_8_56D34C19.wem</Path>
+				</File>
+				<File Id="461238039" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Rockbis_2.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Rockbis_2_56D34C19.wem</Path>
+				</File>
+				<File Id="461827900" Language="SFX">
+					<ShortName>S_SFX_Jump_Neutral_Impact_1.wav</ShortName>
+					<Path>SFX\S_SFX_Jump_Neutral_Impact_1_56D34C19.wem</Path>
+				</File>
+				<File Id="492101716" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Sandbis_7.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Sandbis_7_56D34C19.wem</Path>
+				</File>
+				<File Id="497752496" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Sandbis_1.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Sandbis_1_56D34C19.wem</Path>
+				</File>
+				<File Id="521749858" Language="SFX">
+					<ShortName>S_SFX_Footstep_Neutral_6.wav</ShortName>
+					<Path>SFX\S_SFX_Footstep_Neutral_6_56D34C19.wem</Path>
+				</File>
+				<File Id="547718463" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Sandbis_5.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Sandbis_5_56D34C19.wem</Path>
+				</File>
+				<File Id="605794338" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Rockbis_1.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Rockbis_1_56D34C19.wem</Path>
+				</File>
 				<File Id="701208533" Language="SFX">
 					<ShortName>Sinus440.wav</ShortName>
 					<Path>SFX\Sinus440_56D34C19.wem</Path>
+				</File>
+				<File Id="709523667" Language="SFX">
+					<ShortName>S_SFX_Jump_Neutral_1.wav</ShortName>
+					<Path>SFX\S_SFX_Jump_Neutral_1_56D34C19.wem</Path>
+				</File>
+				<File Id="732910289" Language="SFX">
+					<ShortName>S_SFX_Explosion_Rock.wav</ShortName>
+					<Path>SFX\S_SFX_Explosion_Rock_4A54EC92.wem</Path>
+				</File>
+				<File Id="810442806" Language="SFX">
+					<ShortName>S_SFX_Jump_Neutral_Impact_2.wav</ShortName>
+					<Path>SFX\S_SFX_Jump_Neutral_Impact_2_56D34C19.wem</Path>
+				</File>
+				<File Id="814717386" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Rockbis_3.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Rockbis_3_56D34C19.wem</Path>
+				</File>
+				<File Id="859149197" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Sandbis_4.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Sandbis_4_56D34C19.wem</Path>
+				</File>
+				<File Id="862512572" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Sandbis_8.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Sandbis_8_56D34C19.wem</Path>
+				</File>
+				<File Id="873724427" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Sandbis_3.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Sandbis_3_56D34C19.wem</Path>
+				</File>
+				<File Id="927909873" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Rockbis_4.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Rockbis_4_56D34C19.wem</Path>
+				</File>
+				<File Id="967420441" Language="SFX">
+					<ShortName>S_SFX_Jump_Neutral_Impact_3.wav</ShortName>
+					<Path>SFX\S_SFX_Jump_Neutral_Impact_3_56D34C19.wem</Path>
+				</File>
+				<File Id="971428517" Language="SFX">
+					<ShortName>S_SFX_Footstep_Neutral_3.wav</ShortName>
+					<Path>SFX\S_SFX_Footstep_Neutral_3_56D34C19.wem</Path>
+				</File>
+				<File Id="1031838726" Language="SFX">
+					<ShortName>S_SFX_Footsteps_Sandbis_6.wav</ShortName>
+					<Path>SFX\S_SFX_Footsteps_Sandbis_6_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
