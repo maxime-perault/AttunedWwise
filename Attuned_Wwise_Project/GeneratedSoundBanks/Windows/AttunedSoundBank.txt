@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1097088795	S_SFX_Jump_Neutral			\Default Work Unit\S_SFX_Jump_Neutral	
 	1172889457	S_SFX_Footstep_Neutral			\Default Work Unit\S_SFX_Footstep_Neutral	
 	1418976482	S_SFX_Footstep_Sand			\Default Work Unit\S_SFX_Footstep_Sand	
+	2215696624	S_SFX_Jump_Neutral_Impact			\Default Work Unit\S_SFX_Jump_Neutral_Impact	
 	2916087884	Play_Sinus220			\Default Work Unit\Play_Sinus220	
 	3848950919	S_SFX_Footstep_Rock			\Default Work Unit\S_SFX_Footstep_Rock	
 

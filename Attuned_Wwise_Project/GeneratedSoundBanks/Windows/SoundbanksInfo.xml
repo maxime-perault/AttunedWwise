@@ -28,6 +28,7 @@
 				<Event Id="3848950919" Name="S_SFX_Footstep_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Rock"/>
 				<Event Id="1418976482" Name="S_SFX_Footstep_Sand" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Sand"/>
 				<Event Id="1097088795" Name="S_SFX_Jump_Neutral" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Neutral"/>
+				<Event Id="2215696624" Name="S_SFX_Jump_Neutral_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Neutral_Impact"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="24375498" Language="SFX">
