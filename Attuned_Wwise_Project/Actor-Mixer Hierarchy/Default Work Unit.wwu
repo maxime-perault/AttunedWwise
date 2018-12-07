@@ -810,6 +810,11 @@
 						<RandomSequenceContainer Name="S_SFX_Footstep_Rock" ID="{9280A652-6558-4B6A-AC12-8F525B344946}" ShortID="198068567">
 							<PropertyList>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1140,11 +1145,6 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="S_SFX_Jump_Neutral_Impact" ID="{EB3D775C-AF54-40D8-B3E0-EF5C0EA1C834}" ShortID="339876220">
 							<PropertyList>
-								<Property Name="InitialDelay" Type="Real64">
-									<ValueList>
-										<Value>1</Value>
-									</ValueList>
-								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 							</PropertyList>

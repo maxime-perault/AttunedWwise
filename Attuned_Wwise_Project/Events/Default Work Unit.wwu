@@ -99,7 +99,11 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{F6E901FB-A057-4C7C-83DA-31022D93EA36}" ShortID="162589367">
+					</ChildrenList>
+				</Event>
+				<Event Name="S_SFX_Jump_Neutral_Impact" ID="{A0CF59F4-E912-48D0-8E19-62D9F60F9AC5}">
+					<ChildrenList>
+						<Action Name="" ID="{4F8CADB2-B4E8-4272-B6C0-2F33FB98B17E}" ShortID="921765485">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
