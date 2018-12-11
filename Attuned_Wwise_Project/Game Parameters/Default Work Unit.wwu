@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{FA888D7B-739A-4A97-BE47-8701250D36CA}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Water_Glide" ID="{9A2AF9D0-6E14-422A-9980-BB0F3603BDC6}"/>
+				<GameParameter Name="New_Game_Parameter" ID="{75AECCD3-B6E0-467E-8370-99ADB15174F5}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -1260,6 +1260,16 @@
 								<Sound Name="S_SFX_Water_Glide_1" ID="{66A26D8A-5B15-4C67-B98C-C6531005EBAC}" ShortID="473820105">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1282,6 +1292,16 @@
 								<Sound Name="S_SFX_Water_Glide_2" ID="{A4F8A423-AAA9-430B-BD8E-A33BA8E7F3EB}" ShortID="56026299">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1322,6 +1342,34 @@
 															<Point>
 																<XPos>0</XPos>
 																<YPos>40</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{D179FA92-205C-4E52-BEF7-5DF7A0871E63}" ShortID="549348207">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="New_Game_Parameter" ID="{75AECCD3-B6E0-467E-8370-99ADB15174F5}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7E1737BC-1AE4-4820-BE5F-FFF18DF4A1D5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
