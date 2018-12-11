@@ -18,8 +18,16 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="S_SFX_Dash_Rock" ID="{403283D7-2FA3-46C8-B649-29B8AA8A97DA}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="S_SFX_Footstep_Rock" ID="{DD8A7154-CFA9-4734-91C1-86032F585D11}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_SFX_Water_Glide" ID="{683C3049-5181-405B-8881-BA4F2211D625}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="S_SFX_Explosion_Rock" ID="{EC57F84C-4CBB-4770-A5E0-AD888E431750}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
@@ -30,6 +38,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
 							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Water_Glide" ID="{9A2AF9D0-6E14-422A-9980-BB0F3603BDC6}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>

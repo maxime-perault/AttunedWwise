@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FA888D7B-739A-4A97-BE47-8701250D36CA}" SchemaVersion="89">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{FA888D7B-739A-4A97-BE47-8701250D36CA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FA888D7B-739A-4A97-BE47-8701250D36CA}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Water_Glide" ID="{9A2AF9D0-6E14-422A-9980-BB0F3603BDC6}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

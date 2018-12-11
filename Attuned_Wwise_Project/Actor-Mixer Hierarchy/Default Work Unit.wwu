@@ -812,7 +812,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1058,6 +1058,25 @@
 								<ActiveSource Name="S_SFX_Explosion_Rock_2" ID="{90EF7F27-E0EF-4F4D-B9C5-C68EB507BF38}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="S_SFX_Dash_Rock" ID="{EE8951D4-8BA6-47AB-9333-BF9BD96BC31E}" ShortID="930104856">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="S_SFX_Dash_Rock" ID="{539CBC41-595E-48BC-84F6-7F46670AC6AB}" ShortID="848575906">
+									<Language>SFX</Language>
+									<AudioFile>S_SFX_Dash_Rock.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="S_SFX_Dash_Rock" ID="{539CBC41-595E-48BC-84F6-7F46670AC6AB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Neutral_Terrain_Interaction" ID="{490E079D-3053-4849-9C28-CFE6F518DEE4}" ShortID="302410166">
@@ -1216,6 +1235,135 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Water_Terrain_Interaction" ID="{9B3E2BB9-7A72-41BF-BE78-AB153BD97C50}" ShortID="176045140">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Water_Glide" ID="{D46AA173-10F4-43CD-B684-D3FFD3AF1BA4}" ShortID="970384288">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="S_SFX_Water_Glide_1" ID="{66A26D8A-5B15-4C67-B98C-C6531005EBAC}" ShortID="473820105">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="S_SFX_Water_Glide_1" ID="{CF173A7B-FBBB-47FE-B2A9-EFA0280280BD}" ShortID="685838996">
+											<Language>SFX</Language>
+											<AudioFile>S_SFX_Water_Glide_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="S_SFX_Water_Glide_1" ID="{CF173A7B-FBBB-47FE-B2A9-EFA0280280BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="S_SFX_Water_Glide_2" ID="{A4F8A423-AAA9-430B-BD8E-A33BA8E7F3EB}" ShortID="56026299">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="S_SFX_Water_Glide_2" ID="{13B5B2BD-3CC6-4096-BF38-81B9D2BCD927}" ShortID="882703313">
+											<Language>SFX</Language>
+											<AudioFile>S_SFX_Water_Glide_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="S_SFX_Water_Glide_2" ID="{13B5B2BD-3CC6-4096-BF38-81B9D2BCD927}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Water" ID="{5AE7E008-440E-4E1D-88F8-BA3607C04E0B}" ShortID="706285348">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{176EBC1E-08C7-4449-9970-C1437A42BAAA}" ShortID="844744562">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Water_Glide" ID="{9A2AF9D0-6E14-422A-9980-BB0F3603BDC6}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{03428B45-6A41-4E48-BCA1-FAE6D7DF7459}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>40</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Water_Glide" ID="{9A2AF9D0-6E14-422A-9980-BB0F3603BDC6}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="S_SFX_Water_Glide_1" ID="{66A26D8A-5B15-4C67-B98C-C6531005EBAC}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>99.999</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+												<RightFadingSegmentShape>Log1</RightFadingSegmentShape>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="S_SFX_Water_Glide_2" ID="{A4F8A423-AAA9-430B-BD8E-A33BA8E7F3EB}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0.0005</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>99.9995</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

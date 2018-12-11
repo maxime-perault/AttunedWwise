@@ -23,12 +23,14 @@
 			<IncludedEvents>
 				<Event Id="2916087884" Name="Play_Sinus220" ObjectPath="\Events\Default Work Unit\Play_Sinus220"/>
 				<Event Id="936726232" Name="Play_Sinus440" ObjectPath="\Events\Default Work Unit\Play_Sinus440"/>
+				<Event Id="4236223805" Name="S_SFX_Dash_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Dash_Rock"/>
 				<Event Id="210248148" Name="S_SFX_Explosion_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Explosion_Rock"/>
 				<Event Id="1172889457" Name="S_SFX_Footstep_Neutral" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Neutral"/>
 				<Event Id="3848950919" Name="S_SFX_Footstep_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Rock"/>
 				<Event Id="1418976482" Name="S_SFX_Footstep_Sand" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Sand"/>
 				<Event Id="1097088795" Name="S_SFX_Jump_Neutral" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Neutral"/>
 				<Event Id="2215696624" Name="S_SFX_Jump_Neutral_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Neutral_Impact"/>
+				<Event Id="784655102" Name="S_SFX_Water_Glide" ObjectPath="\Events\Default Work Unit\S_SFX_Water_Glide"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="24375498" Language="SFX">
@@ -103,6 +105,10 @@
 					<ShortName>S_SFX_Footsteps_Rockbis_1.wav</ShortName>
 					<Path>SFX\S_SFX_Footsteps_Rockbis_1_56D34C19.wem</Path>
 				</File>
+				<File Id="685838996" Language="SFX">
+					<ShortName>S_SFX_Water_Glide_1.wav</ShortName>
+					<Path>SFX\S_SFX_Water_Glide_1_8956FC97.wem</Path>
+				</File>
 				<File Id="701208533" Language="SFX">
 					<ShortName>Sinus440.wav</ShortName>
 					<Path>SFX\Sinus440_56D34C19.wem</Path>
@@ -113,7 +119,7 @@
 				</File>
 				<File Id="732910289" Language="SFX">
 					<ShortName>S_SFX_Explosion_Rock.wav</ShortName>
-					<Path>SFX\S_SFX_Explosion_Rock_4A54EC92.wem</Path>
+					<Path>SFX\S_SFX_Explosion_Rock_EAEFD7C9.wem</Path>
 				</File>
 				<File Id="810442806" Language="SFX">
 					<ShortName>S_SFX_Jump_Neutral_Impact_2.wav</ShortName>
@@ -122,6 +128,10 @@
 				<File Id="814717386" Language="SFX">
 					<ShortName>S_SFX_Footsteps_Rockbis_3.wav</ShortName>
 					<Path>SFX\S_SFX_Footsteps_Rockbis_3_56D34C19.wem</Path>
+				</File>
+				<File Id="848575906" Language="SFX">
+					<ShortName>S_SFX_Dash_Rock.wav</ShortName>
+					<Path>SFX\S_SFX_Dash_Rock_56D34C19.wem</Path>
 				</File>
 				<File Id="859149197" Language="SFX">
 					<ShortName>S_SFX_Footsteps_Sandbis_4.wav</ShortName>
@@ -134,6 +144,10 @@
 				<File Id="873724427" Language="SFX">
 					<ShortName>S_SFX_Footsteps_Sandbis_3.wav</ShortName>
 					<Path>SFX\S_SFX_Footsteps_Sandbis_3_56D34C19.wem</Path>
+				</File>
+				<File Id="882703313" Language="SFX">
+					<ShortName>S_SFX_Water_Glide_2.wav</ShortName>
+					<Path>SFX\S_SFX_Water_Glide_2_8956FC97.wem</Path>
 				</File>
 				<File Id="927909873" Language="SFX">
 					<ShortName>S_SFX_Footsteps_Rockbis_4.wav</ShortName>
