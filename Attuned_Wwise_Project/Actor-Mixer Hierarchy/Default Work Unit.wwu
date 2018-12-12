@@ -1248,6 +1248,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="Water_Glide" ID="{D46AA173-10F4-43CD-B684-D3FFD3AF1BA4}" ShortID="970384288">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>

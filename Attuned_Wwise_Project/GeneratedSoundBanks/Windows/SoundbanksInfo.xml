@@ -105,10 +105,6 @@
 					<ShortName>S_SFX_Footsteps_Rockbis_1.wav</ShortName>
 					<Path>SFX\S_SFX_Footsteps_Rockbis_1_56D34C19.wem</Path>
 				</File>
-				<File Id="685838996" Language="SFX">
-					<ShortName>S_SFX_Water_Glide_1.wav</ShortName>
-					<Path>SFX\S_SFX_Water_Glide_1_8956FC97.wem</Path>
-				</File>
 				<File Id="701208533" Language="SFX">
 					<ShortName>Sinus440.wav</ShortName>
 					<Path>SFX\Sinus440_56D34C19.wem</Path>
@@ -144,10 +140,6 @@
 				<File Id="873724427" Language="SFX">
 					<ShortName>S_SFX_Footsteps_Sandbis_3.wav</ShortName>
 					<Path>SFX\S_SFX_Footsteps_Sandbis_3_56D34C19.wem</Path>
-				</File>
-				<File Id="882703313" Language="SFX">
-					<ShortName>S_SFX_Water_Glide_2.wav</ShortName>
-					<Path>SFX\S_SFX_Water_Glide_2_8956FC97.wem</Path>
 				</File>
 				<File Id="927909873" Language="SFX">
 					<ShortName>S_SFX_Footsteps_Rockbis_4.wav</ShortName>

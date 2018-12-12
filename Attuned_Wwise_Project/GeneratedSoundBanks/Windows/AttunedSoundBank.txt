@@ -10,9 +10,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3848950919	S_SFX_Footstep_Rock			\Default Work Unit\S_SFX_Footstep_Rock	
 	4236223805	S_SFX_Dash_Rock			\Default Work Unit\S_SFX_Dash_Rock	
 
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	2225246360	Water_Glide			\Default Work Unit\Water_Glide	
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	24375498	S_SFX_Jump_Neutral_2	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Jump_Neutral_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neutral_Terrain_Interaction\S-SFX_Jump_Neutral\S_SFX_Jump_Neutral_2		140636
 	66359518	S_SFX_Jump_Neutral_3	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Jump_Neutral_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neutral_Terrain_Interaction\S-SFX_Jump_Neutral\S_SFX_Jump_Neutral_3		140636
@@ -32,7 +29,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	521749858	S_SFX_Footstep_Neutral_6	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Footstep_Neutral_6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Neutral\S_SFX_Footstep_Neutral_6		40024
 	547718463	S_SFX_Footsteps_Sandbis_5	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Footsteps_Sandbis_5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Sand\S_SFX_Footsteps_Sandbis_5		70352
 	605794338	S_SFX_Footsteps_Rockbis_1	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Footsteps_Rockbis_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Rock\S_SFX_Footsteps_Rockbis_1		140636
-	685838996	S_SFX_Water_Glide_1	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Water_Glide_1_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Water_Terrain_Interaction\Water_Glide\S_SFX_Water_Glide_1		3512608
 	701208533	Sinus440	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Sinus440_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sinus440		441064
 	709523667	S_SFX_Jump_Neutral_1	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Jump_Neutral_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neutral_Terrain_Interaction\S-SFX_Jump_Neutral\S_SFX_Jump_Neutral_1		140636
 	732910289	S_SFX_Explosion_Rock	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Explosion_Rock_EAEFD7C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Rock_Terrain_Interaction\S_SFX_Explosion_Rock		275760
@@ -42,7 +38,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	859149197	S_SFX_Footsteps_Sandbis_4	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Footsteps_Sandbis_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Sand\S_SFX_Footsteps_Sandbis_4		70352
 	862512572	S_SFX_Footsteps_Sandbis_8	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Footsteps_Sandbis_8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Sand\S_SFX_Footsteps_Sandbis_8		70352
 	873724427	S_SFX_Footsteps_Sandbis_3	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Footsteps_Sandbis_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Sand\S_SFX_Footsteps_Sandbis_3		70352
-	882703313	S_SFX_Water_Glide_2	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Water_Glide_2_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Water_Terrain_Interaction\Water_Glide\S_SFX_Water_Glide_2		4155608
 	927909873	S_SFX_Footsteps_Rockbis_4	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Footsteps_Rockbis_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Rock\S_SFX_Footsteps_Rockbis_4		140636
 	967420441	S_SFX_Jump_Neutral_Impact_3	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Jump_Neutral_Impact_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Neutral_Terrain_Interaction\S_SFX_Jump_Neutral_Impact\S_SFX_Jump_Neutral_Impact_3		140636
 	971428517	S_SFX_Footstep_Neutral_3	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\S_SFX_Footstep_Neutral_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Neutral\S_SFX_Footstep_Neutral_3		35124
