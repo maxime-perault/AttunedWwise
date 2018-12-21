@@ -2,13 +2,132 @@
 <WwiseDocument Type="WorkUnit" ID="{73FACB83-3E67-4D97-BA1A-DE8162648059}" SchemaVersion="89">
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{73FACB83-3E67-4D97-BA1A-DE8162648059}" PersistMode="Standalone">
-			<PropertyList>
-				<Property Name="Inclusion" Type="bool">
-					<ValueList>
-						<Value>False</Value>
-					</ValueList>
-				</Property>
-			</PropertyList>
+			<ChildrenList>
+				<MusicPlaylistContainer Name="test" ID="{7F927EE2-D25A-47B3-A828-3927189E04E9}" ShortID="73971357">
+					<PropertyList>
+						<Property Name="PlaybackSpeed" Type="Real64">
+							<ValueList>
+								<Value>1.7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+						</Reference>
+						<Reference Name="MidiTarget">
+							<ObjectRef Name="S_SFX_Footstep_Sand" ID="{F24CBB37-3A16-4F4B-92A2-76FEE55532BD}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Cello-midi" ID="{EB2F7633-CC77-42BE-A68E-D98043405588}" ShortID="922935803">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Cello-midi" ID="{7881D810-7434-409E-ACEB-D7232D2724E2}" ShortID="1026536711">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0F167308-9002-4A64-84BA-EBB744CB6A34}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{23ADC3F3-D49B-4A53-9A8F-D2A67E023BA5}">
+											<ClipList>
+												<MusicClipMidi Name="Cello-midi" ID="{E84140FD-BA4A-45CB-BFD1-A032E5DDCF7D}" ShortID="1043292465">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="499.999999999992"/>
+														<Property Name="MidiFileName" Type="string" Value="Cello-midi.mid"/>
+													</PropertyList>
+												</MusicClipMidi>
+												<MusicClipMidi Name="Cello-midi" ID="{851E654E-89A4-4C36-94E2-B24CCDE3CC2A}" ShortID="665554723">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="499.999999999992"/>
+														<Property Name="MidiFileName" Type="string" Value="Cello-midi.mid"/>
+														<Property Name="PlayAt" Type="Real64" Value="1000"/>
+													</PropertyList>
+												</MusicClipMidi>
+												<MusicClipMidi Name="Cello-midi" ID="{C858D922-86E7-4C59-8D27-2B4D790E0B0D}" ShortID="821441469">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="499.999999999992"/>
+														<Property Name="MidiFileName" Type="string" Value="Cello-midi.mid"/>
+														<Property Name="PlayAt" Type="Real64" Value="1500"/>
+													</PropertyList>
+												</MusicClipMidi>
+												<MusicClipMidi Name="Cello-midi" ID="{D1D94AF4-5519-4E9B-A8F9-0807EF1AF7CE}" ShortID="360968533">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="499.999999999992"/>
+														<Property Name="MidiFileName" Type="string" Value="Cello-midi.mid"/>
+														<Property Name="PlayAt" Type="Real64" Value="2500"/>
+													</PropertyList>
+												</MusicClipMidi>
+												<MusicClipMidi Name="Cello-midi" ID="{19BDCFB9-1868-4801-AE40-A3D03D21BD44}" ShortID="926923425">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="499.999999999992"/>
+														<Property Name="MidiFileName" Type="string" Value="Cello-midi.mid"/>
+														<Property Name="PlayAt" Type="Real64" Value="3500.00000000001"/>
+													</PropertyList>
+												</MusicClipMidi>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{9D5DE733-AFE8-446B-ACCB-5A7B5F250FCB}"/>
+								<MusicCue Name="Exit Cue" ID="{5ED41315-F91D-4889-A7DC-A5B74BE12F2A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="4000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{079B6D25-52CD-4E32-8D07-1703EB512666}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{A4D812DF-EF11-4195-8D8F-068F126680E5}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{9F512861-1D2D-4230-B61D-D08D6F880843}" ShortID="618642625">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{DC37577C-6794-4630-9770-C41D4228767F}" ShortID="799337295">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Cello-midi" ID="{EB2F7633-CC77-42BE-A68E-D98043405588}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
