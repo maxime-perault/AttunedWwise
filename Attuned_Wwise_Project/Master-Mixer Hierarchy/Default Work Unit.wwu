@@ -9,6 +9,52 @@
 							<ObjectRef Name="System" ID="{B797FD82-2085-4A1B-BDA3-2A362806BDAC}" WorkUnitID="{3F983649-0FC8-4BD7-AD6F-9F077011E01C}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Loud" ID="{C5F312DC-9CDF-4DE3-8CA5-3557F549AAFA}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Meter (Custom)" ID="{6659C75B-FB54-4A36-A28D-EC4B6987689D}" ShortID="1067243857" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">											<PluginData>
+	<GameParameter Name="SideChain_loud_sfx" ID="{779B5D16-CC68-49E2-A7CC-0D9FC56E0C22}"/>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="Quiet" ID="{FF578466-EC9D-44FF-87AA-04B4EAA0EEFB}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{4295E36D-A863-472C-AB35-66782F83E70D}" ShortID="109321663">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SideChain_loud_sfx" ID="{779B5D16-CC68-49E2-A7CC-0D9FC56E0C22}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{33FEE985-ACBC-48AF-ACB2-5C914A434F91}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>-0.0939</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-12.1351</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
 					<ReferenceList>
