@@ -16,7 +16,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
 						</Reference>
 						<Reference Name="MidiTarget">
-							<ObjectRef Name="S_SFX_Footstep_Sand" ID="{F24CBB37-3A16-4F4B-92A2-76FEE55532BD}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<ObjectRef Name="Footsteps" ID="{45AC36D4-177B-4B72-B6B2-5F8B4BE2B619}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
