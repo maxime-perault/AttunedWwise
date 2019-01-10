@@ -94,7 +94,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Sand" ID="{B964C572-45F5-4E19-984C-EB973BD624C1}"/>
+						<CurrentSwitchRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

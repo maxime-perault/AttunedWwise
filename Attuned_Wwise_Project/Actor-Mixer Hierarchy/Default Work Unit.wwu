@@ -478,6 +478,16 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
+						<Sound Name="Water" ID="{9B52CCDA-705E-4484-823C-994DF2546561}" ShortID="399285705">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<Sound Name="Soundseed" ID="{2AD9E6BE-9DE6-4D69-A30B-F2B8180EABA2}" ShortID="822792409">
@@ -508,9 +518,19 @@
 					</ActiveSourceList>
 				</Sound>
 				<SwitchContainer Name="Footsteps" ID="{45AC36D4-177B-4B72-B6B2-5F8B4BE2B619}" ShortID="825478805">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}" WorkUnitID="{E3014708-9BF5-4475-9A61-3B46B3D48169}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
@@ -847,426 +867,268 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="S_SFX_Footstep_Sand" ID="{F24CBB37-3A16-4F4B-92A2-76FEE55532BD}" ShortID="485719443">
+						<RandomSequenceContainer Name="S_SFX_Footstep_Neutral_Earth" ID="{F64ED6CE-0693-4F0B-9E55-ECEDCDEA8695}" ShortID="377695903">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="S_SFX_Footsteps_Sandbis_1" ID="{1F1B9326-8B87-4719-9224-63B5FAC1803C}" ShortID="416873475">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footsteps_Sandbis_1" ID="{29E3232A-D18A-41AE-A115-B626C6C84F00}" ShortID="497752496">
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footsteps_Sandbis_1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footsteps_Sandbis_1" ID="{29E3232A-D18A-41AE-A115-B626C6C84F00}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footsteps_Sandbis_2" ID="{9E4DDE78-17D5-4FF6-AB37-688D3F8548CF}" ShortID="55159249">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footsteps_Sandbis_2" ID="{F056C3D1-C8FB-4526-B784-3D5786128A87}" ShortID="301628916">
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footsteps_Sandbis_2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footsteps_Sandbis_2" ID="{F056C3D1-C8FB-4526-B784-3D5786128A87}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footsteps_Sandbis_3" ID="{537BA1CA-E009-42AE-B3D1-1914B23A9B29}" ShortID="443657248">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footsteps_Sandbis_3" ID="{A588EBDB-7FD6-4D73-BC23-C67153082213}" ShortID="873724427">
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footsteps_Sandbis_3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footsteps_Sandbis_3" ID="{A588EBDB-7FD6-4D73-BC23-C67153082213}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footsteps_Sandbis_4" ID="{DA9622F5-3A56-4A3E-9925-257F2666BA58}" ShortID="744905294">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footsteps_Sandbis_4" ID="{E69A4905-BB8C-42D6-A948-DC2F3FCE19BA}" ShortID="859149197">
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footsteps_Sandbis_4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footsteps_Sandbis_4" ID="{E69A4905-BB8C-42D6-A948-DC2F3FCE19BA}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footsteps_Sandbis_5" ID="{77DE01A8-BA45-4B6E-BD07-36C17BD2804D}" ShortID="235985114">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footsteps_Sandbis_5" ID="{FA9E132A-9019-4D32-ACB2-411FB457A829}" ShortID="547718463">
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footsteps_Sandbis_5.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footsteps_Sandbis_5" ID="{FA9E132A-9019-4D32-ACB2-411FB457A829}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footsteps_Sandbis_6" ID="{D32AA49D-393A-468C-A2E6-3255EAB661E0}" ShortID="174960271">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footsteps_Sandbis_6" ID="{90AC47D5-3722-488A-9C8B-09A2F9353421}" ShortID="1031838726">
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footsteps_Sandbis_6.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footsteps_Sandbis_6" ID="{90AC47D5-3722-488A-9C8B-09A2F9353421}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footsteps_Sandbis_7" ID="{A94D19D2-A904-479E-B4B0-63F8CCB220AF}" ShortID="96861613">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footsteps_Sandbis_7" ID="{BBD7C9B7-C541-4B5E-86C9-B5B8D49292F6}" ShortID="492101716">
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footsteps_Sandbis_7.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footsteps_Sandbis_7" ID="{BBD7C9B7-C541-4B5E-86C9-B5B8D49292F6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footsteps_Sandbis_8" ID="{AFEF7A85-AC90-4DF4-A137-AC617D54C431}" ShortID="965446210">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footsteps_Sandbis_8" ID="{B8A9CFC6-1931-4069-80C3-BC1BD85B0532}" ShortID="862512572">
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footsteps_Sandbis_8.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footsteps_Sandbis_8" ID="{B8A9CFC6-1931-4069-80C3-BC1BD85B0532}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="S_SFX_Footstep_Sand_2" ID="{218EC268-50A5-4A13-A07F-033C4C2064EF}" ShortID="30462146">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>21</Value>
-									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{D775FFC6-F300-4444-991E-FFDAA718B63F}">
-												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="7"/>
-													<Property Name="Min" Type="Real64" Value="-22"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="S_SFX_Footstep_Sand_1" ID="{F65A89EE-5A7B-48A1-A93E-1D69E0A8E719}" ShortID="918593554">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Sand_1" ID="{C07E9130-DBE5-41C1-B839-55141F2AB555}" ShortID="289167994">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="4.19429526196443E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.132382444205753"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Sand_1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Sand_1" ID="{C07E9130-DBE5-41C1-B839-55141F2AB555}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footstep_Sand_2" ID="{7581DA14-6954-4847-B7B3-6CB7323B9E13}" ShortID="149652570">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Sand_2" ID="{FBEA6D27-C086-4ADC-A45F-1E8ADC713B30}" ShortID="711996894">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="3.18941202211879E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.153790826272029"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Sand_2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Sand_2" ID="{FBEA6D27-C086-4ADC-A45F-1E8ADC713B30}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footstep_Sand_3" ID="{287CA273-0B01-4A99-BC00-C817866AA584}" ShortID="641685641">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Sand_3" ID="{C354B465-5D6E-4F48-AF9D-874AEAA0877C}" ShortID="678616696">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="3.12387615865059E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.142431276604209"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Sand_3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Sand_3" ID="{C354B465-5D6E-4F48-AF9D-874AEAA0877C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footstep_Sand_4" ID="{BAA2F680-B9AE-4381-B643-F8BFF8FF5CA1}" ShortID="755743011">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Sand_4" ID="{FA219CB2-8FB1-4E59-948E-70C10C428E48}" ShortID="302252157">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="3.99768767155985E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.145708069777619"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Sand_4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Sand_4" ID="{FA219CB2-8FB1-4E59-948E-70C10C428E48}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footstep_Sand_5" ID="{995B48A5-835C-4745-805B-B9BA45EFAD87}" ShortID="257529910">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-80</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Sand_5" ID="{E260DF2F-9434-4CFD-9944-F782482720BE}" ShortID="427404085">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="5.21010114572145E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.1887432867884"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Sand_5.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Sand_5" ID="{E260DF2F-9434-4CFD-9944-F782482720BE}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footstep_Sand_6" ID="{6D58325C-D617-45E2-AE7B-6C5B035835C8}" ShortID="431619001">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-80</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Sand_6" ID="{16EEC90C-1679-4BA6-83A6-0FEDB3E61FC3}" ShortID="328394347">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="3.01464971953694E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.11228477940884"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Sand_6.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Sand_6" ID="{16EEC90C-1679-4BA6-83A6-0FEDB3E61FC3}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footstep_Sand_7" ID="{04065B36-BEBF-4B58-B359-B6D8275FC908}" ShortID="1036710960">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-50</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Sand_7" ID="{586402DA-AF00-4813-9A97-D2DBEE101928}" ShortID="195638545">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="4.32536698890082E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.1415574650913"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Sand_7.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Sand_7" ID="{586402DA-AF00-4813-9A97-D2DBEE101928}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footstep_Sand_8" ID="{78D40221-E282-4A67-B753-7128BC3D5060}" ShortID="935239042">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Sand_8" ID="{229736EB-A34F-4852-881C-8F264697DB6B}" ShortID="680463033">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="4.77799160599913E-02"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.156158750049727"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Sand_8.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Sand_8" ID="{229736EB-A34F-4852-881C-8F264697DB6B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="S_SFX_Footstep_Neutral" ID="{73D7B96F-24B3-498F-96C5-178E441CF29A}" ShortID="581205660">
-							<PropertyList>
-								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>35</Value>
-									</ValueList>
-								</Property>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+										<Effect Name="Have_U_Ever_Been_Outside (Custom)" ID="{3AF49BB7-2D1F-41EA-832B-10B1B7B1620D}" ShortID="368904480" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="1"/>
+												<Property Name="Density" Type="Real32" Value="50"/>
+												<Property Name="DryLevel" Type="Real32" Value="-3.8"/>
+												<Property Name="ERFrontBackDelay" Type="Real32" Value="3"/>
+												<Property Name="ERLevel" Type="Real32" Value="-18"/>
+												<Property Name="ERPattern" Type="int32" Value="20"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+												<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+												<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+												<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+												<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+												<Property Name="PreDelay" Type="Real32" Value="15"/>
+												<Property Name="Quality" Type="int32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-29"/>
+												<Property Name="RoomSize" Type="Real32" Value="62"/>
+												<Property Name="StereoWidth" Type="Real32" Value="28"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Neutral_earth_1" ID="{F7142A12-9229-460F-A675-49D3048F9C39}" ShortID="587233701">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_earth_1" ID="{034749BE-EE77-453A-B676-4EFBD0DE5333}" ShortID="122822209">
+											<Language>SFX</Language>
+											<AudioFile>Neutral_earth_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_earth_1" ID="{034749BE-EE77-453A-B676-4EFBD0DE5333}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neutral_earth_2" ID="{6F9B96D3-CB03-45CC-B4DB-491F8C851565}" ShortID="362688012">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_earth_2" ID="{B00B28DC-9030-42AA-B9F5-F23B894AF079}" ShortID="998929950">
+											<Language>SFX</Language>
+											<AudioFile>Neutral_earth_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_earth_2" ID="{B00B28DC-9030-42AA-B9F5-F23B894AF079}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neutral_earth_3" ID="{163DF76C-97B3-42D8-A00C-E650A2091BA4}" ShortID="137281115">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_earth_3" ID="{8045A597-240C-4199-A821-00064E9F56D3}" ShortID="586306831">
+											<Language>SFX</Language>
+											<AudioFile>Neutral_earth_3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_earth_3" ID="{8045A597-240C-4199-A821-00064E9F56D3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neutral_earth_4" ID="{2D8450B2-2AEC-49F8-9E18-EBEC55B67EA0}" ShortID="242027751">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_earth_4" ID="{BD445B2E-33DB-43C7-AAB6-7F151823D947}" ShortID="631460228">
+											<Language>SFX</Language>
+											<AudioFile>Neutral_earth_4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_earth_4" ID="{BD445B2E-33DB-43C7-AAB6-7F151823D947}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="S_SFX_Footstep_Neutral_Temple" ID="{2204ADC6-3ECF-4883-861C-3F989E14FAFB}" ShortID="473923764">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+										<Effect Name="Have_U_Ever_Been_Outside (Custom)" ID="{60C80B64-4213-4B40-9132-E1AF4CE1C0BA}" ShortID="1063406112" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="1"/>
+												<Property Name="Density" Type="Real32" Value="50"/>
+												<Property Name="DryLevel" Type="Real32" Value="-3.8"/>
+												<Property Name="ERFrontBackDelay" Type="Real32" Value="3"/>
+												<Property Name="ERLevel" Type="Real32" Value="-18"/>
+												<Property Name="ERPattern" Type="int32" Value="20"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+												<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+												<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+												<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+												<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+												<Property Name="PreDelay" Type="Real32" Value="15"/>
+												<Property Name="Quality" Type="int32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-29"/>
+												<Property Name="RoomSize" Type="Real32" Value="62"/>
+												<Property Name="StereoWidth" Type="Real32" Value="28"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Neutral_Temple_01" ID="{3673FCED-0E35-4FF3-93A4-D26AD9F7A8A8}" ShortID="352871013">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_Temple_01" ID="{639E3F16-8019-4439-B884-A0D981E86C6C}" ShortID="722658148">
+											<Language>SFX</Language>
+											<AudioFile>Neutral_Temple_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_Temple_01" ID="{639E3F16-8019-4439-B884-A0D981E86C6C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neutral_Temple_02" ID="{6FC24052-D94F-4ADD-904C-9BCF868D3A70}" ShortID="1013912537">
+									<Comment> </Comment>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_Temple_02" ID="{E175ED50-CFD4-428E-83A2-1A21DCA62ABF}" ShortID="45948539">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.44667472252059E-02"/>
+												<Property Name="FadeInShape" Type="int16" Value="6"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Neutral_Temple_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_Temple_02" ID="{E175ED50-CFD4-428E-83A2-1A21DCA62ABF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neutral_Temple_03" ID="{16AC1266-7491-4DBD-B145-9CBCB9448BAD}" ShortID="1048485891">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_Temple_03" ID="{4BE8BFDC-E632-4E4B-AC45-0CEAD06F17F4}" ShortID="159553393">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.27420485738155E-02"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Neutral_Temple_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_Temple_03" ID="{4BE8BFDC-E632-4E4B-AC45-0CEAD06F17F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neutral_Temple_04" ID="{30298929-C6A6-41D2-AC53-DC69A4935DFA}" ShortID="334641076">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_Temple_04" ID="{F56DB8FA-446B-4418-998C-5A2419518340}" ShortID="510335116">
+											<Language>SFX</Language>
+											<AudioFile>Neutral_Temple_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_Temple_04" ID="{F56DB8FA-446B-4418-998C-5A2419518340}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="S_SFX_Footstep_Sand" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}" ShortID="698705213">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1277,7 +1139,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="S_SFX_Footstep_Neutral_1" ID="{F2F41632-64B7-4417-8F88-F8C407C9A533}" ShortID="959736122">
+								<Sound Name="Sand_v1_01" ID="{7EE9FBD0-8DFB-4190-A605-5D3C76053BA0}" ShortID="364395066">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1287,16 +1149,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Neutral_1" ID="{686E1186-14AD-4F58-8DC2-2012BC4018BF}" ShortID="366713706">
+										<AudioFileSource Name="Sand_v1_01" ID="{A6F193A6-38EE-44B8-A47F-6F25D70E475E}" ShortID="1025111794">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.09786410470621"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.151165090305128"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Neutral_1.wav</AudioFile>
+											<AudioFile>Sand_v1_01.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Neutral_1" ID="{686E1186-14AD-4F58-8DC2-2012BC4018BF}" Platform="Linked"/>
+										<ActiveSource Name="Sand_v1_01" ID="{A6F193A6-38EE-44B8-A47F-6F25D70E475E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="S_SFX_Footstep_Neutral_2" ID="{045A1854-4F93-453F-882C-B175CB482D66}" ShortID="24140273">
+								<Sound Name="Sand_v1_02" ID="{931EC072-1A6A-408C-B7F3-DFED67B1B38B}" ShortID="472699910">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1306,16 +1172,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Neutral_2" ID="{B80ABC52-9B54-4688-B3C7-BB59AE102418}" ShortID="100737454">
+										<AudioFileSource Name="Sand_v1_02" ID="{A010D2DC-F2EA-4F95-80BF-E4D570097BB3}" ShortID="586635550">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.40773560886343E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.052426701674822"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Neutral_2.wav</AudioFile>
+											<AudioFile>Sand_v1_02.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Neutral_2" ID="{B80ABC52-9B54-4688-B3C7-BB59AE102418}" Platform="Linked"/>
+										<ActiveSource Name="Sand_v1_02" ID="{A010D2DC-F2EA-4F95-80BF-E4D570097BB3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="S_SFX_Footstep_Neutral_3" ID="{787757FB-95B3-4E99-9D3B-4CF67F5B8AE7}" ShortID="471574655">
+								<Sound Name="Sand_v1_03" ID="{9FAF8E1A-B193-4015-ADF3-B6941289C197}" ShortID="941076598">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1325,16 +1195,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Neutral_3" ID="{D22F977A-A6FC-4CF1-8E70-D17C3AE83805}" ShortID="971428517">
+										<AudioFileSource Name="Sand_v1_03" ID="{6C4FA49B-A3AA-4F9D-8A19-CDAB4F7108A0}" ShortID="255911720">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.132377421728925"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.128445419103314"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Neutral_3.wav</AudioFile>
+											<AudioFile>Sand_v1_03.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Neutral_3" ID="{D22F977A-A6FC-4CF1-8E70-D17C3AE83805}" Platform="Linked"/>
+										<ActiveSource Name="Sand_v1_03" ID="{6C4FA49B-A3AA-4F9D-8A19-CDAB4F7108A0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="S_SFX_Footstep_Neutral_4" ID="{9613ED4C-F7A8-412C-9E06-A6AC2602E876}" ShortID="782825059">
+								<Sound Name="Sand_v1_04" ID="{8F642F81-AC60-4BDC-8F6E-BE418DED3C09}" ShortID="239880341">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1344,16 +1218,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Neutral_4" ID="{FC327B92-E308-4A76-B81C-D33875E44004}" ShortID="85409426">
+										<AudioFileSource Name="Sand_v1_04" ID="{D902B45B-B7B2-4DCB-B385-B762891379C8}" ShortID="34687217">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.25994708994709"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Neutral_4.wav</AudioFile>
+											<AudioFile>Sand_v1_04.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Neutral_4" ID="{FC327B92-E308-4A76-B81C-D33875E44004}" Platform="Linked"/>
+										<ActiveSource Name="Sand_v1_04" ID="{D902B45B-B7B2-4DCB-B385-B762891379C8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="S_SFX_Footstep_Neutral_5" ID="{C93905BC-F3C7-46EF-AA4E-AC330B7F2DD5}" ShortID="975878188">
+								<Sound Name="Sand_v2_01" ID="{4819F9E6-5FF8-4945-B005-1EEA7DAC42A3}" ShortID="82484947">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1363,16 +1240,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Neutral_5" ID="{60BFB9CF-8D95-48F5-9347-BC8A9699DDAA}" ShortID="230636122">
+										<AudioFileSource Name="Sand_v2_01" ID="{7917C8B0-422E-43E6-8928-0550A518B373}" ShortID="272476404">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.77670117754704E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.115339837689462"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Neutral_5.wav</AudioFile>
+											<AudioFile>Sand_v2_01.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Neutral_5" ID="{60BFB9CF-8D95-48F5-9347-BC8A9699DDAA}" Platform="Linked"/>
+										<ActiveSource Name="Sand_v2_01" ID="{7917C8B0-422E-43E6-8928-0550A518B373}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="S_SFX_Footstep_Neutral_6" ID="{B73A418B-6A5B-409F-9351-0E3C8004808B}" ShortID="623532500">
+								<Sound Name="Sand_v2_02" ID="{D8579D83-9E5D-466B-8383-18AD7647932E}" ShortID="854767886">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1382,16 +1263,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Neutral_6" ID="{3C94879F-039A-4A48-9A15-10DBCC4980E1}" ShortID="521749858">
+										<AudioFileSource Name="Sand_v2_02" ID="{9C9336F0-601B-4C35-8AFB-04ADC7C7117C}" ShortID="468018600">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="8.91253928471974E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="8.78147253053268E-02"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Neutral_6.wav</AudioFile>
+											<AudioFile>Sand_v2_02.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Neutral_6" ID="{3C94879F-039A-4A48-9A15-10DBCC4980E1}" Platform="Linked"/>
+										<ActiveSource Name="Sand_v2_02" ID="{9C9336F0-601B-4C35-8AFB-04ADC7C7117C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="S_SFX_Footstep_Neutral_7" ID="{7253FD7A-A853-422E-85AF-0494CC154BFF}" ShortID="177723705">
+								<Sound Name="Sand_v2_03" ID="{B0B95208-2E00-4FDE-8194-67E7D67240AF}" ShortID="945251229">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1401,16 +1286,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Neutral_7" ID="{97388CBC-FBC8-41FE-8E4F-55665E3FC33D}" ShortID="356869894">
+										<AudioFileSource Name="Sand_v2_03" ID="{62317563-68B0-4877-A788-323525AC6525}" ShortID="923824972">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.121892081393961"/>
+												<Property Name="TrimBegin" Type="Real64" Value="9.76447318693559E-02"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Neutral_7.wav</AudioFile>
+											<AudioFile>Sand_v2_03.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Neutral_7" ID="{97388CBC-FBC8-41FE-8E4F-55665E3FC33D}" Platform="Linked"/>
+										<ActiveSource Name="Sand_v2_03" ID="{62317563-68B0-4877-A788-323525AC6525}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="S_SFX_Footstep_Neutral_8" ID="{DED6C2FC-0407-467A-A6ED-F315DE651D8A}" ShortID="967151582">
+								<Sound Name="Sand_v2_04" ID="{99A80BB2-E2BB-4D2D-893F-5A6D43C6A799}" ShortID="562877216">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1420,32 +1309,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Neutral_8" ID="{BB3375DE-71CD-4206-940D-FDAD4761C63A}" ShortID="460932166">
+										<AudioFileSource Name="Sand_v2_04" ID="{34E1F65E-49BE-4D36-8AE2-809A2C258810}" ShortID="1052961571">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.18239984882842"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.14854119425548"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Neutral_8.wav</AudioFile>
+											<AudioFile>Sand_v2_04.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Neutral_8" ID="{BB3375DE-71CD-4206-940D-FDAD4761C63A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="S_SFX_Footstep_Neutral_9" ID="{D9BB9744-93D6-4F2D-922D-1FE8B3DD7208}" ShortID="763905199">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="S_SFX_Footstep_Neutral_9" ID="{C0163A67-A12D-46C2-A189-81F2A6076CA5}" ShortID="450787419">
-											<Language>SFX</Language>
-											<AudioFile>S_SFX_Footstep_Neutral_9.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="S_SFX_Footstep_Neutral_9" ID="{C0163A67-A12D-46C2-A189-81F2A6076CA5}" Platform="Linked"/>
+										<ActiveSource Name="Sand_v2_04" ID="{34E1F65E-49BE-4D36-8AE2-809A2C258810}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1454,22 +1328,28 @@
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
-								<ItemRef Name="S_SFX_Footstep_Sand" ID="{F24CBB37-3A16-4F4B-92A2-76FEE55532BD}"/>
-							</GroupingBehavior>
-							<GroupingBehavior>
 								<ItemRef Name="S_SFX_Footstep_Rock_2" ID="{5B446C3C-8DE8-4B3B-BBE3-BCB45BC66113}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="S_SFX_Footstep_Rock" ID="{9280A652-6558-4B6A-AC12-8F525B344946}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="S_SFX_Footstep_Sand_2" ID="{218EC268-50A5-4A13-A07F-033C4C2064EF}"/>
+								<ItemRef Name="S_SFX_Footstep_Neutral_Temple" ID="{2204ADC6-3ECF-4883-861C-3F989E14FAFB}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="S_SFX_Footstep_Neutral" ID="{73D7B96F-24B3-498F-96C5-178E441CF29A}"/>
+								<ItemRef Name="S_SFX_Footstep_Neutral_Earth" ID="{F64ED6CE-0693-4F0B-9E55-ECEDCDEA8695}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="S_SFX_Footstep_Sand" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Neutral_Temple" ID="{8D564417-1D0F-4321-BB48-035CA09509D3}"/>
+								<ItemList>
+									<ItemRef Name="S_SFX_Footstep_Neutral_Temple" ID="{2204ADC6-3ECF-4883-861C-3F989E14FAFB}"/>
+								</ItemList>
+							</Grouping>
 							<Grouping>
 								<SwitchRef Name="Rock" ID="{F5FFF549-71BD-4045-AA4B-FD2FBB87F558}"/>
 								<ItemList>
@@ -1477,15 +1357,15 @@
 								</ItemList>
 							</Grouping>
 							<Grouping>
-								<SwitchRef Name="Neutral" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>
+								<SwitchRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>
 								<ItemList>
-									<ItemRef Name="S_SFX_Footstep_Neutral" ID="{73D7B96F-24B3-498F-96C5-178E441CF29A}"/>
+									<ItemRef Name="S_SFX_Footstep_Neutral_Earth" ID="{F64ED6CE-0693-4F0B-9E55-ECEDCDEA8695}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
 								<SwitchRef Name="Sand" ID="{B964C572-45F5-4E19-984C-EB973BD624C1}"/>
 								<ItemList>
-									<ItemRef Name="S_SFX_Footstep_Sand" ID="{F24CBB37-3A16-4F4B-92A2-76FEE55532BD}"/>
+									<ItemRef Name="S_SFX_Footstep_Sand" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}"/>
 								</ItemList>
 							</Grouping>
 						</GroupingList>
