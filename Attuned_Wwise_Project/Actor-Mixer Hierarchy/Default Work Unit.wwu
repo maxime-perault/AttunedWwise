@@ -42,6 +42,10 @@
 					</ActiveSourceList>
 				</Sound>
 				<ActorMixer Name="Rock_Terrain_Interaction" ID="{92CA49A6-0619-43F6-BCAB-D39C57F19473}" ShortID="563053051">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -139,6 +143,10 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Neutral_Terrain_Interaction" ID="{490E079D-3053-4849-9C28-CFE6F518DEE4}" ShortID="302410166">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -297,6 +305,10 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Water_Terrain_Interaction" ID="{9B3E2BB9-7A72-41BF-BE78-AB153BD97C50}" ShortID="176045140">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -519,6 +531,8 @@
 				</Sound>
 				<SwitchContainer Name="Footsteps" ID="{45AC36D4-177B-4B72-B6B2-5F8B4BE2B619}" ShortID="825478805">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-1</Value>
@@ -722,6 +736,8 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="S_SFX_Footstep_Rock" ID="{9280A652-6558-4B6A-AC12-8F525B344946}" ShortID="198068567">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -896,7 +912,9 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="S_SFX_Footstep_Neutral_Earth" ID="{F64ED6CE-0693-4F0B-9E55-ECEDCDEA8695}" ShortID="377695903">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
@@ -1021,7 +1039,9 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="S_SFX_Footstep_Neutral_Temple" ID="{2204ADC6-3ECF-4883-861C-3F989E14FAFB}" ShortID="473923764">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
@@ -1138,7 +1158,9 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="S_SFX_Footstep_Sand_Deep" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}" ShortID="698705213">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
@@ -1263,7 +1285,9 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="S_SFX_Footstep_Sand_Thin" ID="{F8C969F3-0DC9-4EC2-8A49-E369F7FF1D76}" ShortID="793581905">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 							</PropertyList>
@@ -1416,6 +1440,12 @@
 								</ItemList>
 							</Grouping>
 							<Grouping>
+								<SwitchRef Name="Sand_Thin" ID="{0ED55D23-F3D7-4783-83F4-694F096A4509}"/>
+								<ItemList>
+									<ItemRef Name="S_SFX_Footstep_Sand_Thin" ID="{F8C969F3-0DC9-4EC2-8A49-E369F7FF1D76}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
 								<SwitchRef Name="Rock" ID="{F5FFF549-71BD-4045-AA4B-FD2FBB87F558}"/>
 								<ItemList>
 									<ItemRef Name="S_SFX_Footstep_Rock" ID="{9280A652-6558-4B6A-AC12-8F525B344946}"/>
@@ -1428,7 +1458,7 @@
 								</ItemList>
 							</Grouping>
 							<Grouping>
-								<SwitchRef Name="Sand" ID="{B964C572-45F5-4E19-984C-EB973BD624C1}"/>
+								<SwitchRef Name="Sand_Deep" ID="{B964C572-45F5-4E19-984C-EB973BD624C1}"/>
 								<ItemList>
 									<ItemRef Name="S_SFX_Footstep_Sand_Deep" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}"/>
 								</ItemList>
@@ -1436,7 +1466,25 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
-				<ActorMixer Name="Sand_Terrain_Interaction" ID="{FFCA1D79-BCA1-4381-AA00-1560772C3051}" ShortID="455520777">
+				<ActorMixer Name="Terrain_Ambience" ID="{DA4DB058-7433-4482-B0B9-850057667179}" ShortID="165801755">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+						</Reference>
+					</ReferenceList>
+				</ActorMixer>
+				<ActorMixer Name="Terrain_Interaction" ID="{17F4029C-A297-4556-85FC-5FF742651305}" ShortID="401389838">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1446,9 +1494,11 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Jump_Sand" ID="{433DCB86-200D-4E7E-A2ED-668D71004E44}" ShortID="740292646">
+						<RandomSequenceContainer Name="S_SFX_Jump_Sand_Impact" ID="{433DCB86-200D-4E7E-A2ED-668D71004E44}" ShortID="740292646">
 							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="Volume" Type="Real64">
@@ -1643,6 +1693,105 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Jump_Sand_08" ID="{F7DA4C0D-774D-4867-B7EA-034065C30063}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="S_SFX_Jump_Neutral_Impact" ID="{EA9F7882-5166-4D48-AA1E-30D5633B354A}" ShortID="1070586033">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Jump_Neutral_Impact_01" ID="{B2636BDA-C133-4258-AF2E-F679259E01E9}" ShortID="488036669">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Neutral_Impact_01" ID="{F0E0D3E1-A54F-49EB-A108-5DAE2DE64FA4}" ShortID="190327341">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Neutral_Impact_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Neutral_Impact_01" ID="{F0E0D3E1-A54F-49EB-A108-5DAE2DE64FA4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jump_Neutral_Impact_02" ID="{A58F0C25-F9D5-4C17-91F9-D51BF4A6BFFF}" ShortID="272360957">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Neutral_Impact_02" ID="{D53E9AEC-C37D-4EA5-A6EA-20D03E031815}" ShortID="542128448">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Neutral_Impact_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Neutral_Impact_02" ID="{D53E9AEC-C37D-4EA5-A6EA-20D03E031815}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jump_Neutral_Impact_03" ID="{460EB70D-84E5-4267-A316-5ED505F73A1D}" ShortID="259734111">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Neutral_Impact_03" ID="{AEC0E81C-97CA-461D-8DC8-E57597BF2401}" ShortID="338030450">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Neutral_Impact_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Neutral_Impact_03" ID="{AEC0E81C-97CA-461D-8DC8-E57597BF2401}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jump_Neutral_Impact_04" ID="{6156908E-7BE1-4E86-81DE-A35CAEEB1418}" ShortID="134284175">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Neutral_Impact_04" ID="{93443EB3-FF67-44CA-B27F-862760F61E53}" ShortID="134322282">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Neutral_Impact_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Neutral_Impact_04" ID="{93443EB3-FF67-44CA-B27F-862760F61E53}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

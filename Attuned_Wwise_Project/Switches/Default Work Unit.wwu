@@ -6,9 +6,10 @@
 				<SwitchGroup Name="Footsteps" ID="{42952B0B-08D1-4B93-903A-A732771461DB}">
 					<ChildrenList>
 						<Switch Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>
-						<Switch Name="Sand" ID="{B964C572-45F5-4E19-984C-EB973BD624C1}"/>
+						<Switch Name="Sand_Deep" ID="{B964C572-45F5-4E19-984C-EB973BD624C1}"/>
 						<Switch Name="Rock" ID="{F5FFF549-71BD-4045-AA4B-FD2FBB87F558}"/>
 						<Switch Name="Neutral_Temple" ID="{8D564417-1D0F-4321-BB48-035CA09509D3}"/>
+						<Switch Name="Sand_Thin" ID="{0ED55D23-F3D7-4783-83F4-694F096A4509}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
