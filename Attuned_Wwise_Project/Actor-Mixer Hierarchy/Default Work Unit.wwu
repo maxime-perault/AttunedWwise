@@ -532,6 +532,33 @@
 						<Reference Name="DefaultSwitchOrState">
 							<ObjectRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}" WorkUnitID="{E3014708-9BF5-4475-9A61-3B46B3D48169}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+								<Effect Name="Have_U_Ever_Been_Outside (Custom)" ID="{4125C6DF-56A6-4884-90AC-F6D0DE91B820}" ShortID="386679994" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<PropertyList>
+										<Property Name="DecayTime" Type="Real32" Value="1"/>
+										<Property Name="Density" Type="Real32" Value="50"/>
+										<Property Name="DryLevel" Type="Real32" Value="-3.8"/>
+										<Property Name="ERFrontBackDelay" Type="Real32" Value="3"/>
+										<Property Name="ERLevel" Type="Real32" Value="-18"/>
+										<Property Name="ERPattern" Type="int32" Value="20"/>
+										<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+										<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+										<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+										<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+										<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+										<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+										<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+										<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+										<Property Name="PreDelay" Type="Real32" Value="15"/>
+										<Property Name="Quality" Type="int32" Value="12"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-29"/>
+										<Property Name="RoomSize" Type="Real32" Value="62"/>
+										<Property Name="StereoWidth" Type="Real32" Value="28"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
 						</Reference>
@@ -1007,9 +1034,126 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
 								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Neutral_Temple_01" ID="{3673FCED-0E35-4FF3-93A4-D26AD9F7A8A8}" ShortID="352871013">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_Temple_01" ID="{639E3F16-8019-4439-B884-A0D981E86C6C}" ShortID="722658148">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.159301328718622"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.301553685801806"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Neutral_Temple_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_Temple_01" ID="{639E3F16-8019-4439-B884-A0D981E86C6C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neutral_Temple_02" ID="{6FC24052-D94F-4ADD-904C-9BCF868D3A70}" ShortID="1013912537">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_Temple_02" ID="{E175ED50-CFD4-428E-83A2-1A21DCA62ABF}" ShortID="45948539">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.44667472252059E-02"/>
+												<Property Name="FadeInShape" Type="int16" Value="6"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.226132966344433"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.369601011457215"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Neutral_Temple_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_Temple_02" ID="{E175ED50-CFD4-428E-83A2-1A21DCA62ABF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neutral_Temple_03" ID="{16AC1266-7491-4DBD-B145-9CBCB9448BAD}" ShortID="1048485891">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_Temple_03" ID="{4BE8BFDC-E632-4E4B-AC45-0CEAD06F17F4}" ShortID="159553393">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.27420485738155E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.052426701674822"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.401064267812388"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Neutral_Temple_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_Temple_03" ID="{4BE8BFDC-E632-4E4B-AC45-0CEAD06F17F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Neutral_Temple_04" ID="{30298929-C6A6-41D2-AC53-DC69A4935DFA}" ShortID="334641076">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_Temple_04" ID="{F56DB8FA-446B-4418-998C-5A2419518340}" ShortID="510335116">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.109436537773004"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.292803536619326"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Neutral_Temple_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Neutral_Temple_04" ID="{F56DB8FA-446B-4418-998C-5A2419518340}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="S_SFX_Footstep_Sand_Deep" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}" ShortID="698705213">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
 								<Reference Name="Effect0">
 									<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
-										<Effect Name="Have_U_Ever_Been_Outside (Custom)" ID="{60C80B64-4213-4B40-9132-E1AF4CE1C0BA}" ShortID="1063406112" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+										<Effect Name="Have_U_Ever_Been_Outside (Custom)" ID="{2C00636C-991A-4B81-8C2D-A5421C0D7EDA}" ShortID="114984833" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 											<PropertyList>
 												<Property Name="DecayTime" Type="Real32" Value="1"/>
 												<Property Name="Density" Type="Real32" Value="50"/>
@@ -1039,7 +1183,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Neutral_Temple_01" ID="{3673FCED-0E35-4FF3-93A4-D26AD9F7A8A8}" ShortID="352871013">
+								<Sound Name="Sand_V1_01" ID="{AB8686DF-70B4-40C6-B594-B6EB6AA4F16F}" ShortID="417072518">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1049,17 +1193,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Neutral_Temple_01" ID="{639E3F16-8019-4439-B884-A0D981E86C6C}" ShortID="722658148">
+										<AudioFileSource Name="Sand_V1_01" ID="{8EE6532F-E1ED-4D2D-BBC1-730E8A9CFD77}" ShortID="894442699">
 											<Language>SFX</Language>
-											<AudioFile>Neutral_Temple_01.wav</AudioFile>
+											<AudioFile>Sand_V1_01.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Neutral_Temple_01" ID="{639E3F16-8019-4439-B884-A0D981E86C6C}" Platform="Linked"/>
+										<ActiveSource Name="Sand_V1_01" ID="{8EE6532F-E1ED-4D2D-BBC1-730E8A9CFD77}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Neutral_Temple_02" ID="{6FC24052-D94F-4ADD-904C-9BCF868D3A70}" ShortID="1013912537">
-									<Comment> </Comment>
+								<Sound Name="Sand_V1_02" ID="{42B967F7-3931-4FA8-94A4-99986327764D}" ShortID="60771174">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1069,20 +1212,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Neutral_Temple_02" ID="{E175ED50-CFD4-428E-83A2-1A21DCA62ABF}" ShortID="45948539">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="7.44667472252059E-02"/>
-												<Property Name="FadeInShape" Type="int16" Value="6"/>
-											</PropertyList>
+										<AudioFileSource Name="Sand_V1_02" ID="{14BDFAF5-AAB9-4D8B-9574-570139FE7D0E}" ShortID="9921030">
 											<Language>SFX</Language>
-											<AudioFile>Neutral_Temple_02.wav</AudioFile>
+											<AudioFile>Sand_V1_02.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Neutral_Temple_02" ID="{E175ED50-CFD4-428E-83A2-1A21DCA62ABF}" Platform="Linked"/>
+										<ActiveSource Name="Sand_V1_02" ID="{14BDFAF5-AAB9-4D8B-9574-570139FE7D0E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Neutral_Temple_03" ID="{16AC1266-7491-4DBD-B145-9CBCB9448BAD}" ShortID="1048485891">
+								<Sound Name="Sand_V1_03" ID="{1C300909-B014-476D-9C54-A8B6B5CB2DA5}" ShortID="364452299">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1092,19 +1231,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Neutral_Temple_03" ID="{4BE8BFDC-E632-4E4B-AC45-0CEAD06F17F4}" ShortID="159553393">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="7.27420485738155E-02"/>
-											</PropertyList>
+										<AudioFileSource Name="Sand_V1_03" ID="{F39D1EA8-65D1-4F7E-8498-1B9055C9B46F}" ShortID="848271311">
 											<Language>SFX</Language>
-											<AudioFile>Neutral_Temple_03.wav</AudioFile>
+											<AudioFile>Sand_V1_03.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Neutral_Temple_03" ID="{4BE8BFDC-E632-4E4B-AC45-0CEAD06F17F4}" Platform="Linked"/>
+										<ActiveSource Name="Sand_V1_03" ID="{F39D1EA8-65D1-4F7E-8498-1B9055C9B46F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Neutral_Temple_04" ID="{30298929-C6A6-41D2-AC53-DC69A4935DFA}" ShortID="334641076">
+								<Sound Name="Sand_V1_04" ID="{A851BA5B-B022-48E1-B50C-8166E9E30914}" ShortID="250630402">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1114,32 +1250,60 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Neutral_Temple_04" ID="{F56DB8FA-446B-4418-998C-5A2419518340}" ShortID="510335116">
+										<AudioFileSource Name="Sand_V1_04" ID="{55F1CF58-0164-4533-979E-FDCBADD03886}" ShortID="818233503">
 											<Language>SFX</Language>
-											<AudioFile>Neutral_Temple_04.wav</AudioFile>
+											<AudioFile>Sand_V1_04.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Neutral_Temple_04" ID="{F56DB8FA-446B-4418-998C-5A2419518340}" Platform="Linked"/>
+										<ActiveSource Name="Sand_V1_04" ID="{55F1CF58-0164-4533-979E-FDCBADD03886}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="S_SFX_Footstep_Sand" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}" ShortID="698705213">
+						<RandomSequenceContainer Name="S_SFX_Footstep_Sand_Thin" ID="{F8C969F3-0DC9-4EC2-8A49-E369F7FF1D76}" ShortID="793581905">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+										<Effect Name="Have_U_Ever_Been_Outside (Custom)" ID="{8F826F84-7611-40F5-B77A-C0291CE12B7E}" ShortID="235101016" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="1"/>
+												<Property Name="Density" Type="Real32" Value="50"/>
+												<Property Name="DryLevel" Type="Real32" Value="-3.8"/>
+												<Property Name="ERFrontBackDelay" Type="Real32" Value="3"/>
+												<Property Name="ERLevel" Type="Real32" Value="-18"/>
+												<Property Name="ERPattern" Type="int32" Value="20"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+												<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+												<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+												<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+												<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+												<Property Name="PreDelay" Type="Real32" Value="15"/>
+												<Property Name="Quality" Type="int32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-29"/>
+												<Property Name="RoomSize" Type="Real32" Value="62"/>
+												<Property Name="StereoWidth" Type="Real32" Value="28"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Sand_v1_01" ID="{7EE9FBD0-8DFB-4190-A605-5D3C76053BA0}" ShortID="364395066">
+								<Sound Name="Sand_V2_01" ID="{9E7C5D98-BFE0-4BD3-86B6-E28A9A887BD0}" ShortID="220597759">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1149,20 +1313,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sand_v1_01" ID="{A6F193A6-38EE-44B8-A47F-6F25D70E475E}" ShortID="1025111794">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.09786410470621"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.151165090305128"/>
-											</PropertyList>
+										<AudioFileSource Name="Sand_V2_01" ID="{C254D5F5-C098-44F8-A53E-7E4F898AD692}" ShortID="384432404">
 											<Language>SFX</Language>
-											<AudioFile>Sand_v1_01.wav</AudioFile>
+											<AudioFile>Sand_V2_01.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Sand_v1_01" ID="{A6F193A6-38EE-44B8-A47F-6F25D70E475E}" Platform="Linked"/>
+										<ActiveSource Name="Sand_V2_01" ID="{C254D5F5-C098-44F8-A53E-7E4F898AD692}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Sand_v1_02" ID="{931EC072-1A6A-408C-B7F3-DFED67B1B38B}" ShortID="472699910">
+								<Sound Name="Sand_V2_02" ID="{74DB11B5-36F6-4D54-B05B-5E135EA9FEF0}" ShortID="742220967">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1172,20 +1332,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sand_v1_02" ID="{A010D2DC-F2EA-4F95-80BF-E4D570097BB3}" ShortID="586635550">
+										<AudioFileSource Name="Sand_V2_02" ID="{ED147850-0ABC-469E-A536-66CFC0E35C24}" ShortID="897292130">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="3.40773560886343E-02"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.052426701674822"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.188080792258424"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.01453534630226E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.375506250745912"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Sand_v1_02.wav</AudioFile>
+											<AudioFile>Sand_V2_02.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Sand_v1_02" ID="{A010D2DC-F2EA-4F95-80BF-E4D570097BB3}" Platform="Linked"/>
+										<ActiveSource Name="Sand_V2_02" ID="{ED147850-0ABC-469E-A536-66CFC0E35C24}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Sand_v1_03" ID="{9FAF8E1A-B193-4015-ADF3-B6941289C197}" ShortID="941076598">
+								<Sound Name="Sand_V2_03" ID="{E4B5DB8F-F8EF-4B4D-8CE0-59397B5E19D4}" ShortID="719445843">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1195,20 +1356,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sand_v1_03" ID="{6C4FA49B-A3AA-4F9D-8A19-CDAB4F7108A0}" ShortID="255911720">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.132377421728925"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.128445419103314"/>
-											</PropertyList>
+										<AudioFileSource Name="Sand_V2_03" ID="{FD545CEF-D7D1-464F-8423-1C1DBDBAA636}" ShortID="60064663">
 											<Language>SFX</Language>
-											<AudioFile>Sand_v1_03.wav</AudioFile>
+											<AudioFile>Sand_V2_03.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Sand_v1_03" ID="{6C4FA49B-A3AA-4F9D-8A19-CDAB4F7108A0}" Platform="Linked"/>
+										<ActiveSource Name="Sand_V2_03" ID="{FD545CEF-D7D1-464F-8423-1C1DBDBAA636}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Sand_v1_04" ID="{8F642F81-AC60-4BDC-8F6E-BE418DED3C09}" ShortID="239880341">
+								<Sound Name="Sand_V2_04" ID="{DECDAEB2-4242-4CCF-9B8A-4DC8E501B083}" ShortID="313754785">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1218,108 +1375,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sand_v1_04" ID="{D902B45B-B7B2-4DCB-B385-B762891379C8}" ShortID="34687217">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.25994708994709"/>
-											</PropertyList>
+										<AudioFileSource Name="Sand_V2_04" ID="{0D15ACEB-ED61-4976-8C7B-22DCCEF2EED7}" ShortID="42788496">
 											<Language>SFX</Language>
-											<AudioFile>Sand_v1_04.wav</AudioFile>
+											<AudioFile>Sand_V2_04.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Sand_v1_04" ID="{D902B45B-B7B2-4DCB-B385-B762891379C8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Sand_v2_01" ID="{4819F9E6-5FF8-4945-B005-1EEA7DAC42A3}" ShortID="82484947">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Sand_v2_01" ID="{7917C8B0-422E-43E6-8928-0550A518B373}" ShortID="272476404">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="7.77670117754704E-02"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.115339837689462"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Sand_v2_01.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Sand_v2_01" ID="{7917C8B0-422E-43E6-8928-0550A518B373}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Sand_v2_02" ID="{D8579D83-9E5D-466B-8383-18AD7647932E}" ShortID="854767886">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Sand_v2_02" ID="{9C9336F0-601B-4C35-8AFB-04ADC7C7117C}" ShortID="468018600">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="8.91253928471974E-02"/>
-												<Property Name="TrimBegin" Type="Real64" Value="8.78147253053268E-02"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Sand_v2_02.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Sand_v2_02" ID="{9C9336F0-601B-4C35-8AFB-04ADC7C7117C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Sand_v2_03" ID="{B0B95208-2E00-4FDE-8194-67E7D67240AF}" ShortID="945251229">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Sand_v2_03" ID="{62317563-68B0-4877-A788-323525AC6525}" ShortID="923824972">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.121892081393961"/>
-												<Property Name="TrimBegin" Type="Real64" Value="9.76447318693559E-02"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Sand_v2_03.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Sand_v2_03" ID="{62317563-68B0-4877-A788-323525AC6525}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Sand_v2_04" ID="{99A80BB2-E2BB-4D2D-893F-5A6D43C6A799}" ShortID="562877216">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Sand_v2_04" ID="{34E1F65E-49BE-4D36-8AE2-809A2C258810}" ShortID="1052961571">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.18239984882842"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.14854119425548"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Sand_v2_04.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Sand_v2_04" ID="{34E1F65E-49BE-4D36-8AE2-809A2C258810}" Platform="Linked"/>
+										<ActiveSource Name="Sand_V2_04" ID="{0D15ACEB-ED61-4976-8C7B-22DCCEF2EED7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1340,7 +1402,10 @@
 								<ItemRef Name="S_SFX_Footstep_Neutral_Earth" ID="{F64ED6CE-0693-4F0B-9E55-ECEDCDEA8695}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="S_SFX_Footstep_Sand" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}"/>
+								<ItemRef Name="S_SFX_Footstep_Sand_Deep" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="S_SFX_Footstep_Sand_Thin" ID="{F8C969F3-0DC9-4EC2-8A49-E369F7FF1D76}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 						<GroupingList>
@@ -1365,12 +1430,225 @@
 							<Grouping>
 								<SwitchRef Name="Sand" ID="{B964C572-45F5-4E19-984C-EB973BD624C1}"/>
 								<ItemList>
-									<ItemRef Name="S_SFX_Footstep_Sand" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}"/>
+									<ItemRef Name="S_SFX_Footstep_Sand_Deep" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}"/>
 								</ItemList>
 							</Grouping>
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<ActorMixer Name="Sand_Terrain_Interaction" ID="{FFCA1D79-BCA1-4381-AA00-1560772C3051}" ShortID="455520777">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Jump_Sand" ID="{433DCB86-200D-4E7E-A2ED-668D71004E44}" ShortID="740292646">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+										<Effect Name="Have_U_Ever_Been_Outside (Custom)" ID="{370ADAB9-E3EF-43B9-9204-E761DD35DF05}" ShortID="31598412" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="1"/>
+												<Property Name="Density" Type="Real32" Value="50"/>
+												<Property Name="DryLevel" Type="Real32" Value="-3.8"/>
+												<Property Name="ERFrontBackDelay" Type="Real32" Value="3"/>
+												<Property Name="ERLevel" Type="Real32" Value="-18"/>
+												<Property Name="ERPattern" Type="int32" Value="20"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+												<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+												<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+												<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+												<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+												<Property Name="PreDelay" Type="Real32" Value="15"/>
+												<Property Name="Quality" Type="int32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-29"/>
+												<Property Name="RoomSize" Type="Real32" Value="62"/>
+												<Property Name="StereoWidth" Type="Real32" Value="28"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Jump_Sand_01" ID="{00D5BAF4-52D2-472F-A6D4-94007E219084}" ShortID="290568166">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Sand_01" ID="{21E86FCA-3C81-4E50-A0DC-3A93CC143282}" ShortID="538575220">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Sand_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Sand_01" ID="{21E86FCA-3C81-4E50-A0DC-3A93CC143282}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jump_Sand_02" ID="{CA759847-C638-4300-9028-81B4EA5E80A2}" ShortID="36757640">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Sand_02" ID="{6FC89F65-69E2-4CD5-A11A-D87862793A64}" ShortID="268275696">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Sand_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Sand_02" ID="{6FC89F65-69E2-4CD5-A11A-D87862793A64}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jump_Sand_03" ID="{7ED42DE5-8F39-45A0-827E-942C6C3E7213}" ShortID="732471482">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Sand_03" ID="{5BDF0850-3C33-459E-9F55-EC90CE375054}" ShortID="181625886">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Sand_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Sand_03" ID="{5BDF0850-3C33-459E-9F55-EC90CE375054}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jump_Sand_04" ID="{D973F09B-BE39-44E7-8048-7375CD03D49E}" ShortID="323602032">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Sand_04" ID="{5761D1D9-1BA1-4BEE-B66E-AFDBF5A15190}" ShortID="403953597">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Sand_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Sand_04" ID="{5761D1D9-1BA1-4BEE-B66E-AFDBF5A15190}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jump_Sand_05" ID="{E255ACE5-7A84-46FC-9A0C-A2BEB920B6BA}" ShortID="823109643">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Sand_05" ID="{6AFCD280-D369-445E-BB24-5504436892B7}" ShortID="1007421856">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Sand_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Sand_05" ID="{6AFCD280-D369-445E-BB24-5504436892B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jump_Sand_06" ID="{873793EB-B3A7-4BD9-98A2-687CB6496653}" ShortID="208732108">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Sand_06" ID="{26A06F74-4D0F-4EC8-A36B-881DAB040E9E}" ShortID="37870188">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Sand_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Sand_06" ID="{26A06F74-4D0F-4EC8-A36B-881DAB040E9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jump_Sand_07" ID="{0019999D-FADE-4623-883F-14203BCBA10C}" ShortID="468186475">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Sand_07" ID="{DD4D8DF6-7E38-482A-BFD6-74A55A612BE3}" ShortID="288949398">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Sand_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Sand_07" ID="{DD4D8DF6-7E38-482A-BFD6-74A55A612BE3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jump_Sand_08" ID="{908D2268-5919-4DAE-816B-3BA0AE26B4E6}" ShortID="991116900">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Jump_Sand_08" ID="{F7DA4C0D-774D-4867-B7EA-034065C30063}" ShortID="33584292">
+											<Language>SFX</Language>
+											<AudioFile>Jump_Sand_08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Jump_Sand_08" ID="{F7DA4C0D-774D-4867-B7EA-034065C30063}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
