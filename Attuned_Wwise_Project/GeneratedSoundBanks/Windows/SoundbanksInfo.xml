@@ -21,141 +21,301 @@
 			<ShortName>AttunedSoundBank</ShortName>
 			<Path>AttunedSoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2916087884" Name="Play_Sinus220" ObjectPath="\Events\Default Work Unit\Play_Sinus220"/>
-				<Event Id="936726232" Name="Play_Sinus440" ObjectPath="\Events\Default Work Unit\Play_Sinus440"/>
+				<Event Id="626905557" Name="S_SFX_Cloth_Jump_Start" ObjectPath="\Events\Default Work Unit\S_SFX_Cloth_Jump_Start"/>
 				<Event Id="4236223805" Name="S_SFX_Dash_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Dash_Rock"/>
 				<Event Id="210248148" Name="S_SFX_Explosion_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Explosion_Rock"/>
-				<Event Id="1172889457" Name="S_SFX_Footstep_Neutral" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Neutral"/>
-				<Event Id="3848950919" Name="S_SFX_Footstep_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Rock"/>
-				<Event Id="1418976482" Name="S_SFX_Footstep_Sand" ObjectPath="\Events\Default Work Unit\S_SFX_Footstep_Sand"/>
-				<Event Id="1097088795" Name="S_SFX_Jump_Neutral" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Neutral"/>
+				<Event Id="722645744" Name="S_SFX_Footsteps" ObjectPath="\Events\Default Work Unit\S_SFX_Footsteps"/>
 				<Event Id="2215696624" Name="S_SFX_Jump_Neutral_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Neutral_Impact"/>
+				<Event Id="3816297981" Name="S_SFX_Jump_Sand_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Sand_Impact"/>
+				<Event Id="3597130940" Name="S_SFX_Water_Axe_Change" ObjectPath="\Events\Default Work Unit\S_SFX_Water_Axe_Change"/>
 				<Event Id="784655102" Name="S_SFX_Water_Glide" ObjectPath="\Events\Default Work Unit\S_SFX_Water_Glide"/>
+				<Event Id="727030578" Name="S_SFX_Water_In" ObjectPath="\Events\Default Work Unit\S_SFX_Water_In"/>
+				<Event Id="1421783309" Name="S_SFX_Water_Out" ObjectPath="\Events\Default Work Unit\S_SFX_Water_Out"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="24375498" Language="SFX">
-					<ShortName>S_SFX_Jump_Neutral_2.wav</ShortName>
-					<Path>SFX\S_SFX_Jump_Neutral_2_56D34C19.wem</Path>
+				<File Id="9921030" Language="SFX">
+					<ShortName>Sand_V1_02.wav</ShortName>
+					<Path>SFX\Sand_V1_02_56D34C19.wem</Path>
 				</File>
-				<File Id="66359518" Language="SFX">
-					<ShortName>S_SFX_Jump_Neutral_3.wav</ShortName>
-					<Path>SFX\S_SFX_Jump_Neutral_3_56D34C19.wem</Path>
+				<File Id="13954618" Language="SFX">
+					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_02.wav</ShortName>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_02_56D34C19.wem</Path>
 				</File>
-				<File Id="85409426" Language="SFX">
-					<ShortName>S_SFX_Footstep_Neutral_4.wav</ShortName>
-					<Path>SFX\S_SFX_Footstep_Neutral_4_56D34C19.wem</Path>
+				<File Id="33584292" Language="SFX">
+					<ShortName>Jump_Sand_08.wav</ShortName>
+					<Path>SFX\Jump_Sand_08_56D34C19.wem</Path>
 				</File>
-				<File Id="100737454" Language="SFX">
-					<ShortName>S_SFX_Footstep_Neutral_2.wav</ShortName>
-					<Path>SFX\S_SFX_Footstep_Neutral_2_56D34C19.wem</Path>
+				<File Id="37870188" Language="SFX">
+					<ShortName>Jump_Sand_06.wav</ShortName>
+					<Path>SFX\Jump_Sand_06_56D34C19.wem</Path>
 				</File>
-				<File Id="230636122" Language="SFX">
-					<ShortName>S_SFX_Footstep_Neutral_5.wav</ShortName>
-					<Path>SFX\S_SFX_Footstep_Neutral_5_56D34C19.wem</Path>
+				<File Id="42788496" Language="SFX">
+					<ShortName>Sand_V2_04.wav</ShortName>
+					<Path>SFX\Sand_V2_04_56D34C19.wem</Path>
 				</File>
-				<File Id="301628916" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Sandbis_2.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Sandbis_2_56D34C19.wem</Path>
+				<File Id="45948539" Language="SFX">
+					<ShortName>Neutral_Temple_02.wav</ShortName>
+					<Path>SFX\Neutral_Temple_02_8AD7D01D.wem</Path>
 				</File>
-				<File Id="336381021" Language="SFX">
-					<ShortName>Sinus220.wav</ShortName>
-					<Path>SFX\Sinus220_56D34C19.wem</Path>
+				<File Id="60064663" Language="SFX">
+					<ShortName>Sand_V2_03.wav</ShortName>
+					<Path>SFX\Sand_V2_03_56D34C19.wem</Path>
 				</File>
-				<File Id="356869894" Language="SFX">
-					<ShortName>S_SFX_Footstep_Neutral_7.wav</ShortName>
-					<Path>SFX\S_SFX_Footstep_Neutral_7_56D34C19.wem</Path>
+				<File Id="109372009" Language="SFX">
+					<ShortName>Water_Axe_Change\Water_Axe_Change_06.wav</ShortName>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_06_56D34C19.wem</Path>
 				</File>
-				<File Id="366713706" Language="SFX">
-					<ShortName>S_SFX_Footstep_Neutral_1.wav</ShortName>
-					<Path>SFX\S_SFX_Footstep_Neutral_1_56D34C19.wem</Path>
+				<File Id="110883096" Language="SFX">
+					<ShortName>Rock_03.wav</ShortName>
+					<Path>SFX\Rock_03_56D34C19.wem</Path>
 				</File>
-				<File Id="450787419" Language="SFX">
-					<ShortName>S_SFX_Footstep_Neutral_9.wav</ShortName>
-					<Path>SFX\S_SFX_Footstep_Neutral_9_56D34C19.wem</Path>
+				<File Id="122822209" Language="SFX">
+					<ShortName>Neutral_earth_1.wav</ShortName>
+					<Path>SFX\Neutral_earth_1_56D34C19.wem</Path>
 				</File>
-				<File Id="460932166" Language="SFX">
-					<ShortName>S_SFX_Footstep_Neutral_8.wav</ShortName>
-					<Path>SFX\S_SFX_Footstep_Neutral_8_56D34C19.wem</Path>
+				<File Id="126457969" Language="SFX">
+					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_07.wav</ShortName>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_07_56D34C19.wem</Path>
 				</File>
-				<File Id="461238039" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Rockbis_2.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Rockbis_2_56D34C19.wem</Path>
+				<File Id="133144550" Language="SFX">
+					<ShortName>Rock_04.wav</ShortName>
+					<Path>SFX\Rock_04_56D34C19.wem</Path>
 				</File>
-				<File Id="461827900" Language="SFX">
-					<ShortName>S_SFX_Jump_Neutral_Impact_1.wav</ShortName>
-					<Path>SFX\S_SFX_Jump_Neutral_Impact_1_56D34C19.wem</Path>
+				<File Id="134322282" Language="SFX">
+					<ShortName>Jump_Neutral_Impact_04.wav</ShortName>
+					<Path>SFX\Jump_Neutral_Impact_04_56D34C19.wem</Path>
 				</File>
-				<File Id="492101716" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Sandbis_7.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Sandbis_7_56D34C19.wem</Path>
+				<File Id="135216139" Language="SFX">
+					<ShortName>Rock_02.wav</ShortName>
+					<Path>SFX\Rock_02_56D34C19.wem</Path>
 				</File>
-				<File Id="497752496" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Sandbis_1.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Sandbis_1_56D34C19.wem</Path>
+				<File Id="159553393" Language="SFX">
+					<ShortName>Neutral_Temple_03.wav</ShortName>
+					<Path>SFX\Neutral_Temple_03_2A2A2540.wem</Path>
 				</File>
-				<File Id="521749858" Language="SFX">
-					<ShortName>S_SFX_Footstep_Neutral_6.wav</ShortName>
-					<Path>SFX\S_SFX_Footstep_Neutral_6_56D34C19.wem</Path>
+				<File Id="181625886" Language="SFX">
+					<ShortName>Jump_Sand_03.wav</ShortName>
+					<Path>SFX\Jump_Sand_03_56D34C19.wem</Path>
 				</File>
-				<File Id="547718463" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Sandbis_5.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Sandbis_5_56D34C19.wem</Path>
+				<File Id="190327341" Language="SFX">
+					<ShortName>Jump_Neutral_Impact_01.wav</ShortName>
+					<Path>SFX\Jump_Neutral_Impact_01_56D34C19.wem</Path>
 				</File>
-				<File Id="605794338" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Rockbis_1.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Rockbis_1_56D34C19.wem</Path>
+				<File Id="190583100" Language="SFX">
+					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_10.wav</ShortName>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_10_56D34C19.wem</Path>
 				</File>
-				<File Id="701208533" Language="SFX">
-					<ShortName>Sinus440.wav</ShortName>
-					<Path>SFX\Sinus440_56D34C19.wem</Path>
+				<File Id="206149572" Language="SFX">
+					<ShortName>water_glide_01.wav</ShortName>
+					<Path>SFX\water_glide_01_8956FC97.wem</Path>
 				</File>
-				<File Id="709523667" Language="SFX">
-					<ShortName>S_SFX_Jump_Neutral_1.wav</ShortName>
-					<Path>SFX\S_SFX_Jump_Neutral_1_56D34C19.wem</Path>
+				<File Id="225023140" Language="SFX">
+					<ShortName>Water_Axe_Change\Water_Axe_Change_01.wav</ShortName>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_01_56D34C19.wem</Path>
 				</File>
-				<File Id="732910289" Language="SFX">
-					<ShortName>S_SFX_Explosion_Rock.wav</ShortName>
-					<Path>SFX\S_SFX_Explosion_Rock_EAEFD7C9.wem</Path>
+				<File Id="245829089" Language="SFX">
+					<ShortName>Rock_2.wav</ShortName>
+					<Path>SFX\Rock_2_56D34C19.wem</Path>
 				</File>
-				<File Id="810442806" Language="SFX">
-					<ShortName>S_SFX_Jump_Neutral_Impact_2.wav</ShortName>
-					<Path>SFX\S_SFX_Jump_Neutral_Impact_2_56D34C19.wem</Path>
+				<File Id="268275696" Language="SFX">
+					<ShortName>Jump_Sand_02.wav</ShortName>
+					<Path>SFX\Jump_Sand_02_56D34C19.wem</Path>
 				</File>
-				<File Id="814717386" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Rockbis_3.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Rockbis_3_56D34C19.wem</Path>
+				<File Id="276649637" Language="SFX">
+					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_04.wav</ShortName>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_04_56D34C19.wem</Path>
+				</File>
+				<File Id="287677286" Language="SFX">
+					<ShortName>Water_Out\Water_Out_02.wav</ShortName>
+					<Path>SFX\Water_Out\Water_Out_02_15E678DD.wem</Path>
+				</File>
+				<File Id="288949398" Language="SFX">
+					<ShortName>Jump_Sand_07.wav</ShortName>
+					<Path>SFX\Jump_Sand_07_56D34C19.wem</Path>
+				</File>
+				<File Id="318552797" Language="SFX">
+					<ShortName>Explosion_Rock\Explosion_Rock_4.wav</ShortName>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_4_56D34C19.wem</Path>
+				</File>
+				<File Id="338030450" Language="SFX">
+					<ShortName>Jump_Neutral_Impact_03.wav</ShortName>
+					<Path>SFX\Jump_Neutral_Impact_03_56D34C19.wem</Path>
+				</File>
+				<File Id="364724400" Language="SFX">
+					<ShortName>Water_Axe_Change\Water_Axe_Change_04.wav</ShortName>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_04_56D34C19.wem</Path>
+				</File>
+				<File Id="384432404" Language="SFX">
+					<ShortName>Sand_V2_01.wav</ShortName>
+					<Path>SFX\Sand_V2_01_56D34C19.wem</Path>
+				</File>
+				<File Id="403953597" Language="SFX">
+					<ShortName>Jump_Sand_04.wav</ShortName>
+					<Path>SFX\Jump_Sand_04_56D34C19.wem</Path>
+				</File>
+				<File Id="421914021" Language="SFX">
+					<ShortName>Water_In\Water_In_01.wav</ShortName>
+					<Path>SFX\Water_In\Water_In_01_56D34C19.wem</Path>
+				</File>
+				<File Id="487228937" Language="SFX">
+					<ShortName>Explosion_Rock\Explosion_Rock_5.wav</ShortName>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_5_56D34C19.wem</Path>
+				</File>
+				<File Id="510335116" Language="SFX">
+					<ShortName>Neutral_Temple_04.wav</ShortName>
+					<Path>SFX\Neutral_Temple_04_DBBD39DF.wem</Path>
+				</File>
+				<File Id="525562156" Language="SFX">
+					<ShortName>Water_In\Water_In_03.wav</ShortName>
+					<Path>SFX\Water_In\Water_In_03_56D34C19.wem</Path>
+				</File>
+				<File Id="532913117" Language="SFX">
+					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_08.wav</ShortName>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_08_56D34C19.wem</Path>
+				</File>
+				<File Id="538575220" Language="SFX">
+					<ShortName>Jump_Sand_01.wav</ShortName>
+					<Path>SFX\Jump_Sand_01_56D34C19.wem</Path>
+				</File>
+				<File Id="542128448" Language="SFX">
+					<ShortName>Jump_Neutral_Impact_02.wav</ShortName>
+					<Path>SFX\Jump_Neutral_Impact_02_56D34C19.wem</Path>
+				</File>
+				<File Id="584492632" Language="SFX">
+					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_01.wav</ShortName>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_01_56D34C19.wem</Path>
+				</File>
+				<File Id="586306831" Language="SFX">
+					<ShortName>Neutral_earth_3.wav</ShortName>
+					<Path>SFX\Neutral_earth_3_56D34C19.wem</Path>
+				</File>
+				<File Id="603282285" Language="SFX">
+					<ShortName>Water_Axe_Change\Water_Axe_Change_02.wav</ShortName>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_02_56D34C19.wem</Path>
+				</File>
+				<File Id="631460228" Language="SFX">
+					<ShortName>Neutral_earth_4.wav</ShortName>
+					<Path>SFX\Neutral_earth_4_56D34C19.wem</Path>
+				</File>
+				<File Id="643917322" Language="SFX">
+					<ShortName>Explosion_Rock\Explosion_Rock_7.wav</ShortName>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_7_56D34C19.wem</Path>
+				</File>
+				<File Id="650304559" Language="SFX">
+					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_03.wav</ShortName>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_03_56D34C19.wem</Path>
+				</File>
+				<File Id="679919154" Language="SFX">
+					<ShortName>Explosion_Rock\Explosion_Rock_6.wav</ShortName>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_6_56D34C19.wem</Path>
+				</File>
+				<File Id="695396329" Language="SFX">
+					<ShortName>Water_Axe_Change\Water_Axe_Change_07.wav</ShortName>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_07_56D34C19.wem</Path>
+				</File>
+				<File Id="703377150" Language="SFX">
+					<ShortName>Water_Axe_Change\Water_Axe_Change_05.wav</ShortName>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_05_56D34C19.wem</Path>
+				</File>
+				<File Id="708209847" Language="SFX">
+					<ShortName>Rock_1.wav</ShortName>
+					<Path>SFX\Rock_1_56D34C19.wem</Path>
+				</File>
+				<File Id="722658148" Language="SFX">
+					<ShortName>Neutral_Temple_01.wav</ShortName>
+					<Path>SFX\Neutral_Temple_01_A7ABDD0B.wem</Path>
+				</File>
+				<File Id="742107628" Language="SFX">
+					<ShortName>Water_In\Water_In_02.wav</ShortName>
+					<Path>SFX\Water_In\Water_In_02_56D34C19.wem</Path>
+				</File>
+				<File Id="748112971" Language="SFX">
+					<ShortName>Explosion_Rock\Explosion_Rock_2.wav</ShortName>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_2_56D34C19.wem</Path>
+				</File>
+				<File Id="753197224" Language="SFX">
+					<ShortName>Water_Axe_Change\Water_Axe_Change_03.wav</ShortName>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_03_56D34C19.wem</Path>
+				</File>
+				<File Id="780541535" Language="SFX">
+					<ShortName>Rock_4.wav</ShortName>
+					<Path>SFX\Rock_4_56D34C19.wem</Path>
+				</File>
+				<File Id="791604576" Language="SFX">
+					<ShortName>Rock_01.wav</ShortName>
+					<Path>SFX\Rock_01_56D34C19.wem</Path>
+				</File>
+				<File Id="798846047" Language="SFX">
+					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_06.wav</ShortName>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_06_56D34C19.wem</Path>
+				</File>
+				<File Id="803219860" Language="SFX">
+					<ShortName>Explosion_Rock\Explosion_Rock_3.wav</ShortName>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_3_56D34C19.wem</Path>
+				</File>
+				<File Id="818233503" Language="SFX">
+					<ShortName>Sand_V1_04.wav</ShortName>
+					<Path>SFX\Sand_V1_04_56D34C19.wem</Path>
+				</File>
+				<File Id="833861451" Language="SFX">
+					<ShortName>Dash_Rock.wav</ShortName>
+					<Path>SFX\Dash_Rock_B0919ED1.wem</Path>
+				</File>
+				<File Id="848271311" Language="SFX">
+					<ShortName>Sand_V1_03.wav</ShortName>
+					<Path>SFX\Sand_V1_03_56D34C19.wem</Path>
 				</File>
 				<File Id="848575906" Language="SFX">
 					<ShortName>S_SFX_Dash_Rock.wav</ShortName>
 					<Path>SFX\S_SFX_Dash_Rock_56D34C19.wem</Path>
 				</File>
-				<File Id="859149197" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Sandbis_4.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Sandbis_4_56D34C19.wem</Path>
+				<File Id="859308396" Language="SFX">
+					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_05.wav</ShortName>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_05_56D34C19.wem</Path>
 				</File>
-				<File Id="862512572" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Sandbis_8.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Sandbis_8_56D34C19.wem</Path>
+				<File Id="886108902" Language="SFX">
+					<ShortName>Explosion_Rock\Explosion_Rock_1.wav</ShortName>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_1_56D34C19.wem</Path>
 				</File>
-				<File Id="873724427" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Sandbis_3.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Sandbis_3_56D34C19.wem</Path>
+				<File Id="894442699" Language="SFX">
+					<ShortName>Sand_V1_01.wav</ShortName>
+					<Path>SFX\Sand_V1_01_56D34C19.wem</Path>
 				</File>
-				<File Id="927909873" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Rockbis_4.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Rockbis_4_56D34C19.wem</Path>
+				<File Id="897292130" Language="SFX">
+					<ShortName>Sand_V2_02.wav</ShortName>
+					<Path>SFX\Sand_V2_02_FEE17549.wem</Path>
 				</File>
-				<File Id="967420441" Language="SFX">
-					<ShortName>S_SFX_Jump_Neutral_Impact_3.wav</ShortName>
-					<Path>SFX\S_SFX_Jump_Neutral_Impact_3_56D34C19.wem</Path>
+				<File Id="950407684" Language="SFX">
+					<ShortName>Water_In\Water_In_04.wav</ShortName>
+					<Path>SFX\Water_In\Water_In_04_56D34C19.wem</Path>
 				</File>
-				<File Id="971428517" Language="SFX">
-					<ShortName>S_SFX_Footstep_Neutral_3.wav</ShortName>
-					<Path>SFX\S_SFX_Footstep_Neutral_3_56D34C19.wem</Path>
+				<File Id="969973501" Language="SFX">
+					<ShortName>Water_Axe_Change\Water_Axe_Change_08.wav</ShortName>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_08_56D34C19.wem</Path>
 				</File>
-				<File Id="1031838726" Language="SFX">
-					<ShortName>S_SFX_Footsteps_Sandbis_6.wav</ShortName>
-					<Path>SFX\S_SFX_Footsteps_Sandbis_6_56D34C19.wem</Path>
+				<File Id="990093908" Language="SFX">
+					<ShortName>Water_Out\Water_Out_01.wav</ShortName>
+					<Path>SFX\Water_Out\Water_Out_01_C70D3D56.wem</Path>
+				</File>
+				<File Id="998929950" Language="SFX">
+					<ShortName>Neutral_earth_2.wav</ShortName>
+					<Path>SFX\Neutral_earth_2_56D34C19.wem</Path>
+				</File>
+				<File Id="1007421856" Language="SFX">
+					<ShortName>Jump_Sand_05.wav</ShortName>
+					<Path>SFX\Jump_Sand_05_56D34C19.wem</Path>
+				</File>
+				<File Id="1044963177" Language="SFX">
+					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_09.wav</ShortName>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_09_56D34C19.wem</Path>
+				</File>
+				<File Id="1052072078" Language="SFX">
+					<ShortName>Rock_3.wav</ShortName>
+					<Path>SFX\Rock_3_56D34C19.wem</Path>
+				</File>
+				<File Id="1058505165" Language="SFX">
+					<ShortName>Water_In\Water_In_05.wav</ShortName>
+					<Path>SFX\Water_In\Water_In_05_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

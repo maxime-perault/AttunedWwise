@@ -5,16 +5,16 @@
 			<ChildrenList>
 				<SoundBank Name="AttunedSoundBank" ID="{C48E8700-F2D3-4B7C-80E9-D669F0D950A5}">
 					<ObjectInclusionList>
-						<ObjectRef Name="S_SFX_Footstep_Neutral" ID="{3BF075EB-AE9B-4046-94B2-379E020736FB}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Water_Glide" ID="{683C3049-5181-405B-8881-BA4F2211D625}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Sinus220" ID="{FBB306F3-AAC7-44AE-AF40-447F413A23D5}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Sinus440" ID="{10C2AF26-8239-45A0-9B55-1191E1374D50}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_SFX_Footsteps" ID="{35DCD41A-32BE-40CA-8710-89F08ACF700A}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_SFX_Water_In" ID="{0739D871-5DC9-432A-AB57-3D08FF262409}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Dash_Rock" ID="{403283D7-2FA3-46C8-B649-29B8AA8A97DA}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="S_SFX_Footstep_Rock" ID="{DD8A7154-CFA9-4734-91C1-86032F585D11}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Explosion_Rock" ID="{EC57F84C-4CBB-4770-A5E0-AD888E431750}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="S_SFX_Jump_Neutral" ID="{49A27A41-5DFB-489C-8F41-3F4062626CBD}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_SFX_Cloth_Jump_Start" ID="{AF056122-0FDD-47C1-98B7-9FEE789377C2}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Jump_Neutral_Impact" ID="{A0CF59F4-E912-48D0-8E19-62D9F60F9AC5}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="S_SFX_Footstep_Sand" ID="{6C2B28E9-099A-4E09-B8D0-AD8F639E3117}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_SFX_Jump_Sand_Impact" ID="{6AF08622-6A14-48DB-B11A-F4D48E7C2EA0}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_SFX_Water_Out" ID="{9084E7E4-CFAC-4A17-9087-4259DE8A9723}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_SFX_Water_Axe_Change" ID="{053FF8A0-125A-4E32-9E1A-AD5DFCAC2637}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

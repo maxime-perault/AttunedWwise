@@ -3,13 +3,25 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{FA888D7B-739A-4A97-BE47-8701250D36CA}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Water_Glide" ID="{9A2AF9D0-6E14-422A-9980-BB0F3603BDC6}"/>
-				<GameParameter Name="New_Game_Parameter" ID="{75AECCD3-B6E0-467E-8370-99ADB15174F5}"/>
+				<GameParameter Name="Water_Speed" ID="{75AECCD3-B6E0-467E-8370-99ADB15174F5}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 				<GameParameter Name="SideChain_loud_sfx" ID="{779B5D16-CC68-49E2-A7CC-0D9FC56E0C22}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="-48"/>
 						<Property Name="Max" Type="Real64" Value="0"/>
 						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Foot_Speed" ID="{5F3FFFE2-4A91-440E-9191-82E2738BB989}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>
