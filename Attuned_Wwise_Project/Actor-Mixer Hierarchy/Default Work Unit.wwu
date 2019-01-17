@@ -1101,7 +1101,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Soundseed" ID="{2AD9E6BE-9DE6-4D69-A30B-F2B8180EABA2}" ShortID="822792409">
+								<Sound Name="Wind_01" ID="{2AD9E6BE-9DE6-4D69-A30B-F2B8180EABA2}" ShortID="822792409">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
@@ -1141,7 +1141,7 @@
 										<ActiveSource Name="SoundSeed Air Wind" ID="{B4E77EFF-6B71-415A-B18C-8D07DD570AE3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Wind" ID="{3713A44A-949C-41DA-93B0-8A61167401C0}" ShortID="627911246">
+								<Sound Name="Wind_02" ID="{3713A44A-949C-41DA-93B0-8A61167401C0}" ShortID="627911246">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
