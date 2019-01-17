@@ -35,8 +35,8 @@ Effect plug-ins	ID	Name	Type				Notes
 	386679994	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	16550408	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Wind_Atmosphere\Wind\SoundSeed Air Wind	
-	290029165	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Wind_Atmosphere\Soundseed\SoundSeed Air Wind	
+	16550408	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Wind_Atmosphere\Wind_02\SoundSeed Air Wind	
+	290029165	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Wind_Atmosphere\Wind_01\SoundSeed Air Wind	
 	649122594	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Terrain_Wind_Speed\SoundSeed Air Wind	
 	861734045	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Water_Glide\Glide\Wind_Speed\SoundSeed Air Wind	
 
