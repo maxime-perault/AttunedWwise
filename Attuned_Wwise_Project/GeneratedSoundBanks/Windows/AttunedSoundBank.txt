@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	727030578	S_SFX_Water_In			\Default Work Unit\S_SFX_Water_In	
 	784655102	S_SFX_Water_Glide			\Default Work Unit\S_SFX_Water_Glide	
 	1421783309	S_SFX_Water_Out			\Default Work Unit\S_SFX_Water_Out	
+	1994281723	S_SFX_Terrain_Wind_Speed			\Default Work Unit\S_SFX_Terrain_Wind_Speed	
 	2215696624	S_SFX_Jump_Neutral_Impact			\Default Work Unit\S_SFX_Jump_Neutral_Impact	
 	3597130940	S_SFX_Water_Axe_Change			\Default Work Unit\S_SFX_Water_Axe_Change	
 	3816297981	S_SFX_Jump_Sand_Impact			\Default Work Unit\S_SFX_Jump_Sand_Impact	
@@ -22,6 +23,7 @@ Switch	ID	Name	Switch Group			Notes
 	2144363834	Rock	Footsteps			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1031126193	Terrain_Wind_Speed			\Default Work Unit\Terrain_Wind_Speed	
 	2580519121	Foot_Speed			\Default Work Unit\Foot_Speed	
 	3789669546	Water_Speed			\Default Work Unit\Water_Speed	
 
@@ -35,6 +37,7 @@ Effect plug-ins	ID	Name	Type				Notes
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	16550408	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Wind_Atmosphere\Wind\SoundSeed Air Wind	
 	290029165	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Wind_Atmosphere\Soundseed\SoundSeed Air Wind	
+	649122594	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Terrain_Wind_Speed\SoundSeed Air Wind	
 	861734045	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Water_Glide\Glide\Wind_Speed\SoundSeed Air Wind	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

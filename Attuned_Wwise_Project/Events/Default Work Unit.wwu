@@ -217,6 +217,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="S_SFX_Terrain_Wind_Speed" ID="{422E4C02-B08F-4B60-B848-16C9AB1E61EC}">
+					<ChildrenList>
+						<Action Name="" ID="{B6447946-BDB0-4339-8437-529B4D29E83A}" ShortID="626465267">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Terrain_Wind_Speed" ID="{CBB641F2-50DB-4B0C-8A33-6FC3CA0420AC}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

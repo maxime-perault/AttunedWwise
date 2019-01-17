@@ -15,6 +15,7 @@
 						<ObjectRef Name="S_SFX_Jump_Neutral_Impact" ID="{A0CF59F4-E912-48D0-8E19-62D9F60F9AC5}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Jump_Sand_Impact" ID="{6AF08622-6A14-48DB-B11A-F4D48E7C2EA0}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Water_Out" ID="{9084E7E4-CFAC-4A17-9087-4259DE8A9723}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_SFX_Terrain_Wind_Speed" ID="{422E4C02-B08F-4B60-B848-16C9AB1E61EC}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Water_Axe_Change" ID="{053FF8A0-125A-4E32-9E1A-AD5DFCAC2637}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

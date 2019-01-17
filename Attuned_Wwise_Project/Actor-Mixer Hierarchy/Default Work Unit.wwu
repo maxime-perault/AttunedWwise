@@ -869,6 +869,151 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Terrain_Wind_Speed" ID="{CBB641F2-50DB-4B0C-8A33-6FC3CA0420AC}" ShortID="585282839">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{71F21944-32A3-4DE5-A7ED-183AA40E00AA}" ShortID="745989069">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F57AB673-FA32-4BEE-8E94-61D324C863F1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-720</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>1740</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{0625EC2A-8255-452F-8D35-B09792AD4EAD}" ShortID="461877650">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F94CF34A-CD30-453B-9DFA-D9BADE1DA6FB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-0.10926</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="SoundSeed Air Wind" ID="{0CCFE745-CE7A-4FBC-9421-ACB0DC4EAF9C}" ShortID="649122594" PluginName="SoundSeed Air Wind" CompanyID="0" PluginID="119">
+									<PropertyList>
+										<Property Name="AverageVelocity" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{47ABA72D-E70E-4963-8FB3-1D74C2A0CAAB}" ShortID="243295737">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E4C7512E-FB41-4D3D-8C5F-965283C5F1FC}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>463.76813</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="FrequencyScale" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{CF7A555A-3C69-4E0D-B780-F01A3029AF99}" ShortID="155581075">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FEA11932-D174-4B1F-B084-AFE0C429B90D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-0.3285</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<PluginData/>
+									<PluginInnerObjectList>
+										<List Name="Deflectors">
+											<PluginInnerObject Name="" ID="{6BBAB116-61C0-475C-9F44-6B7A18186072}" PluginName="Deflector" CompanyID="0" PluginID="121"/>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SoundSeed Air Wind" ID="{0CCFE745-CE7A-4FBC-9421-ACB0DC4EAF9C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
@@ -883,6 +1028,9 @@
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="S_SFX_Footstep_Sand_Deep" ID="{A8D233D5-FDB4-47CD-9A91-814B39AFF680}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Terrain_Wind_Speed" ID="{CBB641F2-50DB-4B0C-8A33-6FC3CA0420AC}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="S_SFX_Footstep_Sand_Thin" ID="{F8C969F3-0DC9-4EC2-8A49-E369F7FF1D76}"/>

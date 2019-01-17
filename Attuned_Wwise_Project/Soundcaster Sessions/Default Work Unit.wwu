@@ -10,6 +10,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Terrain_Wind_Speed" ID="{CBB641F2-50DB-4B0C-8A33-6FC3CA0420AC}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="S_SFX_Cloth_Jump_Start" ID="{18EDB0B7-695E-4E9D-9D7A-9C6B77D75A1B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -89,7 +93,11 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Water_Speed" ID="{75AECCD3-B6E0-467E-8370-99ADB15174F5}"/>
-							<Value>0.67</Value>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}"/>
+							<Value>0.82</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
