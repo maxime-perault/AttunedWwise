@@ -193,6 +193,30 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="S_Ambience_Wind_Atmosphere" ID="{E895164E-A12A-40F9-B27F-C8523A3A8BF4}">
+					<ChildrenList>
+						<Action Name="" ID="{2E030800-EE83-4260-BE45-8BCF427983F2}" ShortID="753737104">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundseed" ID="{2AD9E6BE-9DE6-4D69-A30B-F2B8180EABA2}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{94C2BE4E-BDAE-47E8-AC3B-0A9D97B17E85}" ShortID="530791825">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind" ID="{3713A44A-949C-41DA-93B0-8A61167401C0}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

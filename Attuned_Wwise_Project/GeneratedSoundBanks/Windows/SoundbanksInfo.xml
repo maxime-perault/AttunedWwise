@@ -21,6 +21,7 @@
 			<ShortName>AttunedSoundBank</ShortName>
 			<Path>AttunedSoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3822226847" Name="S_Ambience_Wind_Atmosphere" ObjectPath="\Events\Default Work Unit\S_Ambience_Wind_Atmosphere"/>
 				<Event Id="626905557" Name="S_SFX_Cloth_Jump_Start" ObjectPath="\Events\Default Work Unit\S_SFX_Cloth_Jump_Start"/>
 				<Event Id="4236223805" Name="S_SFX_Dash_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Dash_Rock"/>
 				<Event Id="210248148" Name="S_SFX_Explosion_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Explosion_Rock"/>

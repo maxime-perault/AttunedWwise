@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2215696624	S_SFX_Jump_Neutral_Impact			\Default Work Unit\S_SFX_Jump_Neutral_Impact	
 	3597130940	S_SFX_Water_Axe_Change			\Default Work Unit\S_SFX_Water_Axe_Change	
 	3816297981	S_SFX_Jump_Sand_Impact			\Default Work Unit\S_SFX_Jump_Sand_Impact	
+	3822226847	S_Ambience_Wind_Atmosphere			\Default Work Unit\S_Ambience_Wind_Atmosphere	
 	4236223805	S_SFX_Dash_Rock			\Default Work Unit\S_SFX_Dash_Rock	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -32,6 +33,8 @@ Effect plug-ins	ID	Name	Type				Notes
 	386679994	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	16550408	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Wind_Atmosphere\Wind\SoundSeed Air Wind	
+	290029165	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Wind_Atmosphere\Soundseed\SoundSeed Air Wind	
 	861734045	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Water_Glide\Glide\Wind_Speed\SoundSeed Air Wind	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

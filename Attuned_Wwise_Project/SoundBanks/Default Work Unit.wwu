@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="S_SFX_Water_Glide" ID="{683C3049-5181-405B-8881-BA4F2211D625}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Footsteps" ID="{35DCD41A-32BE-40CA-8710-89F08ACF700A}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_Ambience_Wind_Atmosphere" ID="{E895164E-A12A-40F9-B27F-C8523A3A8BF4}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Water_In" ID="{0739D871-5DC9-432A-AB57-3D08FF262409}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Dash_Rock" ID="{403283D7-2FA3-46C8-B649-29B8AA8A97DA}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Explosion_Rock" ID="{EC57F84C-4CBB-4770-A5E0-AD888E431750}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
