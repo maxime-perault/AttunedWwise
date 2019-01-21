@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	210248148	S_SFX_Explosion_Rock			\Default Work Unit\S_SFX_Explosion_Rock	
+	570017673	Play_test_reverb			\Default Work Unit\Play_test_reverb	
 	626905557	S_SFX_Cloth_Jump_Start			\Default Work Unit\S_SFX_Cloth_Jump_Start	
 	722645744	S_SFX_Footsteps			\Default Work Unit\S_SFX_Footsteps	
 	727030578	S_SFX_Water_In			\Default Work Unit\S_SFX_Water_In	
@@ -33,6 +34,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	235101016	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 	368904480	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 	386679994	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
+	2568407992	Church	iZotope Hybrid Reverb			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	16550408	SoundSeed Air Wind	SoundSeed Air Wind		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Wind_Atmosphere\Wind_02\SoundSeed Air Wind	
@@ -64,7 +66,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	245829089	Rock_2	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Rock_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Rock\Rock_2		87920
 	268275696	Jump_Sand_02	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Jump_Sand_02_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\S_SFX_Jump_Sand_Impact\Jump_Sand_02		140636
 	276649637	Cloth_Jump_Start_04	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Cloth_Jump_Start\Cloth_Jump_Start_04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\S_SFX_Cloth_Jump_Start\Cloth_Jump_Start_04		140636
-	287677286	Water_Out_02	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Water_Out\Water_Out_02_15E678DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Water_Glide\Water_Out\Water_Out_02		319316
+	287677286	Water_Out_02	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Water_Out\Water_Out_02_2D1A0F60.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Water_Glide\Water_Out\Water_Out_02		319316
 	288949398	Jump_Sand_07	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Jump_Sand_07_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\S_SFX_Jump_Sand_Impact\Jump_Sand_07		248476
 	318552797	Explosion_Rock_4	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Explosion_Rock\Explosion_Rock_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Explosion_Rock\Explosion_Rock_4		386036
 	338030450	Jump_Neutral_Impact_03	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Jump_Neutral_Impact_03_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\S_SFX_Jump_Neutral_Impact\Jump_Neutral_Impact_03		140636
@@ -106,10 +108,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	897292130	Sand_V2_02	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Sand_V2_02_FEE17549.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Sand_Thin\Sand_V2_02		60988
 	950407684	Water_In_04	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Water_In\Water_In_04_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Water_Glide\Water_In\Water_In_04		332108
 	969973501	Water_Axe_Change_08	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Water_Axe_Change\Water_Axe_Change_08_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Water_Glide\Water_Axe_Change\Water_Axe_Change_08		214244
-	990093908	Water_Out_01	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Water_Out\Water_Out_01_C70D3D56.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Water_Glide\Water_Out\Water_Out_01		205240
+	990093908	test-reverb	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Water_Out\Water_Out_01_8F3C1EF9.wem		\Actor-Mixer Hierarchy\Default Work Unit\test-reverb		205240
 	998929950	Neutral_earth_2	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Neutral_earth_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Neutral_Earth\Neutral_earth_2		70352
 	1007421856	Jump_Sand_05	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Jump_Sand_05_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\S_SFX_Jump_Sand_Impact\Jump_Sand_05		281204
 	1044963177	Cloth_Jump_Start_09	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Cloth_Jump_Start\Cloth_Jump_Start_09_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\S_SFX_Cloth_Jump_Start\Cloth_Jump_Start_09		140636
 	1052072078	Rock_3	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Rock_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Rock\Rock_3		85892
 	1058505165	Water_In_05	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Water_In\Water_In_05_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Water_Glide\Water_In\Water_In_05		279280
+
+Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
+	810134381	Church	C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\Plugins\iZotope Hybrid Reverb\Church_EFD2FDC5.wem	iZotope Hybrid Reverb (Shared)	\Effects\Factory iZotope Hybrid Reverb Effects\Church		135460
 

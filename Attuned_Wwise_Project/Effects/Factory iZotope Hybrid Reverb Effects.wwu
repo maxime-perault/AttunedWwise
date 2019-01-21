@@ -59,12 +59,14 @@
 				</Effect>
 				<Effect Name="Church" ID="{B650CF1D-D9BA-43E2-A1FD-B54404971299}" PluginName="iZotope Hybrid Reverb" CompanyID="259" PluginID="2" PluginType="3">
 					<PropertyList>
-						<Property Name="DecayHighFrequency" Type="Real32" Value="8000"/>
+						<Property Name="DecayHighFrequency" Type="Real32" Value="800"/>
 						<Property Name="DecayHighRatio" Type="Real32" Value="0.6264278"/>
 						<Property Name="DecayLowFrequency" Type="Real32" Value="800"/>
 						<Property Name="DecayLowRatio" Type="Real32" Value="1.169077"/>
 						<Property Name="DecayMidRatio" Type="Real32" Value="1.204495"/>
-						<Property Name="DecayTime" Type="Real32" Value="0.6851689"/>
+						<Property Name="DecayTime" Type="Real32" Value="0.125"/>
+						<Property Name="FrontDry" Type="Real32" Value="-8.4"/>
+						<Property Name="RearDry" Type="Real32" Value="1.3"/>
 					</PropertyList>
 					<ChildrenList>
 						<PluginMediaSource Name="Church" ID="{576DC51E-8E05-4A63-889A-C10208ED7D54}" ShortID="810134381">
