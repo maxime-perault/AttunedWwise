@@ -22,6 +22,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
+	419691232	New_Wwise_Recorder	Wwise Recorder			
 	1067243857	Wwise Meter (Custom)	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes

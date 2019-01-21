@@ -21,6 +21,7 @@
 			<ShortName>AttunedSoundBank</ShortName>
 			<Path>AttunedSoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="570017673" Name="Play_test_reverb" ObjectPath="\Events\Default Work Unit\Play_test_reverb"/>
 				<Event Id="3822226847" Name="S_Ambience_Wind_Atmosphere" ObjectPath="\Events\Default Work Unit\S_Ambience_Wind_Atmosphere"/>
 				<Event Id="626905557" Name="S_SFX_Cloth_Jump_Start" ObjectPath="\Events\Default Work Unit\S_SFX_Cloth_Jump_Start"/>
 				<Event Id="4236223805" Name="S_SFX_Dash_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Dash_Rock"/>
@@ -254,6 +255,10 @@
 				<File Id="803219860" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_3.wav</ShortName>
 					<Path>SFX\Explosion_Rock\Explosion_Rock_3_56D34C19.wem</Path>
+				</File>
+				<File Id="810134381" Language="SFX">
+					<ShortName>Church.wav</ShortName>
+					<Path>Plugins\iZotope Hybrid Reverb\Church_EFD2FDC5.wem</Path>
 				</File>
 				<File Id="818233503" Language="SFX">
 					<ShortName>Sand_V1_04.wav</ShortName>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{00CC75D9-2A30-45DD-A6B8-245F706EB16E}" SchemaVersion="89">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{00CC75D9-2A30-45DD-A6B8-245F706EB16E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{00CC75D9-2A30-45DD-A6B8-245F706EB16E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Recorder" ID="{429E74F1-5D61-4491-A4D1-8624A612E667}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

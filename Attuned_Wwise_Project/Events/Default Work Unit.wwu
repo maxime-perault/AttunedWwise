@@ -231,6 +231,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_test_reverb" ID="{1B7D189E-6A70-4371-8567-10AC25ABA9B7}">
+					<ChildrenList>
+						<Action Name="" ID="{8DAF4181-7E54-4063-8CDA-081EA4170593}" ShortID="884445866">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="test-reverb" ID="{2228B6A4-E5DB-4530-A4CF-3CAE8A5E9EED}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
