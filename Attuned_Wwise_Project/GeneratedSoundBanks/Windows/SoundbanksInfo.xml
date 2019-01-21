@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -129,7 +129,7 @@
 				</File>
 				<File Id="287677286" Language="SFX">
 					<ShortName>Water_Out\Water_Out_02.wav</ShortName>
-					<Path>SFX\Water_Out\Water_Out_02_15E678DD.wem</Path>
+					<Path>SFX\Water_Out\Water_Out_02_2D1A0F60.wem</Path>
 				</File>
 				<File Id="288949398" Language="SFX">
 					<ShortName>Jump_Sand_07.wav</ShortName>
@@ -297,7 +297,7 @@
 				</File>
 				<File Id="990093908" Language="SFX">
 					<ShortName>Water_Out\Water_Out_01.wav</ShortName>
-					<Path>SFX\Water_Out\Water_Out_01_C70D3D56.wem</Path>
+					<Path>SFX\Water_Out\Water_Out_01_8F3C1EF9.wem</Path>
 				</File>
 				<File Id="998929950" Language="SFX">
 					<ShortName>Neutral_earth_2.wav</ShortName>
