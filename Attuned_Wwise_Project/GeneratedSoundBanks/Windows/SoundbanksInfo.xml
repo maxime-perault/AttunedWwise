@@ -29,6 +29,7 @@
 				<Event Id="722645744" Name="S_SFX_Footsteps" ObjectPath="\Events\Default Work Unit\S_SFX_Footsteps"/>
 				<Event Id="2215696624" Name="S_SFX_Jump_Neutral_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Neutral_Impact"/>
 				<Event Id="3816297981" Name="S_SFX_Jump_Sand_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Sand_Impact"/>
+				<Event Id="528538789" Name="S_SFX_Stop_Glide" ObjectPath="\Events\Default Work Unit\S_SFX_Stop_Glide"/>
 				<Event Id="1994281723" Name="S_SFX_Terrain_Wind_Speed" ObjectPath="\Events\Default Work Unit\S_SFX_Terrain_Wind_Speed"/>
 				<Event Id="3597130940" Name="S_SFX_Water_Axe_Change" ObjectPath="\Events\Default Work Unit\S_SFX_Water_Axe_Change"/>
 				<Event Id="784655102" Name="S_SFX_Water_Glide" ObjectPath="\Events\Default Work Unit\S_SFX_Water_Glide"/>
