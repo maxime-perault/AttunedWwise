@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\marie.david\Documents\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,20 +21,19 @@
 			<ShortName>AttunedSoundBank</ShortName>
 			<Path>AttunedSoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="570017673" Name="Play_test_reverb" ObjectPath="\Events\Default Work Unit\Play_test_reverb"/>
-				<Event Id="3822226847" Name="S_Ambience_Wind_Atmosphere" ObjectPath="\Events\Default Work Unit\S_Ambience_Wind_Atmosphere"/>
-				<Event Id="626905557" Name="S_SFX_Cloth_Jump_Start" ObjectPath="\Events\Default Work Unit\S_SFX_Cloth_Jump_Start"/>
-				<Event Id="4236223805" Name="S_SFX_Dash_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Dash_Rock"/>
-				<Event Id="210248148" Name="S_SFX_Explosion_Rock" ObjectPath="\Events\Default Work Unit\S_SFX_Explosion_Rock"/>
-				<Event Id="722645744" Name="S_SFX_Footsteps" ObjectPath="\Events\Default Work Unit\S_SFX_Footsteps"/>
-				<Event Id="2215696624" Name="S_SFX_Jump_Neutral_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Neutral_Impact"/>
-				<Event Id="3816297981" Name="S_SFX_Jump_Sand_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_Sand_Impact"/>
-				<Event Id="528538789" Name="S_SFX_Stop_Glide" ObjectPath="\Events\Default Work Unit\S_SFX_Stop_Glide"/>
-				<Event Id="1994281723" Name="S_SFX_Terrain_Wind_Speed" ObjectPath="\Events\Default Work Unit\S_SFX_Terrain_Wind_Speed"/>
-				<Event Id="3597130940" Name="S_SFX_Water_Axe_Change" ObjectPath="\Events\Default Work Unit\S_SFX_Water_Axe_Change"/>
-				<Event Id="784655102" Name="S_SFX_Water_Glide" ObjectPath="\Events\Default Work Unit\S_SFX_Water_Glide"/>
-				<Event Id="727030578" Name="S_SFX_Water_In" ObjectPath="\Events\Default Work Unit\S_SFX_Water_In"/>
-				<Event Id="1421783309" Name="S_SFX_Water_Out" ObjectPath="\Events\Default Work Unit\S_SFX_Water_Out"/>
+				<Event Id="3822226847" Name="S_Ambience_Wind_Atmosphere" ObjectPath="\Events\Default Work Unit\Ambience\S_Ambience_Wind_Atmosphere"/>
+				<Event Id="626905557" Name="S_SFX_Cloth_Jump_Start" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Cloth_Jump_Start"/>
+				<Event Id="4236223805" Name="S_SFX_Dash_Rock" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Dash_Rock"/>
+				<Event Id="210248148" Name="S_SFX_Explosion_Rock" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Explosion_Rock"/>
+				<Event Id="722645744" Name="S_SFX_Footsteps" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Footsteps"/>
+				<Event Id="2215696624" Name="S_SFX_Jump_Neutral_Impact" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Jump_Neutral_Impact"/>
+				<Event Id="3816297981" Name="S_SFX_Jump_Sand_Impact" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Jump_Sand_Impact"/>
+				<Event Id="528538789" Name="S_SFX_Stop_Glide" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Stop_Glide"/>
+				<Event Id="1994281723" Name="S_SFX_Terrain_Wind_Speed" ObjectPath="\Events\Default Work Unit\Ambience\S_SFX_Terrain_Wind_Speed"/>
+				<Event Id="3597130940" Name="S_SFX_Water_Axe_Change" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_Axe_Change"/>
+				<Event Id="784655102" Name="S_SFX_Water_Glide" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_Glide"/>
+				<Event Id="727030578" Name="S_SFX_Water_In" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_In"/>
+				<Event Id="1421783309" Name="S_SFX_Water_Out" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_Out"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="9921030" Language="SFX">
@@ -61,9 +60,29 @@
 					<ShortName>Neutral_Temple_02.wav</ShortName>
 					<Path>SFX\Neutral_Temple_02_8AD7D01D.wem</Path>
 				</File>
+				<File Id="56152404" Language="SFX">
+					<ShortName>Dash\Dash_Voicekit_03.wav</ShortName>
+					<Path>SFX\Dash\Dash_Voicekit_03_B9AE2E31.wem</Path>
+				</File>
+				<File Id="59018201" Language="SFX">
+					<ShortName>Jump_End\JumpEnd_Voickit_03.wav</ShortName>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_03_56D34C19.wem</Path>
+				</File>
 				<File Id="60064663" Language="SFX">
 					<ShortName>Sand_V2_03.wav</ShortName>
 					<Path>SFX\Sand_V2_03_56D34C19.wem</Path>
+				</File>
+				<File Id="71182020" Language="SFX">
+					<ShortName>Jump_End\JumpEnd_Voickit_06.wav</ShortName>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_06_56D34C19.wem</Path>
+				</File>
+				<File Id="97843282" Language="SFX">
+					<ShortName>Jump_End\JumpEnd_Voickit_04.wav</ShortName>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_04_56D34C19.wem</Path>
+				</File>
+				<File Id="104269959" Language="SFX">
+					<ShortName>Jump_Start\JumpStart_Voickit_02.wav</ShortName>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_02_56D34C19.wem</Path>
 				</File>
 				<File Id="109372009" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_06.wav</ShortName>
@@ -93,9 +112,21 @@
 					<ShortName>Rock_02.wav</ShortName>
 					<Path>SFX\Rock_02_56D34C19.wem</Path>
 				</File>
+				<File Id="135381122" Language="SFX">
+					<ShortName>Broken_Rock\BrokenRock_Voickit_07.wav</ShortName>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_07_56D34C19.wem</Path>
+				</File>
+				<File Id="137751712" Language="SFX">
+					<ShortName>Jump_End\JumpEnd_Voickit_07.wav</ShortName>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_07_56D34C19.wem</Path>
+				</File>
 				<File Id="159553393" Language="SFX">
 					<ShortName>Neutral_Temple_03.wav</ShortName>
 					<Path>SFX\Neutral_Temple_03_2A2A2540.wem</Path>
+				</File>
+				<File Id="169664777" Language="SFX">
+					<ShortName>Dash\Dash_Voicekit_05.wav</ShortName>
+					<Path>SFX\Dash\Dash_Voicekit_05_29E4AE91.wem</Path>
 				</File>
 				<File Id="181625886" Language="SFX">
 					<ShortName>Jump_Sand_03.wav</ShortName>
@@ -121,9 +152,17 @@
 					<ShortName>Rock_2.wav</ShortName>
 					<Path>SFX\Rock_2_56D34C19.wem</Path>
 				</File>
+				<File Id="267587800" Language="SFX">
+					<ShortName>Jump_Start\JumpStart_Voickit_01.wav</ShortName>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_01_56D34C19.wem</Path>
+				</File>
 				<File Id="268275696" Language="SFX">
 					<ShortName>Jump_Sand_02.wav</ShortName>
 					<Path>SFX\Jump_Sand_02_56D34C19.wem</Path>
+				</File>
+				<File Id="274068828" Language="SFX">
+					<ShortName>Jump_Start\JumpStart_Voickit_08.wav</ShortName>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_08_56D34C19.wem</Path>
 				</File>
 				<File Id="276649637" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_04.wav</ShortName>
@@ -137,6 +176,10 @@
 					<ShortName>Jump_Sand_07.wav</ShortName>
 					<Path>SFX\Jump_Sand_07_56D34C19.wem</Path>
 				</File>
+				<File Id="289569212" Language="SFX">
+					<ShortName>Jump_End\JumpEnd_Voickit_01.wav</ShortName>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_01_56D34C19.wem</Path>
+				</File>
 				<File Id="318552797" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_4.wav</ShortName>
 					<Path>SFX\Explosion_Rock\Explosion_Rock_4_56D34C19.wem</Path>
@@ -145,9 +188,25 @@
 					<ShortName>Jump_Neutral_Impact_03.wav</ShortName>
 					<Path>SFX\Jump_Neutral_Impact_03_56D34C19.wem</Path>
 				</File>
+				<File Id="340965368" Language="SFX">
+					<ShortName>Water_Out\Water_Out_01.wav</ShortName>
+					<Path>SFX\Water_Out\Water_Out_01_AB9A4B35.wem</Path>
+				</File>
+				<File Id="355749244" Language="SFX">
+					<ShortName>Jump_Start\JumpStart_Voickit_04.wav</ShortName>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_04_56D34C19.wem</Path>
+				</File>
 				<File Id="364724400" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_04.wav</ShortName>
 					<Path>SFX\Water_Axe_Change\Water_Axe_Change_04_56D34C19.wem</Path>
+				</File>
+				<File Id="370504841" Language="SFX">
+					<ShortName>Broken_Rock\BrokenRock_Voickit_04.wav</ShortName>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_04_56D34C19.wem</Path>
+				</File>
+				<File Id="380825031" Language="SFX">
+					<ShortName>Jump_Start\JumpStart_Voickit_03.wav</ShortName>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_03_56D34C19.wem</Path>
 				</File>
 				<File Id="384432404" Language="SFX">
 					<ShortName>Sand_V2_01.wav</ShortName>
@@ -159,7 +218,15 @@
 				</File>
 				<File Id="421914021" Language="SFX">
 					<ShortName>Water_In\Water_In_01.wav</ShortName>
-					<Path>SFX\Water_In\Water_In_01_56D34C19.wem</Path>
+					<Path>SFX\Water_In\Water_In_01_690A3235.wem</Path>
+				</File>
+				<File Id="435972597" Language="SFX">
+					<ShortName>Dash\Dash_VoiceKit_02.wav</ShortName>
+					<Path>SFX\Dash\Dash_VoiceKit_02_A0446322.wem</Path>
+				</File>
+				<File Id="476394009" Language="SFX">
+					<ShortName>Jump_End\JumpEnd_Voickit_02.wav</ShortName>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_02_56D34C19.wem</Path>
 				</File>
 				<File Id="487228937" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_5.wav</ShortName>
@@ -171,7 +238,7 @@
 				</File>
 				<File Id="525562156" Language="SFX">
 					<ShortName>Water_In\Water_In_03.wav</ShortName>
-					<Path>SFX\Water_In\Water_In_03_56D34C19.wem</Path>
+					<Path>SFX\Water_In\Water_In_03_7ED92F19.wem</Path>
 				</File>
 				<File Id="532913117" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_08.wav</ShortName>
@@ -184,6 +251,10 @@
 				<File Id="542128448" Language="SFX">
 					<ShortName>Jump_Neutral_Impact_02.wav</ShortName>
 					<Path>SFX\Jump_Neutral_Impact_02_56D34C19.wem</Path>
+				</File>
+				<File Id="543179606" Language="SFX">
+					<ShortName>Dash\Dash_VoiceKit_01.wav</ShortName>
+					<Path>SFX\Dash\Dash_VoiceKit_01_4D720835.wem</Path>
 				</File>
 				<File Id="584492632" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_01.wav</ShortName>
@@ -225,13 +296,17 @@
 					<ShortName>Rock_1.wav</ShortName>
 					<Path>SFX\Rock_1_56D34C19.wem</Path>
 				</File>
+				<File Id="712614809" Language="SFX">
+					<ShortName>Broken_Rock\BrokenRock_Voickit_01.wav</ShortName>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_01_56D34C19.wem</Path>
+				</File>
 				<File Id="722658148" Language="SFX">
 					<ShortName>Neutral_Temple_01.wav</ShortName>
 					<Path>SFX\Neutral_Temple_01_A7ABDD0B.wem</Path>
 				</File>
 				<File Id="742107628" Language="SFX">
 					<ShortName>Water_In\Water_In_02.wav</ShortName>
-					<Path>SFX\Water_In\Water_In_02_56D34C19.wem</Path>
+					<Path>SFX\Water_In\Water_In_02_29064DC3.wem</Path>
 				</File>
 				<File Id="748112971" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_2.wav</ShortName>
@@ -241,9 +316,17 @@
 					<ShortName>Water_Axe_Change\Water_Axe_Change_03.wav</ShortName>
 					<Path>SFX\Water_Axe_Change\Water_Axe_Change_03_56D34C19.wem</Path>
 				</File>
+				<File Id="761076149" Language="SFX">
+					<ShortName>Dash\Dash_Voicekit_04.wav</ShortName>
+					<Path>SFX\Dash\Dash_Voicekit_04_251C4704.wem</Path>
+				</File>
 				<File Id="780541535" Language="SFX">
 					<ShortName>Rock_4.wav</ShortName>
 					<Path>SFX\Rock_4_56D34C19.wem</Path>
+				</File>
+				<File Id="790919215" Language="SFX">
+					<ShortName>Env_Brown_Noise_Loop.wav</ShortName>
+					<Path>SFX\Env_Brown_Noise_Loop_8956FC97.wem</Path>
 				</File>
 				<File Id="791604576" Language="SFX">
 					<ShortName>Rock_01.wav</ShortName>
@@ -253,21 +336,29 @@
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_06.wav</ShortName>
 					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_06_56D34C19.wem</Path>
 				</File>
+				<File Id="802155764" Language="SFX">
+					<ShortName>Dash\Dash_Voicekit_06.wav</ShortName>
+					<Path>SFX\Dash\Dash_Voicekit_06_2C48F737.wem</Path>
+				</File>
 				<File Id="803219860" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_3.wav</ShortName>
 					<Path>SFX\Explosion_Rock\Explosion_Rock_3_56D34C19.wem</Path>
-				</File>
-				<File Id="810134381" Language="SFX">
-					<ShortName>Church.wav</ShortName>
-					<Path>Plugins\iZotope Hybrid Reverb\Church_EFD2FDC5.wem</Path>
 				</File>
 				<File Id="818233503" Language="SFX">
 					<ShortName>Sand_V1_04.wav</ShortName>
 					<Path>SFX\Sand_V1_04_56D34C19.wem</Path>
 				</File>
+				<File Id="818503871" Language="SFX">
+					<ShortName>Broken_Rock\BrokenRock_Voickit_05.wav</ShortName>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_05_56D34C19.wem</Path>
+				</File>
+				<File Id="823668542" Language="SFX">
+					<ShortName>Jump_Start\JumpStart_Voickit_05.wav</ShortName>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_05_56D34C19.wem</Path>
+				</File>
 				<File Id="833861451" Language="SFX">
 					<ShortName>Dash_Rock.wav</ShortName>
-					<Path>SFX\Dash_Rock_B0919ED1.wem</Path>
+					<Path>SFX\Dash_Rock_114A48B2.wem</Path>
 				</File>
 				<File Id="848271311" Language="SFX">
 					<ShortName>Sand_V1_03.wav</ShortName>
@@ -275,7 +366,7 @@
 				</File>
 				<File Id="848575906" Language="SFX">
 					<ShortName>S_SFX_Dash_Rock.wav</ShortName>
-					<Path>SFX\S_SFX_Dash_Rock_56D34C19.wem</Path>
+					<Path>SFX\S_SFX_Dash_Rock_8F941A03.wem</Path>
 				</File>
 				<File Id="859308396" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_05.wav</ShortName>
@@ -293,21 +384,37 @@
 					<ShortName>Sand_V2_02.wav</ShortName>
 					<Path>SFX\Sand_V2_02_FEE17549.wem</Path>
 				</File>
+				<File Id="918955241" Language="SFX">
+					<ShortName>Broken_Rock\BrokenRock_Voickit_06.wav</ShortName>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_06_56D34C19.wem</Path>
+				</File>
+				<File Id="920320048" Language="SFX">
+					<ShortName>Broken_Rock\BrokenRock_Voickit_02.wav</ShortName>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_02_56D34C19.wem</Path>
+				</File>
+				<File Id="939654181" Language="SFX">
+					<ShortName>Jump_End\JumpEnd_Voickit_05.wav</ShortName>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_05_56D34C19.wem</Path>
+				</File>
 				<File Id="950407684" Language="SFX">
 					<ShortName>Water_In\Water_In_04.wav</ShortName>
-					<Path>SFX\Water_In\Water_In_04_56D34C19.wem</Path>
+					<Path>SFX\Water_In\Water_In_04_4936448A.wem</Path>
+				</File>
+				<File Id="967541556" Language="SFX">
+					<ShortName>Broken_Rock\BrokenRock_Voickit_03.wav</ShortName>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_03_56D34C19.wem</Path>
 				</File>
 				<File Id="969973501" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_08.wav</ShortName>
 					<Path>SFX\Water_Axe_Change\Water_Axe_Change_08_56D34C19.wem</Path>
 				</File>
-				<File Id="990093908" Language="SFX">
-					<ShortName>Water_Out\Water_Out_01.wav</ShortName>
-					<Path>SFX\Water_Out\Water_Out_01_8F3C1EF9.wem</Path>
-				</File>
 				<File Id="998929950" Language="SFX">
 					<ShortName>Neutral_earth_2.wav</ShortName>
 					<Path>SFX\Neutral_earth_2_56D34C19.wem</Path>
+				</File>
+				<File Id="1006875054" Language="SFX">
+					<ShortName>Jump_Start\JumpStart_Voickit_07.wav</ShortName>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_07_56D34C19.wem</Path>
 				</File>
 				<File Id="1007421856" Language="SFX">
 					<ShortName>Jump_Sand_05.wav</ShortName>
@@ -324,6 +431,10 @@
 				<File Id="1058505165" Language="SFX">
 					<ShortName>Water_In\Water_In_05.wav</ShortName>
 					<Path>SFX\Water_In\Water_In_05_56D34C19.wem</Path>
+				</File>
+				<File Id="1070909009" Language="SFX">
+					<ShortName>Jump_Start\JumpStart_Voickit_06.wav</ShortName>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_06_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

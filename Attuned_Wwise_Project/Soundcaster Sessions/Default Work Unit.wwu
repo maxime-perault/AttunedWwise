@@ -3,63 +3,75 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{D6591D68-02DE-4908-A306-123E2275319F}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="SFX" ID="{6EBBCC0E-65EE-4AA1-B242-30302B60CB5D}">
+				<SoundcasterSession Name="Main" ID="{6EBBCC0E-65EE-4AA1-B242-30302B60CB5D}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Footsteps" ID="{45AC36D4-177B-4B72-B6B2-5F8B4BE2B619}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<ObjectRef Name="S_SFX_Footsteps" ID="{35DCD41A-32BE-40CA-8710-89F08ACF700A}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Terrain_Wind_Speed" ID="{CBB641F2-50DB-4B0C-8A33-6FC3CA0420AC}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-							<Position X="0" Y="1"/>
+							<ObjectRef Name="S_Ambience_Corridor" ID="{D8045F3F-7263-4468-A518-CCCEA68F6120}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="S_SFX_Cloth_Jump_Start" ID="{18EDB0B7-695E-4E9D-9D7A-9C6B77D75A1B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<ObjectRef Name="Sing_Valhalla_1" ID="{3923EB27-8BE3-4B86-897F-E050ECCDC875}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Whisper" ID="{AB417304-23B4-4267-BBAC-756FA8755A7B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_SFX_Cloth_Jump_Start" ID="{AF056122-0FDD-47C1-98B7-9FEE789377C2}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="S_SFX_Jump_Sand_Impact" ID="{433DCB86-200D-4E7E-A2ED-668D71004E44}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<ObjectRef Name="S_SFX_Jump_Neutral_Impact" ID="{A0CF59F4-E912-48D0-8E19-62D9F60F9AC5}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="S_SFX_Jump_Neutral_Impact" ID="{EA9F7882-5166-4D48-AA1E-30D5633B354A}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<ObjectRef Name="S_SFX_Jump_Sand_Impact" ID="{6AF08622-6A14-48DB-B11A-F4D48E7C2EA0}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Explosion_Rock" ID="{3DF6FC57-B781-41F6-BE54-B887E17072B4}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Dash" ID="{BAB5C8A6-ECD8-421B-A3BB-CE8A5CA6AB59}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Water_glide_01" ID="{0095C941-E366-4469-B504-AD4A52B60095}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-							<Position X="3" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Wind_Speed" ID="{C660348F-D6B0-4271-B34B-92382832F832}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-							<Position X="3" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Water_Axe_Change" ID="{070CA215-6A6A-478F-9322-1D3EBC62843B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-							<Position X="3" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Water_In" ID="{3794D159-427C-4322-80A9-17CA751CB34B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-							<Position X="3" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Water_Out" ID="{E5B96A34-04E9-4345-9831-53D5BDB27342}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-							<Position X="3" Y="4"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="S_SFX_Water_Glide" ID="{683C3049-5181-405B-8881-BA4F2211D625}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
-							<Position X="4" Y="0"/>
+							<ObjectRef Name="S_Ambience_Sand_Terrain" ID="{8069911D-8520-43E1-8937-615871F298B0}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="S_Ambience_Wind_Atmosphere" ID="{E895164E-A12A-40F9-B27F-C8523A3A8BF4}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
-							<Position X="4" Y="1"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_SFX_Dash_Rock" ID="{403283D7-2FA3-46C8-B649-29B8AA8A97DA}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_SFX_Explosion_Rock" ID="{EC57F84C-4CBB-4770-A5E0-AD888E431750}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_Ambience_Rock_Terrain" ID="{11546E29-69FE-4166-9C6D-59D0C44348C5}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_SFX_Water_Glide" ID="{683C3049-5181-405B-8881-BA4F2211D625}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_SFX_Water_Axe_Change" ID="{053FF8A0-125A-4E32-9E1A-AD5DFCAC2637}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_SFX_Water_In" ID="{0739D871-5DC9-432A-AB57-3D08FF262409}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_SFX_Water_Out" ID="{9084E7E4-CFAC-4A17-9087-4259DE8A9723}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_Ambience_Water_Terrain" ID="{8E2D7544-A94A-4C77-9176-635C034C6EC7}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -93,7 +105,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}"/>
-							<Value>1.29888120652511E-311</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
@@ -130,7 +142,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>
+						<CurrentSwitchRef Name="Sand_Deep" ID="{B964C572-45F5-4E19-984C-EB973BD624C1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

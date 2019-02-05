@@ -3,276 +3,652 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{289293B5-F196-40D6-B5D2-13B33EF88828}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="S_SFX_Explosion_Rock" ID="{EC57F84C-4CBB-4770-A5E0-AD888E431750}">
+				<Folder Name="Ambience" ID="{0E41350B-AC2D-4524-88F8-B09CB270623E}" ShortID="956208170">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="26"/>
+						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{FE08A513-AD95-4DEB-8048-D7405D38630C}" ShortID="672421298">
+						<Event Name="S_Ambience_Wind_Atmosphere" ID="{E895164E-A12A-40F9-B27F-C8523A3A8BF4}">
+							<ChildrenList>
+								<Action Name="" ID="{2E030800-EE83-4260-BE45-8BCF427983F2}" ShortID="753737104">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_01" ID="{2AD9E6BE-9DE6-4D69-A30B-F2B8180EABA2}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{94C2BE4E-BDAE-47E8-AC3B-0A9D97B17E85}" ShortID="530791825">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_02" ID="{3713A44A-949C-41DA-93B0-8A61167401C0}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2E12CD96-0511-491B-914C-3F20AA844485}" ShortID="409552872">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Brown_Noise_Loop" ID="{73646F3D-820D-48E0-88A0-4B705A4E5281}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Ambience_Corridor" ID="{D8045F3F-7263-4468-A518-CCCEA68F6120}">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Explosion_Rock" ID="{3DF6FC57-B781-41F6-BE54-B887E17072B4}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+							<ChildrenList>
+								<Action Name="" ID="{E23D1776-B194-455C-89F3-AA2006CF9E94}" ShortID="1072343806">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Corridor_atmosphere_loop" ID="{64F1DC28-4115-485A-B389-1F2E5775227C}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B51BF497-5C47-463A-BAE0-A738D3209359}" ShortID="991805164">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Ambience" ID="{51FE112A-330A-4FC9-B804-A5C26597DDBE}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Ambience_Sand_Terrain" ID="{8069911D-8520-43E1-8937-615871F298B0}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{9FEE5C61-3873-468B-9A96-DC65AB8ED8AA}" ShortID="473093846">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Sand_Particules" ID="{C9580E3C-A659-44FB-B993-A31FC99CF250}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0D316AA9-9886-4034-A4D4-351B4370903C}" ShortID="911551403">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Sand_Sliding" ID="{7C2E54D3-2271-4C6D-B4B9-706F66A5F0FA}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6D13994E-18A3-4C8F-82B0-669D9A7C22B8}" ShortID="453871612">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Brown_Noise_Sand_Loop" ID="{3744BA92-6722-46C0-92D2-5CC6A1CDCE00}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4F19B0E8-A556-4F76-B9FC-2FC6E4EA5C50}" ShortID="232473943">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sand_Thrown_01" ID="{8AF23C3F-F7F3-4B0F-A1BC-8BB24CE8CFA5}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Ambience_Water_Terrain" ID="{8E2D7544-A94A-4C77-9176-635C034C6EC7}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{2CE46986-822C-47F1-A283-7A1B632330A5}" ShortID="1014443515">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Surface" ID="{A4597DA4-EC6D-4486-BE64-95033C32DF45}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6F29CA0F-9E2D-446F-B62B-82A7B51F5D35}" ShortID="914202094">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Brown_Noise_Water_Loop" ID="{317F7F7D-E3C9-4418-BD03-63CA2FD54ADA}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CB25C53F-3383-4075-A170-B95489F08C3C}" ShortID="425119708">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_env_loop" ID="{65A5D953-109B-4E25-B6F5-5D39BF80D49D}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Ambience_Rock_Terrain" ID="{11546E29-69FE-4166-9C6D-59D0C44348C5}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{CF98021E-8689-4C55-AFE4-47072DDC095D}" ShortID="736449667">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock Falls" ID="{699C21F9-1706-420A-BCCE-56BCF6743C8B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C9B0CF1C-0953-437A-86FC-D03F2498334D}" ShortID="770457133">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock_Slide_Random" ID="{78796896-6B24-4196-AEB8-2CB0C2BC9B32}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{20944051-F6EB-41EF-9261-BC48223C5E06}" ShortID="936466457">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Brown_Noise_Rock_Loop" ID="{F7845D9E-6967-4A2A-BD23-2E9B17CE2D00}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8BBE2489-3264-4065-8220-70C96C8FF5F0}" ShortID="176557599">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock_Slide_Env" ID="{73639A98-7354-4A0B-AEF2-F05D37715E13}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Terrain_Wind_Speed" ID="{8D842559-7B22-4E93-BB5E-34A2C106D7A7}">
+							<ChildrenList>
+								<Action Name="" ID="{A0CCB837-DD8D-4F6D-8736-2E937C460D5C}" ShortID="454289940">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Speed" ID="{7F659B23-FCC9-4FAD-9AA2-E8D0CF2A3FFB}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Ambience_Corridor" ID="{4245090F-7EB4-4E69-B71B-ABB80A3AFC5E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{785FF5E3-905A-4A95-9874-66117051011D}" ShortID="565061128">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Corridor_atmosphere_loop" ID="{64F1DC28-4115-485A-B389-1F2E5775227C}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3C5DD92B-CCB6-4891-A1B0-9F6C156DF536}" ShortID="802174083">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Ambience" ID="{51FE112A-330A-4FC9-B804-A5C26597DDBE}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Ambience_Rock_Terrain" ID="{0D7B0144-336A-4956-B23D-B9C5C946FC54}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{FE309668-6366-481B-8858-CFF9DC6E16A3}" ShortID="845700683">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock Falls" ID="{699C21F9-1706-420A-BCCE-56BCF6743C8B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{968E3C8E-BA51-4E52-AF71-23EE20060A85}" ShortID="425824572">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock_Slide_Random" ID="{78796896-6B24-4196-AEB8-2CB0C2BC9B32}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FA60CDEF-61D4-45E8-9B8D-BC9AA4FBA315}" ShortID="178627871">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Brown_Noise_Rock_Loop" ID="{F7845D9E-6967-4A2A-BD23-2E9B17CE2D00}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{19A29B5D-B4D1-492F-A97F-569964A7733B}" ShortID="220140591">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock_Slide_Env" ID="{73639A98-7354-4A0B-AEF2-F05D37715E13}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Ambience_Sand_Terrain" ID="{6DE8E38D-3FA4-420A-AFA7-895161B7CFE4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{7B408A4A-5094-4720-8126-A7C8BF49AB05}" ShortID="628751985">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Sand_Particules" ID="{C9580E3C-A659-44FB-B993-A31FC99CF250}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A09C935F-21D6-4F2E-A19B-A56D59401F50}" ShortID="1042871392">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Sand_Sliding" ID="{7C2E54D3-2271-4C6D-B4B9-706F66A5F0FA}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5EA32B02-94EC-411C-AC12-7A9813BED0FD}" ShortID="621583162">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Brown_Noise_Sand_Loop" ID="{3744BA92-6722-46C0-92D2-5CC6A1CDCE00}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C3D4A418-D955-4584-8854-8F8CF3C0CFB3}" ShortID="325083444">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sand_Thrown_01" ID="{8AF23C3F-F7F3-4B0F-A1BC-8BB24CE8CFA5}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Ambience_Water_Terrain" ID="{21AE0B7E-61DB-4C3C-88BA-5B2297292B27}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{250F68F2-5D04-454B-A8CD-4C9133140C7A}" ShortID="668865518">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Surface" ID="{A4597DA4-EC6D-4486-BE64-95033C32DF45}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A86B3984-0665-44BC-940F-40D287131858}" ShortID="1008097963">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Env_Brown_Noise_Water_Loop" ID="{317F7F7D-E3C9-4418-BD03-63CA2FD54ADA}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0B286758-11F2-4C3B-90FE-929C98114C76}" ShortID="534397416">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_env_loop" ID="{65A5D953-109B-4E25-B6F5-5D39BF80D49D}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Terrain_Wind_Speed" ID="{422E4C02-B08F-4B60-B848-16C9AB1E61EC}">
+							<ChildrenList>
+								<Action Name="" ID="{B6447946-BDB0-4339-8437-529B4D29E83A}" ShortID="626465267">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Speed" ID="{7F659B23-FCC9-4FAD-9AA2-E8D0CF2A3FFB}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Jump_Neutral_Impact" ID="{A0CF59F4-E912-48D0-8E19-62D9F60F9AC5}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="23"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
+				</Folder>
+				<Folder Name="SFX" ID="{63704EE3-5338-4201-9A20-DD10DE56EC5E}" ShortID="281022147">
 					<ChildrenList>
-						<Action Name="" ID="{4F8CADB2-B4E8-4272-B6C0-2F33FB98B17E}" ShortID="921765485">
+						<Event Name="S_SFX_Explosion_Rock" ID="{EC57F84C-4CBB-4770-A5E0-AD888E431750}">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="S_SFX_Jump_Neutral_Impact" ID="{EA9F7882-5166-4D48-AA1E-30D5633B354A}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+							<ChildrenList>
+								<Action Name="" ID="{FE08A513-AD95-4DEB-8048-D7405D38630C}" ShortID="672421298">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Explosion_Rock" ID="{3DF6FC57-B781-41F6-BE54-B887E17072B4}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{21C88773-F0F9-4EB0-A301-F93882521429}" ShortID="60150869">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Broken_Rock" ID="{7769364B-5640-4056-922C-9F61118111BD}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Water_Axe_Change" ID="{053FF8A0-125A-4E32-9E1A-AD5DFCAC2637}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{89ED37D9-D300-4C3C-B837-CA66D59C8C78}" ShortID="399568874">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Axe_Change" ID="{070CA215-6A6A-478F-9322-1D3EBC62843B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Stop_Glide" ID="{EBD00280-FDF4-4232-98B9-4BDF7742DF4F}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{D85136C7-FBAE-492B-8344-7340D5531178}" ShortID="562814500">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Glide" ID="{962ABA7C-AED2-4C23-B1DC-DE7582A201E1}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Cloth_Jump_Start" ID="{AF056122-0FDD-47C1-98B7-9FEE789377C2}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{B5653A61-24B0-420A-9B64-567D2027480D}" ShortID="236996058">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_SFX_Cloth_Jump_Start" ID="{18EDB0B7-695E-4E9D-9D7A-9C6B77D75A1B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E430BB9E-3DC8-476F-859F-B48D1059C94E}" ShortID="340194655">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump_Start" ID="{2419752D-0B1A-419C-966A-4264D6A00765}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Water_Glide" ID="{683C3049-5181-405B-8881-BA4F2211D625}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{5EA15701-13EB-4ED2-B6FE-F4805504665B}" ShortID="141343014">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_glide_01" ID="{0095C941-E366-4469-B504-AD4A52B60095}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Jump_Neutral_Impact" ID="{A0CF59F4-E912-48D0-8E19-62D9F60F9AC5}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{4F8CADB2-B4E8-4272-B6C0-2F33FB98B17E}" ShortID="921765485">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_SFX_Jump_Neutral_Impact" ID="{EA9F7882-5166-4D48-AA1E-30D5633B354A}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A631DD45-B6F3-49A3-93AC-E1417FB51D04}" ShortID="395521112">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump_End" ID="{CC088F6A-0998-4CE8-A6EC-79073C5A7171}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Water_Out" ID="{9084E7E4-CFAC-4A17-9087-4259DE8A9723}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{7EFC5500-06C7-47DC-A7A4-7990012EA244}" ShortID="659891096">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Out" ID="{E5B96A34-04E9-4345-9831-53D5BDB27342}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Dash_Rock" ID="{403283D7-2FA3-46C8-B649-29B8AA8A97DA}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{0FE22B40-282B-4E31-87EF-81A9FA19ECDB}" ShortID="250623709">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dash" ID="{BAB5C8A6-ECD8-421B-A3BB-CE8A5CA6AB59}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{118B018C-232B-4B27-865B-03A6FD871987}" ShortID="83783369">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dash" ID="{D24E6C2E-5593-4C84-ABB3-7D2F0C73E7C9}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Jump_Sand_Impact" ID="{6AF08622-6A14-48DB-B11A-F4D48E7C2EA0}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{969CDF46-83F8-4859-932F-C533522CDF22}" ShortID="252213567">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_SFX_Jump_Sand_Impact" ID="{433DCB86-200D-4E7E-A2ED-668D71004E44}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8C1B3F39-6061-4AAB-AE8C-14E662D9525A}" ShortID="838105597">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump_End" ID="{CC088F6A-0998-4CE8-A6EC-79073C5A7171}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Water_In" ID="{0739D871-5DC9-432A-AB57-3D08FF262409}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{09604581-B074-40C2-9DDB-B3474D376494}" ShortID="434194440">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_In" ID="{3794D159-427C-4322-80A9-17CA751CB34B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Footsteps" ID="{35DCD41A-32BE-40CA-8710-89F08ACF700A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{20AB99BE-9646-4DA7-AFB7-0D00FB171306}" ShortID="183168330">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{45AC36D4-177B-4B72-B6B2-5F8B4BE2B619}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Dash_Rock" ID="{403283D7-2FA3-46C8-B649-29B8AA8A97DA}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="26"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{0FE22B40-282B-4E31-87EF-81A9FA19ECDB}" ShortID="250623709">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dash" ID="{BAB5C8A6-ECD8-421B-A3BB-CE8A5CA6AB59}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Water_Glide" ID="{683C3049-5181-405B-8881-BA4F2211D625}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="2"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{5EA15701-13EB-4ED2-B6FE-F4805504665B}" ShortID="141343014">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Water_glide_01" ID="{0095C941-E366-4469-B504-AD4A52B60095}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{A10E1969-EC56-44D7-ABED-774959B51667}" ShortID="804230539">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Wind_Speed" ID="{C660348F-D6B0-4271-B34B-92382832F832}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Footsteps" ID="{35DCD41A-32BE-40CA-8710-89F08ACF700A}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="9"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{20AB99BE-9646-4DA7-AFB7-0D00FB171306}" ShortID="183168330">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{45AC36D4-177B-4B72-B6B2-5F8B4BE2B619}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Jump_Sand_Impact" ID="{6AF08622-6A14-48DB-B11A-F4D48E7C2EA0}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="20"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{969CDF46-83F8-4859-932F-C533522CDF22}" ShortID="252213567">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="S_SFX_Jump_Sand_Impact" ID="{433DCB86-200D-4E7E-A2ED-668D71004E44}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Cloth_Jump_Start" ID="{AF056122-0FDD-47C1-98B7-9FEE789377C2}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="16"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{B5653A61-24B0-420A-9B64-567D2027480D}" ShortID="236996058">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="S_SFX_Cloth_Jump_Start" ID="{18EDB0B7-695E-4E9D-9D7A-9C6B77D75A1B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Water_Axe_Change" ID="{053FF8A0-125A-4E32-9E1A-AD5DFCAC2637}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="2"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{89ED37D9-D300-4C3C-B837-CA66D59C8C78}" ShortID="399568874">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Water_Axe_Change" ID="{070CA215-6A6A-478F-9322-1D3EBC62843B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Water_In" ID="{0739D871-5DC9-432A-AB57-3D08FF262409}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="2"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{09604581-B074-40C2-9DDB-B3474D376494}" ShortID="434194440">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Water_In" ID="{3794D159-427C-4322-80A9-17CA751CB34B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Water_Out" ID="{9084E7E4-CFAC-4A17-9087-4259DE8A9723}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="2"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{7EFC5500-06C7-47DC-A7A4-7990012EA244}" ShortID="659891096">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Water_Out" ID="{E5B96A34-04E9-4345-9831-53D5BDB27342}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_Ambience_Wind_Atmosphere" ID="{E895164E-A12A-40F9-B27F-C8523A3A8BF4}">
-					<ChildrenList>
-						<Action Name="" ID="{2E030800-EE83-4260-BE45-8BCF427983F2}" ShortID="753737104">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Wind_01" ID="{2AD9E6BE-9DE6-4D69-A30B-F2B8180EABA2}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{94C2BE4E-BDAE-47E8-AC3B-0A9D97B17E85}" ShortID="530791825">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Wind_02" ID="{3713A44A-949C-41DA-93B0-8A61167401C0}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Terrain_Wind_Speed" ID="{422E4C02-B08F-4B60-B848-16C9AB1E61EC}">
-					<ChildrenList>
-						<Action Name="" ID="{B6447946-BDB0-4339-8437-529B4D29E83A}" ShortID="626465267">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Terrain_Wind_Speed" ID="{CBB641F2-50DB-4B0C-8A33-6FC3CA0420AC}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_test_reverb" ID="{1B7D189E-6A70-4371-8567-10AC25ABA9B7}">
-					<ChildrenList>
-						<Action Name="" ID="{8DAF4181-7E54-4063-8CDA-081EA4170593}" ShortID="884445866">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="test-reverb" ID="{2228B6A4-E5DB-4530-A4CF-3CAE8A5E9EED}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Stop_Glide" ID="{EBD00280-FDF4-4232-98B9-4BDF7742DF4F}">
-					<ChildrenList>
-						<Action Name="" ID="{D85136C7-FBAE-492B-8344-7340D5531178}" ShortID="562814500">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Glide" ID="{962ABA7C-AED2-4C23-B1DC-DE7582A201E1}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Terrain_Wind_Speed" ID="{8D842559-7B22-4E93-BB5E-34A2C106D7A7}">
-					<ChildrenList>
-						<Action Name="" ID="{A0CCB837-DD8D-4F6D-8736-2E937C460D5C}" ShortID="454289940">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Terrain_Wind_Speed" ID="{CBB641F2-50DB-4B0C-8A33-6FC3CA0420AC}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
