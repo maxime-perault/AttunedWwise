@@ -85,7 +85,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Foot_Speed" ID="{5F3FFFE2-4A91-440E-9191-82E2738BB989}"/>
-							<Value>0.876698014629049</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
@@ -142,7 +142,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Sand_Deep" ID="{B964C572-45F5-4E19-984C-EB973BD624C1}"/>
+						<CurrentSwitchRef Name="Rock" ID="{F5FFF549-71BD-4045-AA4B-FD2FBB87F558}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
