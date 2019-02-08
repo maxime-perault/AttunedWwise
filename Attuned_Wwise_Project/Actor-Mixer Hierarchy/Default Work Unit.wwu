@@ -3899,9 +3899,20 @@
 						<RandomSequenceContainer Name="Explosion_Rock" ID="{3DF6FC57-B781-41F6-BE54-B887E17072B4}" ShortID="681768631">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
@@ -4897,12 +4908,25 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-720</YPos>
+														<YPos>-512</YPos>
 														<Flags>5</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.20167</XPos>
+														<YPos>-593</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.87252</XPos>
+														<YPos>-363</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>240</YPos>
+														<YPos>-325</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -4912,7 +4936,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-6</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{808475AC-D62E-409F-A242-77D659C77117}" ShortID="528046578">
@@ -4928,13 +4952,25 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-13.97941</YPos>
+														<YPos>-2.21115</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
+														<XPos>0.19749</XPos>
+														<YPos>-2.17114</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0.87878</XPos>
+														<YPos>-2.37045</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
 														<XPos>1</XPos>
-														<YPos>-3.41392</YPos>
+														<YPos>-2.13996</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -4969,12 +5005,19 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>0</YPos>
+																<YPos>-958.16834</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.28284</XPos>
+																<YPos>-382.48664</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>1</XPos>
-																<YPos>249.54293</YPos>
+																<YPos>-178.22213</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -4997,12 +5040,22 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-0.24645</YPos>
+																<YPos>-0.20111</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
+																<XPos>0.29941</XPos>
+																<YPos>-0.16089</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.87692</XPos>
+																<YPos>-0.06257</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
 																<XPos>1</XPos>
-																<YPos>-0.10256</YPos>
+																<YPos>-0.03013</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -5027,10 +5080,17 @@
 																<XPos>0</XPos>
 																<YPos>0</YPos>
 																<Flags>5</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0.61538</XPos>
+																<YPos>0.2394</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>1</XPos>
-																<YPos>0.40531</YPos>
+																<YPos>0.45845</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -7343,6 +7403,10 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Door" ID="{DD1D7055-3F26-4134-8A99-F621E5EBD158}" ShortID="537932421">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -7355,7 +7419,6 @@
 						<Sound Name="S_SFX_Door_Chains" ID="{D440C28F-027A-4DB8-BF32-D0254C8CEDF1}" ShortID="397005210">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -7425,7 +7488,6 @@
 						<Sound Name="S_SFX_Door_Open" ID="{6DCBA070-F198-4BF6-94D0-FB3807C02902}" ShortID="826411215">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-4</Value>
@@ -7500,6 +7562,10 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Gameplay" ID="{39429619-6F27-4C37-A30C-994298C898C7}" ShortID="106989808">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -7514,7 +7580,6 @@
 								<Property Name="3DPosition" Type="int16" Value="1"/>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
@@ -7678,8 +7743,8 @@
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="1"/>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
@@ -7743,7 +7808,61 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Archs_01" ID="{D4884AD6-5150-4599-BFFE-A46DA1F490A5}" ShortID="705051460">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{8B2A5C76-22EF-41A0-BF4A-7256C7DD5C46}" ShortID="345583145">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="1"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{D7C301D1-8346-4326-A480-79F7CAD45E4A}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>1</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
 										</Reference>
