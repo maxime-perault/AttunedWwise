@@ -43,34 +43,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="S_Ambience_Corridor" ID="{D8045F3F-7263-4468-A518-CCCEA68F6120}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="14"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<Action Name="" ID="{E23D1776-B194-455C-89F3-AA2006CF9E94}" ShortID="1072343806">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Corridor_atmosphere_loop" ID="{64F1DC28-4115-485A-B389-1F2E5775227C}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{B51BF497-5C47-463A-BAE0-A738D3209359}" ShortID="991805164">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Random_Ambience" ID="{51FE112A-330A-4FC9-B804-A5C26597DDBE}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="S_Ambience_Sand_Terrain" ID="{8069911D-8520-43E1-8937-615871F298B0}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="20"/>
@@ -219,34 +191,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Stop_Ambience_Corridor" ID="{4245090F-7EB4-4E69-B71B-ABB80A3AFC5E}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="14"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<Action Name="" ID="{785FF5E3-905A-4A95-9874-66117051011D}" ShortID="565061128">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Corridor_atmosphere_loop" ID="{64F1DC28-4115-485A-B389-1F2E5775227C}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{3C5DD92B-CCB6-4891-A1B0-9F6C156DF536}" ShortID="802174083">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Random_Ambience" ID="{51FE112A-330A-4FC9-B804-A5C26597DDBE}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Stop_Ambience_Rock_Terrain" ID="{0D7B0144-336A-4956-B23D-B9C5C946FC54}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="26"/>
@@ -390,6 +334,222 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Wind_Speed" ID="{7F659B23-FCC9-4FAD-9AA2-E8D0CF2A3FFB}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Ambience_Sing_03" ID="{EE441C8A-ADC7-45E0-9D62-AA1C9F9624FF}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{A68061D5-F4A1-45EB-8EF7-12D14AA3FBAA}" ShortID="879034232">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sing_Valhalla_3" ID="{EE08D7C3-BD72-4264-91B6-9057A7C09F58}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Ambience_Sing_01" ID="{96AACD51-729D-4A17-B52C-DD91524B7A41}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{D0EF0CA2-8306-4B14-8F0C-6E1EA13927D4}" ShortID="653142358">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sing_Valhalla_1" ID="{3923EB27-8BE3-4B86-897F-E050ECCDC875}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Ambience_Sing_02" ID="{9903F733-7A95-4510-9EDB-C030BE55A610}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{D731A34F-2AD1-4BC2-9CDA-BEFD61223681}" ShortID="196266607">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sing_Valhalla_2" ID="{9292BC92-FF19-436C-B3AE-254DF3664386}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Ambience_Sing_04" ID="{345AE721-DDF4-4703-B6A2-9A97E34499FE}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{10C57DB9-9F9B-4274-934A-934928ECBEAB}" ShortID="910939030">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sing_Valhalla_4" ID="{74580ACD-8D1D-418C-A2B4-EE06DF65B5DB}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Ambience_Whisper" ID="{13E5E76A-1FA5-4B16-A4E6-7402BDE4A9A2}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{42CAA14D-0C1A-4FAD-B3F3-E4FD1AF7889C}" ShortID="124776048">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Whisper" ID="{AB417304-23B4-4267-BBAC-756FA8755A7B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_Random_Ambience" ID="{80266421-24E6-4BCD-87BA-704237AAFC43}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{AD8712D2-A0FC-410F-B8AF-933EE489B9EE}" ShortID="477805576">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Ambience" ID="{51FE112A-330A-4FC9-B804-A5C26597DDBE}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Sing_02" ID="{DC5E98E0-59AB-4E06-AC08-9E05C0510088}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{317FBB66-DE5F-4D86-B8F9-C09AC4490B39}" ShortID="919353340">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sing_Valhalla_2" ID="{9292BC92-FF19-436C-B3AE-254DF3664386}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Sing_03" ID="{B308EACD-7695-4231-BFC3-7DE03A40BEF2}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{150E82BB-1143-45C4-BBA5-0F564AEBF142}" ShortID="672724602">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sing_Valhalla_3" ID="{EE08D7C3-BD72-4264-91B6-9057A7C09F58}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Whisper" ID="{E0A19976-C892-4F3D-9B19-AF02009623F9}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{ECBF4D7A-B7B9-4683-84FB-C72026456B25}" ShortID="484293294">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Whisper" ID="{AB417304-23B4-4267-BBAC-756FA8755A7B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Random_Ambience" ID="{AB6D2F28-F44F-4963-8136-C2EF3C39861E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{31AE226B-7E60-4B24-9D1E-57D843482983}" ShortID="676750438">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Ambience" ID="{51FE112A-330A-4FC9-B804-A5C26597DDBE}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Sing_01" ID="{EC862124-BF39-4611-9C64-7DFFE47F4B0B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{62F5DBF2-DEE2-4BB8-B60C-A720054BDC6A}" ShortID="297782003">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sing_Valhalla_1" ID="{3923EB27-8BE3-4B86-897F-E050ECCDC875}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Sing_04" ID="{6030E7A1-48B8-4713-8895-4E92CAFD6F9F}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{C76353B9-7D5F-402D-A05B-9B7008277888}" ShortID="773823759">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sing_Valhalla_4" ID="{74580ACD-8D1D-418C-A2B4-EE06DF65B5DB}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -647,31 +807,131 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="S_SFX_Sand_Impulse" ID="{2D204634-B8DA-4457-9846-ED88E9F3F7D3}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{A45A9D47-7D4E-4FB8-B1DC-D403FC3B3D14}" ShortID="828534217">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sand_Impulse" ID="{B00F094C-5F9A-4E97-BCEF-41B0426B661F}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Door_Open" ID="{3B80E790-530E-4A1D-9145-EAF92B380F57}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="7"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{0F56EB37-0BE2-423E-9F08-5E600387CF83}" ShortID="570398524">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_SFX_Door_Open" ID="{6DCBA070-F198-4BF6-94D0-FB3807C02902}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Door_Chains" ID="{788F9784-D80F-41E9-A262-2A785474945F}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="7"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{BB986130-13C7-470A-8E93-B66699DEEB2B}" ShortID="853398794">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_SFX_Door_Chains" ID="{D440C28F-027A-4DB8-BF32-D0254C8CEDF1}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Archs_Activation" ID="{9DB07EF2-CFB4-4AB5-83D8-A7E2B859B78B}">
+							<ChildrenList>
+								<Action Name="" ID="{BE78542D-5A59-4D35-914C-AAE58B80FF22}" ShortID="925473331">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Archs" ID="{0DBE67D1-2114-407B-AB4B-1C46415668B9}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Receptors_Activation" ID="{A35F60D4-500B-4786-8DB3-1223D928FE21}">
+							<ChildrenList>
+								<Action Name="" ID="{34584C6F-91CA-427C-AEBE-C6475DE7D801}" ShortID="702766249">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Receptors" ID="{D492C256-BE7A-4E67-AC4E-9A4C44809099}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Jump_Temple_impact" ID="{31BF7B08-FD21-46F1-A87C-528D72C93E3D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="7"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{8DB76090-BE4B-453B-A8DC-33C80FCA0B2B}" ShortID="688736864">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_SFX_Jump_Temple_impact" ID="{126F308B-E709-4614-BB41-ED64FBEF2642}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SFX_Jump_Rock_Impact" ID="{BD6B0400-0A04-4AC6-BE94-555BD4786B49}">
+							<ChildrenList>
+								<Action Name="" ID="{9E0129CF-D353-41D9-B76D-1E9124044D00}" ShortID="243325107">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_SFX_Jump_Rock_Impact" ID="{F255AB03-18F0-4272-8076-D96F936AE6FA}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="S_SFX_Door_Chains" ID="{788F9784-D80F-41E9-A262-2A785474945F}">
+				<Event Name="Play_Music" ID="{F08827F9-AEF6-4C07-B300-552250FC178F}">
 					<ChildrenList>
-						<Action Name="" ID="{BB986130-13C7-470A-8E93-B66699DEEB2B}" ShortID="853398794">
+						<Action Name="" ID="{762FD865-5DE5-4716-981D-0B8A9B2A29E4}" ShortID="989423089">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="S_SFX_Door_Chains" ID="{D440C28F-027A-4DB8-BF32-D0254C8CEDF1}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="S_SFX_Door_Open" ID="{3B80E790-530E-4A1D-9145-EAF92B380F57}">
-					<ChildrenList>
-						<Action Name="" ID="{0F56EB37-0BE2-423E-9F08-5E600387CF83}" ShortID="570398524">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="S_SFX_Door_Open" ID="{6DCBA070-F198-4BF6-94D0-FB3807C02902}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+									<ObjectRef Name="Music" ID="{19AA06B1-DE5D-4F16-8447-CE927E7A72A8}" WorkUnitID="{73FACB83-3E67-4D97-BA1A-DE8162648059}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -10,8 +10,12 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="S_Ambience_Corridor" ID="{D8045F3F-7263-4468-A518-CCCEA68F6120}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
-							<Position X="0" Y="3"/>
+							<ObjectRef Name="S_SFX_Jump_Temple_impact" ID="{126F308B-E709-4614-BB41-ED64FBEF2642}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Sand_Impulse" ID="{B00F094C-5F9A-4E97-BCEF-41B0426B661F}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Sing_Valhalla_1" ID="{3923EB27-8BE3-4B86-897F-E050ECCDC875}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
@@ -42,6 +46,10 @@
 							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="S_SFX_Door_Chains" ID="{D440C28F-027A-4DB8-BF32-D0254C8CEDF1}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="S_SFX_Dash_Rock" ID="{403283D7-2FA3-46C8-B649-29B8AA8A97DA}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -50,8 +58,16 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="S_SFX_Jump_Rock_Impact" ID="{F255AB03-18F0-4272-8076-D96F936AE6FA}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="S_Ambience_Rock_Terrain" ID="{11546E29-69FE-4166-9C6D-59D0C44348C5}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
 							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="S_SFX_Door_Open" ID="{6DCBA070-F198-4BF6-94D0-FB3807C02902}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="2" Y="5"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="S_SFX_Water_Glide" ID="{683C3049-5181-405B-8881-BA4F2211D625}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
@@ -72,6 +88,14 @@
 						<Module>
 							<ObjectRef Name="S_Ambience_Water_Terrain" ID="{8E2D7544-A94A-4C77-9176-635C034C6EC7}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
 							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Archs" ID="{0DBE67D1-2114-407B-AB4B-1C46415668B9}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Receptors" ID="{D492C256-BE7A-4E67-AC4E-9A4C44809099}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="4" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -140,9 +164,12 @@
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Inactive" ID="{746002C9-D5AD-4A23-B2D5-7516ED5B78BD}"/>
+						<CurrentStateRef Name="State_08" ID="{DB1882D5-B051-4949-B8A9-7B8F050C013A}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Rock" ID="{F5FFF549-71BD-4045-AA4B-FD2FBB87F558}"/>
+						<CurrentSwitchRef Name="Neutral_Temple" ID="{8D564417-1D0F-4321-BB48-035CA09509D3}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
