@@ -923,20 +923,6 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Play_Music" ID="{F08827F9-AEF6-4C07-B300-552250FC178F}">
-					<ChildrenList>
-						<Action Name="" ID="{762FD865-5DE5-4716-981D-0B8A9B2A29E4}" ShortID="989423089">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music" ID="{19AA06B1-DE5D-4F16-8447-CE927E7A72A8}" WorkUnitID="{73FACB83-3E67-4D97-BA1A-DE8162648059}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Glide" ID="{D51FA0A1-CF9D-4C7C-9384-526B65ADD3F3}" ShortID="219374399">
 					<ChildrenList>
 						<Event Name="Layer_1" ID="{A47EBAD3-FAEB-4A13-8ADC-2524B0BC2E21}">

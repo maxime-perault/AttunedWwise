@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\antoine.danielou\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\antoine.danielou\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\antoine.danielou\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\vincent.stehly\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\antoine.danielou\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,7 +21,6 @@
 			<ShortName>AttunedSoundBank</ShortName>
 			<Path>AttunedSoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
 				<Event Id="1672519463" Name="S_Ambience_Rock_Terrain" ObjectPath="\Events\Default Work Unit\Ambience\S_Ambience_Rock_Terrain"/>
 				<Event Id="4249425982" Name="S_Ambience_Sand_Terrain" ObjectPath="\Events\Default Work Unit\Ambience\S_Ambience_Sand_Terrain"/>
 				<Event Id="670588715" Name="S_Ambience_Sing_01" ObjectPath="\Events\Default Work Unit\Ambience\S_Ambience_Sing_01"/>
@@ -126,10 +125,6 @@
 				<File Id="73572450" Language="SFX">
 					<ShortName>Jump_Temple_impact\Jump_Temple_impact_03.wav</ShortName>
 					<Path>SFX\Jump_Temple_impact\Jump_Temple_impact_03_56D34C19.wem</Path>
-				</File>
-				<File Id="75812127" Language="SFX">
-					<ShortName>State_3_Ph.wav</ShortName>
-					<Path>SFX\State_3_Ph_8956FC97.wem</Path>
 				</File>
 				<File Id="88472290" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_03.wav</ShortName>
@@ -427,10 +422,6 @@
 					<ShortName>Dash\Dash_VoiceKit_01.wav</ShortName>
 					<Path>SFX\Dash\Dash_VoiceKit_01_C2ED553B.wem</Path>
 				</File>
-				<File Id="551113761" Language="SFX">
-					<ShortName>State_08_Ph.wav</ShortName>
-					<Path>SFX\State_08_Ph_8956FC97.wem</Path>
-				</File>
 				<File Id="552018818" Language="SFX">
 					<ShortName>Whisper\Whisper_2.wav</ShortName>
 					<Path>SFX\Whisper\Whisper_2_56D34C19.wem</Path>
@@ -450,10 +441,6 @@
 				<File Id="586306831" Language="SFX">
 					<ShortName>Neutral_earth_3.wav</ShortName>
 					<Path>SFX\Neutral_earth_3_56D34C19.wem</Path>
-				</File>
-				<File Id="588966758" Language="SFX">
-					<ShortName>State_4_Ph.wav</ShortName>
-					<Path>SFX\State_4_Ph_8956FC97.wem</Path>
 				</File>
 				<File Id="595362506" Language="SFX">
 					<ShortName>Random_Sand_Sliding\Sand_Slidnig_04.wav</ShortName>
@@ -478,10 +465,6 @@
 				<File Id="612409165" Language="SFX">
 					<ShortName>Sing_Valhalla_3.wav</ShortName>
 					<Path>SFX\Sing_Valhalla_3_56D34C19.wem</Path>
-				</File>
-				<File Id="615115816" Language="SFX">
-					<ShortName>State_2_Ph.wav</ShortName>
-					<Path>SFX\State_2_Ph_8956FC97.wem</Path>
 				</File>
 				<File Id="617643359" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_02.wav</ShortName>
@@ -638,10 +621,6 @@
 				<File Id="848575906" Language="SFX">
 					<ShortName>S_SFX_Dash_Rock.wav</ShortName>
 					<Path>SFX\S_SFX_Dash_Rock_2BF35CD2.wem</Path>
-				</File>
-				<File Id="851090074" Language="SFX">
-					<ShortName>State_1_Ph.wav</ShortName>
-					<Path>SFX\State_1_Ph_8956FC97.wem</Path>
 				</File>
 				<File Id="852594658" Language="SFX">
 					<ShortName>Archs_01.wav</ShortName>

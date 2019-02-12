@@ -38,7 +38,6 @@
 						<ObjectRef Name="S_Ambience_Whisper" ID="{13E5E76A-1FA5-4B16-A4E6-7402BDE4A9A2}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Terrain_Wind_Speed" ID="{422E4C02-B08F-4B60-B848-16C9AB1E61EC}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_Random_Ambience" ID="{80266421-24E6-4BCD-87BA-704237AAFC43}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Music" ID="{F08827F9-AEF6-4C07-B300-552250FC178F}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Ambience_Water_Terrain" ID="{21AE0B7E-61DB-4C3C-88BA-5B2297292B27}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_Ambience_Water_Terrain" ID="{8E2D7544-A94A-4C77-9176-635C034C6EC7}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Sing_02" ID="{DC5E98E0-59AB-4E06-AC08-9E05C0510088}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>

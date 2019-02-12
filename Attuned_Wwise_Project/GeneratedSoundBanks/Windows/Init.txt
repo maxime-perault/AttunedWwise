@@ -1,33 +1,26 @@
 State Group	ID	Name			Wwise Object Path	Notes
-	2578456256	Percu_01			\Default Work Unit\Percu_01	
-	2578456258	Percu_03			\Default Work Unit\Percu_03	
-	2578456259	Percu_02			\Default Work Unit\Percu_02	
-	2578456260	Percu_05			\Default Work Unit\Percu_05	
-	2578456261	Percu_04			\Default Work Unit\Percu_04	
+	2275364416	Percu_Layer_03			\Default Work Unit\Percu_Layer_03	
+	2275364417	Percu_Layer_02			\Default Work Unit\Percu_Layer_02	
+	2275364418	Percu_Layer_01			\Default Work Unit\Percu_Layer_01	
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
-	0	None	Percu_01			
-	58138747	Active	Percu_01			
-	3163453698	Inactive	Percu_01			
-	0	None	Percu_03			
-	58138747	Active	Percu_03			
-	3163453698	Inactive	Percu_03			
-	0	None	Percu_02			
-	58138747	Active	Percu_02			
-	3163453698	Inactive	Percu_02			
-	0	None	Percu_05			
-	58138747	Active	Percu_05			
-	3163453698	Inactive	Percu_05			
-	0	None	Percu_04			
-	58138747	Active	Percu_04			
-	3163453698	Inactive	Percu_04			
+	0	None	Percu_Layer_03			
+	58138747	Active	Percu_Layer_03			
+	3163453698	Inactive	Percu_Layer_03			
+	0	None	Percu_Layer_02			
+	58138747	Active	Percu_Layer_02			
+	3163453698	Inactive	Percu_Layer_02			
+	0	None	Percu_Layer_01			
+	58138747	Active	Percu_Layer_01			
+	3163453698	Inactive	Percu_Layer_01			
 	0	None	Music			
-	3794091075	State_04	Music			
-	3794091076	State_03	Music			
-	3794091077	State_02	Music			
-	3794091078	State_01	Music			
-	3794091087	State_08	Music			
+	565529991	Final	Music			
+	764575084	Focus_Intro	Music			
+	2126046527	Cinematique_Door	Music			
+	3860618124	Glide_Outro	Music			
+	4063189299	Corridor	Music			
+	4284651479	Glide_Intro	Music			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
