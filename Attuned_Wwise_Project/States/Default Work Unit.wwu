@@ -6,61 +6,33 @@
 				<StateGroup Name="Music" ID="{BD7F8C56-C8C6-4D7F-8CC6-F233368DBB90}">
 					<ChildrenList>
 						<State Name="None" ID="{3EC27BC9-88C1-4F05-8C45-424CFF98303A}"/>
-						<State Name="State_01" ID="{49041118-EE56-4540-ADCF-C8607FFAF552}"/>
-						<State Name="State_02" ID="{F281E9EE-0DC6-4BE0-8DA1-F5AD8A85ED41}"/>
-						<State Name="State_03" ID="{76ADBC37-42AD-4FBE-B993-44CBBFB791DB}"/>
-						<State Name="State_08" ID="{DB1882D5-B051-4949-B8A9-7B8F050C013A}"/>
-						<State Name="State_04" ID="{47CA0E96-5ED5-4A71-8839-4397EF53B013}"/>
+						<State Name="Focus_Intro" ID="{49041118-EE56-4540-ADCF-C8607FFAF552}"/>
+						<State Name="Cinematique_Door" ID="{F281E9EE-0DC6-4BE0-8DA1-F5AD8A85ED41}"/>
+						<State Name="Corridor" ID="{76ADBC37-42AD-4FBE-B993-44CBBFB791DB}"/>
+						<State Name="Glide_Outro" ID="{DB1882D5-B051-4949-B8A9-7B8F050C013A}"/>
+						<State Name="Glide_Intro" ID="{47CA0E96-5ED5-4A71-8839-4397EF53B013}"/>
+						<State Name="Final" ID="{CB76D312-57C3-4F97-9AEB-5C43B140A349}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Percu_01" ID="{CD414D15-AA47-465C-9EC4-243AAA6F3E4A}">
-					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
-					</PropertyList>
+				<StateGroup Name="Percu_Layer_01" ID="{CD414D15-AA47-465C-9EC4-243AAA6F3E4A}">
 					<ChildrenList>
 						<State Name="None" ID="{C05B6D63-9F66-488D-95DA-CB277D715AAC}"/>
 						<State Name="Active" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}"/>
 						<State Name="Inactive" ID="{746002C9-D5AD-4A23-B2D5-7516ED5B78BD}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Percu_02" ID="{3AA2E265-BF5E-4CE7-B339-375221B9AF03}">
-					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
-					</PropertyList>
+				<StateGroup Name="Percu_Layer_02" ID="{3AA2E265-BF5E-4CE7-B339-375221B9AF03}">
 					<ChildrenList>
 						<State Name="None" ID="{E55A9498-1BAB-4365-B538-03E7B7D07BB9}"/>
 						<State Name="Active" ID="{D5ABB54E-2875-4FDD-B58F-200EE2AD6206}"/>
 						<State Name="Inactive" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="Percu_03" ID="{A52AE389-9C61-4756-950F-08BB57794573}">
-					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
-					</PropertyList>
+				<StateGroup Name="Percu_Layer_03" ID="{A52AE389-9C61-4756-950F-08BB57794573}">
 					<ChildrenList>
 						<State Name="None" ID="{5EF8B191-ED9D-4F6E-857C-F0AB126E5C4D}"/>
 						<State Name="Active" ID="{2BF0D425-52DC-4716-89AF-A984B041F481}"/>
 						<State Name="Inactive" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="Percu_04" ID="{3A78C1EC-B254-4B5A-B592-A878D8E204B4}">
-					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
-					</PropertyList>
-					<ChildrenList>
-						<State Name="None" ID="{AE5FCF95-0997-45B5-B4CA-349FCDD70906}"/>
-						<State Name="Active" ID="{96904644-0EE4-41C9-9E7B-F6B339DED3DA}"/>
-						<State Name="Inactive" ID="{2D778EEA-B1FA-4551-A2EE-00F5EBF54D81}"/>
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="Percu_05" ID="{23FFDBCE-4B8C-40F2-B7B7-BB6BE98C2B50}">
-					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="2"/>
-					</PropertyList>
-					<ChildrenList>
-						<State Name="None" ID="{04D90AFB-9842-4061-8F60-D84FE03F0D9F}"/>
-						<State Name="Active" ID="{6888366A-08C3-4639-9CA1-E76697B7BA39}"/>
-						<State Name="Inactive" ID="{AF22BB6D-CCCD-4EEA-9A62-6249865E3015}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

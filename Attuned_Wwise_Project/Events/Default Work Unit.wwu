@@ -937,6 +937,26 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Glide" ID="{D51FA0A1-CF9D-4C7C-9384-526B65ADD3F3}" ShortID="219374399">
+					<ChildrenList>
+						<Event Name="Layer_1" ID="{A47EBAD3-FAEB-4A13-8ADC-2524B0BC2E21}">
+							<ChildrenList>
+								<Action Name="" ID="{4A7099D5-34A2-4D73-B7D3-46F98D7C1685}" ShortID="379347744">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Active" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}" WorkUnitID="{FF475A09-5F00-45F3-B891-A343013AB5E0}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Layer_2" ID="{5B021A3C-C112-4E4C-BDE8-CF502AEB4531}"/>
+						<Event Name="Layer_3" ID="{0C44132B-6CFF-4E9B-A228-4675B458BAD9}"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
