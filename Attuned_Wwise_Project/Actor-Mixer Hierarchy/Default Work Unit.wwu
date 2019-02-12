@@ -4207,6 +4207,7 @@
 								<RandomSequenceContainer Name="Water_In" ID="{3794D159-427C-4322-80A9-17CA751CB34B}" ShortID="795136586">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -4220,6 +4221,7 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-17</Value>
@@ -4351,6 +4353,7 @@
 								<RandomSequenceContainer Name="Water_Out" ID="{E5B96A34-04E9-4345-9831-53D5BDB27342}" ShortID="478459287">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -4363,6 +4366,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-10</Value>
@@ -5829,10 +5833,11 @@
 						</RandomSequenceContainer>
 						<Sound Name="Sing_Valhalla_1" ID="{3923EB27-8BE3-4B86-897F-E050ECCDC875}" ShortID="725351204">
 							<PropertyList>
-								<Property Name="3DPosition" Type="int16" Value="1"/>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -5841,51 +5846,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{7D4855AA-7FF6-4BA2-968F-22700E3E1294}" ShortID="771923505">
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{44CFD1B4-FAE1-4598-B00C-D27D85AF364A}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
+									<ObjectRef Name="Sing" ID="{D321D2CB-9E30-456C-8A0E-9F58ED45FD43}" WorkUnitID="{3755D0A2-C83D-4236-B142-5EFA8F3B38EB}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -5909,17 +5870,22 @@
 						</Sound>
 						<Sound Name="Sing_Valhalla_2" ID="{9292BC92-FF19-436C-B3AE-254DF3664386}" ShortID="477208617">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{431F5504-BAE3-4712-B7C5-3C9FA1B72555}" ShortID="669863676">
+									<Custom CreatedFrom="{D321D2CB-9E30-456C-8A0E-9F58ED45FD43}">
+										<Attenuation Name="Sing (Custom)" ID="{A30277A3-EC9C-463B-9097-0DD5FECBE33B}" ShortID="680007048">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{B7EC1FA7-74C6-47AF-936D-4B21DC3955B9}">
+														<Curve Name="VolumeDry" ID="{A396EE5C-EB0F-47C5-B6CF-3FBDF6534133}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -5928,9 +5894,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>5000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -5979,18 +5946,22 @@
 						</Sound>
 						<Sound Name="Sing_Valhalla_3" ID="{EE08D7C3-BD72-4264-91B6-9057A7C09F58}" ShortID="872834804">
 							<PropertyList>
-								<Property Name="3DPosition" Type="int16" Value="1"/>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{6C685E0C-3C6D-45F3-9331-3DFF5BC37C47}" ShortID="206182335">
+									<Custom CreatedFrom="{D321D2CB-9E30-456C-8A0E-9F58ED45FD43}">
+										<Attenuation Name="Sing (Custom)" ID="{294DC6F1-75F7-4334-8ECB-486D6160BE38}" ShortID="302956148">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{A7A9117D-F21A-46F7-BD58-672513DEAA68}">
+														<Curve Name="VolumeDry" ID="{6E1553B6-F9C5-4880-85CF-17F4D29795FC}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -5999,9 +5970,10 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
+																	<XPos>5000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -6053,18 +6025,22 @@
 						</Sound>
 						<Sound Name="Sing_Valhalla_4" ID="{74580ACD-8D1D-418C-A2B4-EE06DF65B5DB}" ShortID="305607610">
 							<PropertyList>
-								<Property Name="3DPosition" Type="int16" Value="1"/>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{37FE21CB-DF82-4A05-BB95-460039270E3C}" ShortID="1024631860">
+									<Custom CreatedFrom="{D321D2CB-9E30-456C-8A0E-9F58ED45FD43}">
+										<Attenuation Name="Sing (Custom)" ID="{66558657-CDCB-47C3-B88C-1225A6526E53}" ShortID="125758811">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{6CB5CF66-81A2-439B-BC24-5C4399C3C34F}">
+														<Curve Name="VolumeDry" ID="{C2BA6C72-A0D6-4041-A71A-463BBE7911A0}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -6073,10 +6049,11 @@
 																	<XPos>0</XPos>
 																	<YPos>0</YPos>
 																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
+																	<XPos>5000</XPos>
+																	<YPos>-22.32646</YPos>
 																	<Flags>37</Flags>
 																</Point>
 															</PointList>
@@ -6127,12 +6104,14 @@
 						</Sound>
 						<RandomSequenceContainer Name="Whisper" ID="{AB417304-23B4-4267-BBAC-756FA8755A7B}" ShortID="494065301">
 							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -6141,51 +6120,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{54D63CDC-93CB-42F5-A2C2-708B8DE18D1D}" ShortID="707362806">
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{BEC99024-1C7E-4254-9A45-563328764AE9}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
+									<ObjectRef Name="whisper" ID="{4B7BC01F-ACA7-43F2-A832-7B729F4932C0}" WorkUnitID="{3755D0A2-C83D-4236-B142-5EFA8F3B38EB}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -6196,6 +6131,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Whisper_1" ID="{99E5ED7E-06B4-4959-9642-DE262123AA1D}" ShortID="17684838">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -6206,6 +6148,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_1" ID="{42F2787E-74D2-4E2F-A604-551CE3A5A446}" ShortID="511751440">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.84522502744237"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.2436882546652"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_1.wav</AudioFile>
 										</AudioFileSource>
@@ -6215,6 +6161,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Whisper_10" ID="{FC2A2F03-2FD3-46DB-9ADD-799F414EE962}" ShortID="306762437">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -6225,6 +6178,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_10" ID="{00F2EB6B-C687-4C4D-9B83-7C4593C4D4D5}" ShortID="115972338">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="24.3424807903403"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_10.wav</AudioFile>
 										</AudioFileSource>
@@ -6244,6 +6200,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_11" ID="{53839128-A0BE-43E7-B7CC-543B2471A9EA}" ShortID="210175545">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.6860592755214"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.16575192096597"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.52799121844127"/>
+												<Property Name="TrimEnd" Type="Real64" Value="29.0845225027442"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_11.wav</AudioFile>
 										</AudioFileSource>
@@ -6253,6 +6215,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Whisper_2" ID="{220532D0-15EF-43CA-BC41-1ECFEA13840D}" ShortID="1024936411">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -6263,6 +6232,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_2" ID="{875D732A-1EB5-4BC5-A2E6-5B5B75A8CDD0}" ShortID="552018818">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.93194291986828"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.384193194292"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_2.wav</AudioFile>
 										</AudioFileSource>
@@ -6282,6 +6255,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_3" ID="{F8B29778-704A-45FA-A6DF-239B0ECD8350}" ShortID="873269572">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.799121844127332"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.25137211855104"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_3.wav</AudioFile>
 										</AudioFileSource>
@@ -6291,6 +6268,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Whisper_4" ID="{7A0257AE-7B83-4D2A-AB4E-61323278BEE2}" ShortID="969649518">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -6301,6 +6285,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_4" ID="{235ACABE-7F65-455F-8546-764541E814F1}" ShortID="203951011">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.45883644346872"/>
+												<Property Name="TrimEnd" Type="Real64" Value="38.3315038419319"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_4.wav</AudioFile>
 										</AudioFileSource>
@@ -6320,6 +6308,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_5" ID="{D4B9C5E8-E238-4D9A-AA3E-6253D3CB7D04}" ShortID="784744620">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="19.152579582876"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_5.wav</AudioFile>
 										</AudioFileSource>
@@ -6339,6 +6330,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_6" ID="{3273EE0C-FBCB-463E-B7A5-1B6D5F9F7AED}" ShortID="797467293">
+											<PropertyList>
+												<Property Name="TrimBegin" Type="Real64" Value="2.19298245614035"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_6.wav</AudioFile>
 										</AudioFileSource>
@@ -6358,6 +6352,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_7" ID="{225EA353-DE1C-4292-9911-3EA5041172BA}" ShortID="112612088">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.61361141602635"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.34357848518112"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_7.wav</AudioFile>
 										</AudioFileSource>
@@ -6377,6 +6375,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_8" ID="{82230F06-7DFD-400A-99C2-CAE09D9D657E}" ShortID="1071477255">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.34996428135835"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.08117627585246"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_8.wav</AudioFile>
 										</AudioFileSource>
@@ -6386,6 +6388,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Whisper_9" ID="{02E6699C-1F6B-4155-B880-635718C397A1}" ShortID="771386412">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -6396,6 +6405,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Whisper_9" ID="{0DCA50C1-DF05-4E14-80EC-62A5E10A99EF}" ShortID="153618838">
+											<PropertyList>
+												<Property Name="TrimEnd" Type="Real64" Value="5.80908995870576"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Whisper\Whisper_9.wav</AudioFile>
 										</AudioFileSource>

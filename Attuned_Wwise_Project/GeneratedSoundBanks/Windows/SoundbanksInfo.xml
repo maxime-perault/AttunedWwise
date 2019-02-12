@@ -148,11 +148,11 @@
 				</File>
 				<File Id="112612088" Language="SFX">
 					<ShortName>Whisper\Whisper_7.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_7_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_7_A4E8F9AF.wem</Path>
 				</File>
 				<File Id="115972338" Language="SFX">
 					<ShortName>Whisper\Whisper_10.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_10_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_10_F722A64F.wem</Path>
 				</File>
 				<File Id="122822209" Language="SFX">
 					<ShortName>Neutral_earth_1.wav</ShortName>
@@ -184,7 +184,7 @@
 				</File>
 				<File Id="153618838" Language="SFX">
 					<ShortName>Whisper\Whisper_9.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_9_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_9_8D3E3FB5.wem</Path>
 				</File>
 				<File Id="155208662" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_05.wav</ShortName>
@@ -216,7 +216,7 @@
 				</File>
 				<File Id="203951011" Language="SFX">
 					<ShortName>Whisper\Whisper_4.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_4_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_4_5E5FC8F4.wem</Path>
 				</File>
 				<File Id="206149572" Language="SFX">
 					<ShortName>water_glide_01.wav</ShortName>
@@ -224,7 +224,7 @@
 				</File>
 				<File Id="210175545" Language="SFX">
 					<ShortName>Whisper\Whisper_11.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_11_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_11_C002B899.wem</Path>
 				</File>
 				<File Id="225023140" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_01.wav</ShortName>
@@ -388,7 +388,7 @@
 				</File>
 				<File Id="511751440" Language="SFX">
 					<ShortName>Whisper\Whisper_1.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_1_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_1_EB540652.wem</Path>
 				</File>
 				<File Id="512718015" Language="SFX">
 					<ShortName>Temple\Temple_04.wav</ShortName>
@@ -424,7 +424,7 @@
 				</File>
 				<File Id="552018818" Language="SFX">
 					<ShortName>Whisper\Whisper_2.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_2_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_2_CACC93E3.wem</Path>
 				</File>
 				<File Id="555257121" Language="SFX">
 					<ShortName>Rock Falls\Rock_Fall_02.wav</ShortName>
@@ -568,7 +568,7 @@
 				</File>
 				<File Id="784744620" Language="SFX">
 					<ShortName>Whisper\Whisper_5.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_5_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_5_DE3F3DBA.wem</Path>
 				</File>
 				<File Id="790919215" Language="SFX">
 					<ShortName>Env_Brown_Noise_Loop.wav</ShortName>
@@ -580,7 +580,7 @@
 				</File>
 				<File Id="797467293" Language="SFX">
 					<ShortName>Whisper\Whisper_6.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_6_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_6_2BC70F0D.wem</Path>
 				</File>
 				<File Id="798846047" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_06.wav</ShortName>
@@ -640,7 +640,7 @@
 				</File>
 				<File Id="873269572" Language="SFX">
 					<ShortName>Whisper\Whisper_3.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_3_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_3_F33F6AA6.wem</Path>
 				</File>
 				<File Id="883202677" Language="SFX">
 					<ShortName>Archs_05.wav</ShortName>
@@ -772,7 +772,7 @@
 				</File>
 				<File Id="1071477255" Language="SFX">
 					<ShortName>Whisper\Whisper_8.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_8_56D34C19.wem</Path>
+					<Path>SFX\Whisper\Whisper_8_97B2819E.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
