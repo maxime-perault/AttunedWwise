@@ -951,6 +951,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="S_SFX_Intro_Glide" ID="{B63034B7-814C-42FF-8AC5-9524896E4456}">
+					<ChildrenList>
+						<Action Name="" ID="{9415A620-0C30-4359-A952-3AD4B7BAFBAF}" ShortID="80991350">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro_Glide" ID="{CF7AB483-FC71-4716-A13E-324FAE6993A6}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_SFX_Outro_Glide" ID="{BC8C2FEF-80F1-4364-897A-2F72AE46A89A}">
+					<ChildrenList>
+						<Action Name="" ID="{B8A78C81-DAAB-435D-A526-881F27001879}" ShortID="256895994">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outro_Glide" ID="{02123F54-BF31-421E-908C-F934B3B56E23}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -17,22 +17,22 @@
 				<StateGroup Name="Percu_Layer_01" ID="{CD414D15-AA47-465C-9EC4-243AAA6F3E4A}">
 					<ChildrenList>
 						<State Name="None" ID="{C05B6D63-9F66-488D-95DA-CB277D715AAC}"/>
-						<State Name="Active" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}"/>
-						<State Name="Inactive" ID="{746002C9-D5AD-4A23-B2D5-7516ED5B78BD}"/>
+						<State Name="Active_01" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}"/>
+						<State Name="Inactive_01" ID="{746002C9-D5AD-4A23-B2D5-7516ED5B78BD}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Percu_Layer_02" ID="{3AA2E265-BF5E-4CE7-B339-375221B9AF03}">
 					<ChildrenList>
 						<State Name="None" ID="{E55A9498-1BAB-4365-B538-03E7B7D07BB9}"/>
-						<State Name="Active" ID="{D5ABB54E-2875-4FDD-B58F-200EE2AD6206}"/>
-						<State Name="Inactive" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
+						<State Name="Active_02" ID="{D5ABB54E-2875-4FDD-B58F-200EE2AD6206}"/>
+						<State Name="Inactive_02" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Percu_Layer_03" ID="{A52AE389-9C61-4756-950F-08BB57794573}">
 					<ChildrenList>
 						<State Name="None" ID="{5EF8B191-ED9D-4F6E-857C-F0AB126E5C4D}"/>
-						<State Name="Active" ID="{2BF0D425-52DC-4716-89AF-A984B041F481}"/>
-						<State Name="Inactive" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
+						<State Name="Active_03" ID="{2BF0D425-52DC-4716-89AF-A984B041F481}"/>
+						<State Name="Inactive_03" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

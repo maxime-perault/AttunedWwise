@@ -250,10 +250,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Active" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}"/>
-						<CurrentStateRef Name="Inactive" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
-						<CurrentStateRef Name="Inactive" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
-						<CurrentStateRef Name="Glide_Outro" ID="{DB1882D5-B051-4949-B8A9-7B8F050C013A}"/>
+						<CurrentStateRef Name="Active_01" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}"/>
+						<CurrentStateRef Name="Inactive_03" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
+						<CurrentStateRef Name="Inactive_02" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
+						<CurrentStateRef Name="Final" ID="{CB76D312-57C3-4F97-9AEB-5C43B140A349}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>

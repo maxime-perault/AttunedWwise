@@ -6,14 +6,14 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	0	None	Percu_Layer_03			
-	58138747	Active	Percu_Layer_03			
-	3163453698	Inactive	Percu_Layer_03			
+	654644845	Active_03	Percu_Layer_03			
+	854801954	Inactive_03	Percu_Layer_03			
 	0	None	Percu_Layer_02			
-	58138747	Active	Percu_Layer_02			
-	3163453698	Inactive	Percu_Layer_02			
+	654644844	Active_02	Percu_Layer_02			
+	854801955	Inactive_02	Percu_Layer_02			
 	0	None	Percu_Layer_01			
-	58138747	Active	Percu_Layer_01			
-	3163453698	Inactive	Percu_Layer_01			
+	654644847	Active_01	Percu_Layer_01			
+	854801952	Inactive_01	Percu_Layer_01			
 	0	None	Music			
 	565529991	Final	Music			
 	764575084	Focus_Intro	Music			
