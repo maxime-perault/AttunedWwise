@@ -198,7 +198,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -444,7 +444,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1177,6 +1177,11 @@
 									</RTPCList>
 								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -5174,7 +5179,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-5</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{808475AC-D62E-409F-A242-77D659C77117}" ShortID="528046578">
@@ -5190,13 +5195,13 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-2.21115</YPos>
+														<YPos>-2.44049</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>0.19749</XPos>
-														<YPos>-2.17114</YPos>
+														<XPos>0.19853</XPos>
+														<YPos>-2.63385</YPos>
 														<Flags>0</Flags>
 														<SegmentShape>Exp2</SegmentShape>
 													</Point>
@@ -5208,7 +5213,7 @@
 													</Point>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>-2.13996</YPos>
+														<YPos>-2.25294</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -5254,8 +5259,14 @@
 																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
+																<XPos>0.89455</XPos>
+																<YPos>-399.57657</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp2</SegmentShape>
+															</Point>
+															<Point>
 																<XPos>1</XPos>
-																<YPos>-178.22213</YPos>
+																<YPos>-363.72938</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -5288,12 +5299,12 @@
 															</Point>
 															<Point>
 																<XPos>0.87692</XPos>
-																<YPos>-0.06257</YPos>
+																<YPos>-0.12054</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
 																<XPos>1</XPos>
-																<YPos>-0.03013</YPos>
+																<YPos>-0.06878</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -5374,7 +5385,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5535,7 +5546,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6075,15 +6086,15 @@
 						<Sound Name="Sing_Valhalla_1" ID="{3923EB27-8BE3-4B86-897F-E050ECCDC875}" ShortID="725351204">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -6098,6 +6109,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sing_Valhalla_1" ID="{1D2BA7F3-9430-4F97-AE16-B382A035CC61}" ShortID="467913745">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.790340285400659"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sing_Valhalla_1.wav</AudioFile>
 								</AudioFileSource>
@@ -6112,6 +6126,11 @@
 						<Sound Name="Sing_Valhalla_2" ID="{9292BC92-FF19-436C-B3AE-254DF3664386}" ShortID="477208617">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -6188,6 +6207,11 @@
 						<Sound Name="Sing_Valhalla_3" ID="{EE08D7C3-BD72-4264-91B6-9057A7C09F58}" ShortID="872834804">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -6267,6 +6291,11 @@
 						<Sound Name="Sing_Valhalla_4" ID="{74580ACD-8D1D-418C-A2B4-EE06DF65B5DB}" ShortID="305607610">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -7661,6 +7690,9 @@
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Door" ID="{21D70529-392E-4276-93C9-926ECC9C696E}" WorkUnitID="{3755D0A2-C83D-4236-B142-5EFA8F3B38EB}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
 						</Reference>
@@ -7820,6 +7852,9 @@
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="gameplay" ID="{05A4EA0D-322E-4EDC-A4B8-A078D377037C}" WorkUnitID="{3755D0A2-C83D-4236-B142-5EFA8F3B38EB}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
 						</Reference>
@@ -7835,7 +7870,7 @@
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -7907,6 +7942,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="Receptors_Activation_01" ID="{A7783848-E039-40BA-B7E8-9B2DF2F2A04B}" ShortID="1020259801">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.230515916575192"/>
+												<Property Name="FadeInShape" Type="int16" Value="2"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.769736842105263"/>
 												<Property Name="TrimEnd" Type="Real64" Value="2.42105263157895"/>
 											</PropertyList>
@@ -7930,6 +7967,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="Receptors_Activation_02" ID="{AF655C46-EDA1-431A-B959-3F62E69AC129}" ShortID="996430665">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.233809001097695"/>
+												<Property Name="FadeInShape" Type="int16" Value="2"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.851973684210526"/>
 												<Property Name="TrimEnd" Type="Real64" Value="2.41447368421053"/>
 											</PropertyList>
@@ -7953,6 +7992,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="Receptors_Activation_03" ID="{FD9D26D0-74E6-4C7A-A22E-12B9A4C2030D}" ShortID="887703809">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.279912184412733"/>
+												<Property Name="FadeInShape" Type="int16" Value="2"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.822368421052632"/>
 												<Property Name="TrimEnd" Type="Real64" Value="2.43421052631579"/>
 											</PropertyList>
@@ -7976,6 +8017,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="Receptors_Activation_04" ID="{FB836F7B-6AC0-4A27-A25D-101792DCE050}" ShortID="719778427">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.411635565312843"/>
+												<Property Name="FadeInShape" Type="int16" Value="2"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.720394736842105"/>
 												<Property Name="TrimEnd" Type="Real64" Value="2.46710526315789"/>
 											</PropertyList>
@@ -8000,7 +8043,7 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -8326,6 +8369,32 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Outro_Glide" ID="{07A74B00-4FCF-4E67-8A6C-784A37FB51CF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="State_Door_Cinematique" ID="{10ABF12F-219A-4C06-BA41-A47B637258B6}" ShortID="369550925">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="State_Door_Cinematique" ID="{737957DA-BDD7-4129-A41F-2E4934A4E445}" ShortID="286510612">
+							<Language>SFX</Language>
+							<AudioFile>State_Door_Cinematique.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="State_Door_Cinematique" ID="{737957DA-BDD7-4129-A41F-2E4934A4E445}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

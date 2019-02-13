@@ -23,6 +23,7 @@
 			<IncludedEvents>
 				<Event Id="4237146541" Name="Play_Glide" ObjectPath="\Events\Default Work Unit\Play_Glide"/>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music"/>
+				<Event Id="242068862" Name="Play_State_Door_Cinematique" ObjectPath="\Events\Default Work Unit\Play_State_Door_Cinematique"/>
 				<Event Id="1672519463" Name="S_Ambience_Rock_Terrain" ObjectPath="\Events\Default Work Unit\Ambience\S_Ambience_Rock_Terrain"/>
 				<Event Id="4249425982" Name="S_Ambience_Sand_Terrain" ObjectPath="\Events\Default Work Unit\Ambience\S_Ambience_Sand_Terrain"/>
 				<Event Id="670588715" Name="S_Ambience_Sing_01" ObjectPath="\Events\Default Work Unit\Ambience\S_Ambience_Sing_01"/>
@@ -297,6 +298,10 @@
 				<File Id="276649637" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_04.wav</ShortName>
 					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_04_56D34C19.wem</Path>
+				</File>
+				<File Id="286510612" Language="SFX">
+					<ShortName>State_Door_Cinematique.wav</ShortName>
+					<Path>SFX\State_Door_Cinematique_56D34C19.wem</Path>
 				</File>
 				<File Id="287677286" Language="SFX">
 					<ShortName>Water_Out\Water_Out_02.wav</ShortName>
@@ -584,7 +589,7 @@
 				</File>
 				<File Id="719778427" Language="SFX">
 					<ShortName>Receptors_Activation_04.wav</ShortName>
-					<Path>SFX\Receptors_Activation_04_0390B08B.wem</Path>
+					<Path>SFX\Receptors_Activation_04_AFF388F3.wem</Path>
 				</File>
 				<File Id="723003882" Language="SFX">
 					<ShortName>Random_Ambience\Random_element_01.wav</ShortName>
@@ -716,7 +721,7 @@
 				</File>
 				<File Id="887703809" Language="SFX">
 					<ShortName>Receptors_Activation_03.wav</ShortName>
-					<Path>SFX\Receptors_Activation_03_9A1EBFF4.wem</Path>
+					<Path>SFX\Receptors_Activation_03_79F325DB.wem</Path>
 				</File>
 				<File Id="889369514" Language="SFX">
 					<ShortName>S_SFX_Door_Chains.wav</ShortName>
@@ -784,7 +789,7 @@
 				</File>
 				<File Id="996430665" Language="SFX">
 					<ShortName>Receptors_Activation_02.wav</ShortName>
-					<Path>SFX\Receptors_Activation_02_CD2067D5.wem</Path>
+					<Path>SFX\Receptors_Activation_02_00422A30.wem</Path>
 				</File>
 				<File Id="998929950" Language="SFX">
 					<ShortName>Neutral_earth_2.wav</ShortName>
@@ -800,7 +805,7 @@
 				</File>
 				<File Id="1020259801" Language="SFX">
 					<ShortName>Receptors_Activation_01.wav</ShortName>
-					<Path>SFX\Receptors_Activation_01_4D0D62FC.wem</Path>
+					<Path>SFX\Receptors_Activation_01_49A7BD52.wem</Path>
 				</File>
 				<File Id="1028476749" Language="SFX">
 					<ShortName>Water_Surface_Random.wav</ShortName>

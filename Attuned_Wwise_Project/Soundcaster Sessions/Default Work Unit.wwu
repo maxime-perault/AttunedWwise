@@ -198,7 +198,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Wind_Atmosphere" ID="{4B7AD6AD-01BE-449F-BD9F-EB73591245E9}"/>
-							<Value>0.02</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
@@ -214,7 +214,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}"/>
-							<Value>0</Value>
+							<Value>3.13479623824451E-02</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
@@ -253,7 +253,7 @@
 						<CurrentStateRef Name="Active_01" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}"/>
 						<CurrentStateRef Name="Inactive_03" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
 						<CurrentStateRef Name="Inactive_02" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
-						<CurrentStateRef Name="Final" ID="{CB76D312-57C3-4F97-9AEB-5C43B140A349}"/>
+						<CurrentStateRef Name="Cinematique_Door" ID="{F281E9EE-0DC6-4BE0-8DA1-F5AD8A85ED41}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>

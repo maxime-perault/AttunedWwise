@@ -979,6 +979,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_State_Door_Cinematique" ID="{12D4A63A-8A90-430E-A92C-EFE80CB84730}">
+					<ChildrenList>
+						<Action Name="" ID="{A8501DFC-8A77-4322-A942-8538B410CAE1}" ShortID="740654458">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="State_Door_Cinematique" ID="{10ABF12F-219A-4C06-BA41-A47B637258B6}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
