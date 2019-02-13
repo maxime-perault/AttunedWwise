@@ -1148,12 +1148,35 @@
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="2"/>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-2</Value>
-									</ValueList>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{BD6F9F54-CCB8-43DE-B66F-861593064D0B}" ShortID="137136254">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Wind_Atmosphere" ID="{4B7AD6AD-01BE-449F-BD9F-EB73591245E9}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{29093A32-E79F-442D-AE9B-EE26767DB5EB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-54</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>26</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1180,7 +1203,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3.3</Value>
+												<Value>-4.3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1323,7 +1346,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1458,7 +1481,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>7</Value>
+												<Value>9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1513,7 +1536,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-19</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1577,7 +1600,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-7</Value>
+														<Value>-5</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1591,6 +1614,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Rock_Fall_01" ID="{12910A95-F5BC-4EBC-AA32-41FCE084D6BD}" ShortID="42755631">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="4.27926960257787"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Rock Falls\Rock_Fall_01.wav</AudioFile>
 												</AudioFileSource>
@@ -1617,6 +1643,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Rock_Fall_02" ID="{C089BDF4-1B52-4A64-9989-9F1A579F566E}" ShortID="555257121">
+													<PropertyList>
+														<Property Name="TrimEnd" Type="Real64" Value="2.94899948283407"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Rock Falls\Rock_Fall_02.wav</AudioFile>
 												</AudioFileSource>
@@ -1629,7 +1658,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-5</Value>
+														<Value>-7</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1662,6 +1691,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Rock_Fall_04" ID="{36D43D8D-A9BF-47AD-AFEF-1DFFBAEF4F5A}" ShortID="684477909">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.170907924573338"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.194365875004973"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.89873244619485"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Rock Falls\Rock_Fall_04.wav</AudioFile>
 												</AudioFileSource>
@@ -1681,6 +1715,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Rock_Fall_05" ID="{A40EA54A-8942-4FDA-ABDB-6477D1741C1B}" ShortID="177894506">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="9.62823725981621E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.65364974937343"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Rock Falls\Rock_Fall_05.wav</AudioFile>
 												</AudioFileSource>
@@ -1694,13 +1732,14 @@
 										<Position Name="" ID="{088D8100-A580-47A0-92C4-EECC88903663}">
 											<PropertyList>
 												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 											</PropertyList>
 											<ChildrenList>
 												<Path2D Name="Rock Falls_Path" ID="{79EC5751-1F62-41C2-82C0-3ED780FD08AF}">
 													<PointList>
 														<Point>
-															<XPos>-50</XPos>
-															<YPos>50.63694</YPos>
+															<XPos>-37.97468</XPos>
+															<YPos>34.07643</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -1709,8 +1748,8 @@
 												<Path2D Name="Rock Falls_Path_01" ID="{4263E362-1E13-4CE6-BA86-5EA5728B2B91}">
 													<PointList>
 														<Point>
-															<XPos>58.22785</XPos>
-															<YPos>62.10191</YPos>
+															<XPos>44.3038</XPos>
+															<YPos>37.26115</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -1719,8 +1758,8 @@
 												<Path2D Name="Rock Falls_Path_02" ID="{0D83832D-29F0-4CC1-8AA0-CA4F9043AEEB}">
 													<PointList>
 														<Point>
-															<XPos>62.02532</XPos>
-															<YPos>-46.81529</YPos>
+															<XPos>39.87343</XPos>
+															<YPos>-32.80255</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -1730,7 +1769,7 @@
 													<PointList>
 														<Point>
 															<XPos>-40.50633</XPos>
-															<YPos>-50.63694</YPos>
+															<YPos>-33.43949</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -1739,8 +1778,8 @@
 												<Path2D Name="Rock Falls_Path_04" ID="{01567C19-34A2-4AD7-A23A-72118655B4AD}">
 													<PointList>
 														<Point>
-															<XPos>-73.41772</XPos>
-															<YPos>9.23567</YPos>
+															<XPos>-56.96203</XPos>
+															<YPos>7.96179</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -1749,8 +1788,8 @@
 												<Path2D Name="Rock Falls_Path_05" ID="{85231E21-C477-44EF-936D-BE176A8A99B4}">
 													<PointList>
 														<Point>
-															<XPos>77.21519</XPos>
-															<YPos>3.50318</YPos>
+															<XPos>48.10127</XPos>
+															<YPos>1.59235</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -1771,7 +1810,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-13</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1845,6 +1884,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Rock_Slide_1" ID="{CBDDEC51-49DF-4915-980A-06834F47F7A0}" ShortID="237327550">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.320958049886621"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.311232048374906"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.447396069538927"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.45189531368103"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Rock_Slide_Random\Rock_Slide_1.wav</AudioFile>
 												</AudioFileSource>
@@ -1854,6 +1899,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Rock_Slide_2" ID="{B68E30E6-C099-4D96-9E6F-80E4FD95BB05}" ShortID="843817243">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -1883,6 +1935,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Rock_Slide_3" ID="{073955FD-AF24-41EF-A19A-BC8D70B90486}" ShortID="769609296">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.98962107650078"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.62834437283685"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Rock_Slide_Random\Rock_Slide_3.wav</AudioFile>
 												</AudioFileSource>
@@ -1891,68 +1947,11 @@
 												<ActiveSource Name="Rock_Slide_3" ID="{073955FD-AF24-41EF-A19A-BC8D70B90486}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Rock_Slide_4" ID="{57844E0B-1F25-47A7-9CD5-428987BFCCBB}" ShortID="187765701">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Rock_Slide_4" ID="{4ECDAA05-8A48-4010-BBFC-01C33855601E}" ShortID="71113144">
-													<Language>SFX</Language>
-													<AudioFile>Rock_Slide_Random\Rock_Slide_4.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Rock_Slide_4" ID="{4ECDAA05-8A48-4010-BBFC-01C33855601E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Rock_Slide_5" ID="{C2F09839-D153-4C2D-B2B7-31F22242DE42}" ShortID="8702374">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Rock_Slide_5" ID="{453B52E3-9236-4876-9070-E26581494EF3}" ShortID="784334009">
-													<Language>SFX</Language>
-													<AudioFile>Rock_Slide_Random\Rock_Slide_5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Rock_Slide_5" ID="{453B52E3-9236-4876-9070-E26581494EF3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Rock_Slide_6" ID="{FE445B48-DB15-4B56-8066-9B90704B89D5}" ShortID="492377784">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Rock_Slide_6" ID="{1D3F5C83-9D45-44F4-9DE0-1F141410910D}" ShortID="55398265">
-													<Language>SFX</Language>
-													<AudioFile>Rock_Slide_Random\Rock_Slide_6.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Rock_Slide_6" ID="{1D3F5C83-9D45-44F4-9DE0-1F141410910D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Rock_Slide_7" ID="{E97D498D-AEDF-45C2-82E2-80E806273C75}" ShortID="73837763">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-1</Value>
+														<Value>9</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1965,24 +1964,61 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Rock_Slide_7" ID="{44C51E96-4EED-4380-B85F-FCFCBFA92372}" ShortID="411604734">
+												<AudioFileSource Name="Rock_Slide_5" ID="{453B52E3-9236-4876-9070-E26581494EF3}" ShortID="784334009">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.927389008234873"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.74001297887576"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Rock_Slide_Random\Rock_Slide_7.wav</AudioFile>
+													<AudioFile>Rock_Slide_Random\Rock_Slide_5.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Rock_Slide_7" ID="{44C51E96-4EED-4380-B85F-FCFCBFA92372}" Platform="Linked"/>
+												<ActiveSource Name="Rock_Slide_5" ID="{453B52E3-9236-4876-9070-E26581494EF3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Rock_Slide_6" ID="{FE445B48-DB15-4B56-8066-9B90704B89D5}" ShortID="492377784">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rock_Slide_6" ID="{1D3F5C83-9D45-44F4-9DE0-1F141410910D}" ShortID="55398265">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.390297768230099"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.61381549110872"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Rock_Slide_Random\Rock_Slide_6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rock_Slide_6" ID="{1D3F5C83-9D45-44F4-9DE0-1F141410910D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 									<PositioningInfo>
 										<Position Name="" ID="{D842B1FA-AE74-4834-BB15-D1324E6BE28B}">
+											<PropertyList>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
 											<ChildrenList>
 												<Path2D Name="Rock_Slide_Random_Path" ID="{D0525D84-21D0-45D3-B27D-163F2F69D69C}">
 													<PointList>
 														<Point>
-															<XPos>-49.36709</XPos>
-															<YPos>60.19108</YPos>
+															<XPos>-51.89874</XPos>
+															<YPos>42.35668</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -1991,8 +2027,8 @@
 												<Path2D Name="Rock_Slide_Random_Path_01" ID="{8C09EA8A-C2AD-45A8-A4BA-0F67B666B0AC}">
 													<PointList>
 														<Point>
-															<XPos>39.87342</XPos>
-															<YPos>59.55414</YPos>
+															<XPos>42.40506</XPos>
+															<YPos>46.81529</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -2001,8 +2037,8 @@
 												<Path2D Name="Rock_Slide_Random_Path_02" ID="{DD311362-0E88-41D8-9FD8-A464055CB736}">
 													<PointList>
 														<Point>
-															<XPos>62.65823</XPos>
-															<YPos>-19.42675</YPos>
+															<XPos>39.24051</XPos>
+															<YPos>-48.08917</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -2011,8 +2047,8 @@
 												<Path2D Name="Rock_Slide_Random_Path_03" ID="{4B6642BE-8597-455A-9AF4-8B09572AE7EB}">
 													<PointList>
 														<Point>
-															<XPos>-62.02532</XPos>
-															<YPos>-28.98089</YPos>
+															<XPos>-56.32911</XPos>
+															<YPos>-50.63694</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -2236,7 +2272,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2300,6 +2336,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Sand_Paricules_01" ID="{744561D2-9BFD-4BB2-AE33-FEBB2C51F2AA}" ShortID="746631760">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2310,6 +2353,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Paricules_01" ID="{522BC82A-22F9-47BC-897B-D3738394E178}" ShortID="447722339">
+													<PropertyList>
+														<Property Name="TrimBegin" Type="Real64" Value="0.677624269005848"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.56729422763257"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Particules\Sand_Paricules_01.wav</AudioFile>
 												</AudioFileSource>
@@ -2319,6 +2366,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sand_Paricules_02" ID="{46AC484B-0FA8-4BD3-B10A-5B0859141D26}" ShortID="533585058">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2329,6 +2383,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Paricules_02" ID="{EC2AC06F-88B9-49D2-8BB4-EA851AFA2849}" ShortID="617643359">
+													<PropertyList>
+														<Property Name="TrimBegin" Type="Real64" Value="0.41556739069897"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.83338554720134"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Particules\Sand_Paricules_02.wav</AudioFile>
 												</AudioFileSource>
@@ -2338,6 +2396,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sand_Paricules_03" ID="{9ECD1AC0-549B-49CE-8905-5BAFFC21CFE5}" ShortID="156241354">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2348,6 +2413,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Paricules_03" ID="{8CC62802-AFF2-40D6-BB91-214E45A5BB2D}" ShortID="88472290">
+													<PropertyList>
+														<Property Name="TrimBegin" Type="Real64" Value="0.38344186358754"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.47106978756415"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Particules\Sand_Paricules_03.wav</AudioFile>
 												</AudioFileSource>
@@ -2357,6 +2426,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sand_Paricules_04" ID="{AAC27A83-B1DF-45AD-8308-50B310CF3351}" ShortID="62008312">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2367,6 +2443,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Paricules_04" ID="{9818893A-EB85-4E3A-9AB7-CAA66E3AD6DF}" ShortID="1069201703">
+													<PropertyList>
+														<Property Name="TrimBegin" Type="Real64" Value="0.153033476548514"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.66986528822055"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Particules\Sand_Paricules_04.wav</AudioFile>
 												</AudioFileSource>
@@ -2376,6 +2456,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sand_Paricules_05" ID="{35E77322-786F-4D1D-A89E-CE0FA375CD64}" ShortID="511947405">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2395,6 +2482,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sand_Paricules_06" ID="{1BA02BAB-29A1-430D-8AA8-E6A00E1145CF}" ShortID="492326581">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2405,6 +2499,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Paricules_06" ID="{7E67DFDC-FEA7-4313-8B1F-E73E4FEC40E6}" ShortID="70514387">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.371449456975773"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.06154448621554"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Particules\Sand_Paricules_06.wav</AudioFile>
 												</AudioFileSource>
@@ -2424,6 +2522,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Paricules_07" ID="{355FD303-8FD0-481F-87DD-DE9484C1B279}" ShortID="916344115">
+													<PropertyList>
+														<Property Name="TrimBegin" Type="Real64" Value="0.376696801527629"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Particules\Sand_Paricules_07.wav</AudioFile>
 												</AudioFileSource>
@@ -2443,6 +2544,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Paricules_08" ID="{D582103C-746B-4AD3-AF54-9937B254100E}" ShortID="492546283">
+													<PropertyList>
+														<Property Name="TrimBegin" Type="Real64" Value="0.266547718502606"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.00258165254406"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Particules\Sand_Paricules_08.wav</AudioFile>
 												</AudioFileSource>
@@ -2461,8 +2566,8 @@
 												<Path2D Name="Random_Sand_Particules_Path" ID="{BD8F9C3C-2E70-4423-8326-FC15819EE365}">
 													<PointList>
 														<Point>
-															<XPos>-29.11392</XPos>
-															<YPos>24.5223</YPos>
+															<XPos>-12.02531</XPos>
+															<YPos>9.87262</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -2471,8 +2576,8 @@
 												<Path2D Name="Random_Sand_Particules_Path_01" ID="{41CF3C6E-0C36-46C6-925E-FFEC8344B172}">
 													<PointList>
 														<Point>
-															<XPos>22.78481</XPos>
-															<YPos>16.87899</YPos>
+															<XPos>11.3924</XPos>
+															<YPos>9.23568</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -2481,8 +2586,8 @@
 												<Path2D Name="Random_Sand_Particules_Path_02" ID="{DAA33E83-CF74-455B-8983-009A23D1C59A}">
 													<PointList>
 														<Point>
-															<XPos>20.88607</XPos>
-															<YPos>-18.78981</YPos>
+															<XPos>12.02531</XPos>
+															<YPos>-10.50956</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -2491,8 +2596,8 @@
 												<Path2D Name="Random_Sand_Particules_Path_03" ID="{F999374B-AF4A-494C-AD60-F980D5D14087}">
 													<PointList>
 														<Point>
-															<XPos>-18.98734</XPos>
-															<YPos>-18.15286</YPos>
+															<XPos>-10.75949</XPos>
+															<YPos>-8.59872</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -2512,7 +2617,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2586,6 +2691,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Slidnig_01" ID="{C64E0825-5332-488B-A4E2-B7887704091F}" ShortID="943616428">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.528615686040498"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.376374368460835"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.18409913673072"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.69185195130684"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Sliding\Sand_Slidnig_01.wav</AudioFile>
 												</AudioFileSource>
@@ -2595,6 +2706,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sand_Slidnig_02" ID="{75D140F5-A5DA-413F-A793-51F1F4654E04}" ShortID="11206108">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2605,6 +2723,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Slidnig_02" ID="{7557E11A-A28E-4AE1-9E87-7941B1266CC1}" ShortID="530101482">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.674495564307594"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.719894304212914"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.635582358674464"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.09762993794009"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Sliding\Sand_Slidnig_02.wav</AudioFile>
 												</AudioFileSource>
@@ -2617,7 +2741,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-7</Value>
+														<Value>-3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2631,6 +2755,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Slidnig_03" ID="{1F3DA4FC-6FA9-486A-A3E3-127F78D80089}" ShortID="242014298">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.274487483589927"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.581541278792218"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.879290413533835"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.88469574233202"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Sliding\Sand_Slidnig_03.wav</AudioFile>
 												</AudioFileSource>
@@ -2643,7 +2773,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-11</Value>
+														<Value>-2</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2657,6 +2787,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Slidnig_04" ID="{F1B1AB2F-A1EE-4327-84F8-98ECED0D833B}" ShortID="595362506">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.781546201814059"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.57989984882842"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.15130999622071"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.59683626228269"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Sliding\Sand_Slidnig_04.wav</AudioFile>
 												</AudioFileSource>
@@ -2666,6 +2802,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sand_Slidnig_05" ID="{DBAACBB5-C7B2-4719-83CF-8FB9602552ED}" ShortID="46354204">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2676,6 +2819,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Slidnig_05" ID="{F452C5A4-26D1-41E0-A104-E38C7F603940}" ShortID="902677411">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.11011360245853"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.455705285037992"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.28786276206389"/>
+														<Property Name="TrimEnd" Type="Real64" Value="8.83671987508454"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Sliding\Sand_Slidnig_05.wav</AudioFile>
 												</AudioFileSource>
@@ -2685,6 +2834,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sand_Slidnig_06" ID="{6AE7B7E1-8900-4333-8D2C-DE6FC667ED22}" ShortID="726210949">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2695,6 +2851,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Slidnig_06" ID="{7F627E09-7FE7-46B9-BAB7-9EE504889546}" ShortID="606681895">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="1.71506096590683"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.56592522974102"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.50548036758563"/>
+														<Property Name="TrimEnd" Type="Real64" Value="12.9897226200422"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Sliding\Sand_Slidnig_06.wav</AudioFile>
 												</AudioFileSource>
@@ -2704,6 +2866,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Sand_Slidnig_07" ID="{CA23565A-EDC7-42A3-9B39-C4E8DD2E02EE}" ShortID="139706928">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2714,6 +2883,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Sand_Slidnig_07" ID="{0CCEF69A-95F5-449B-9398-A0DF9547372E}" ShortID="271667344">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.46214979412818"/>
+														<Property Name="TrimEnd" Type="Real64" Value="16.5713386143931"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Random_Sand_Sliding\Sand_Slidnig_07.wav</AudioFile>
 												</AudioFileSource>
@@ -2794,7 +2967,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-13</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2918,6 +3091,10 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Water_Terrain" ID="{D1D31516-D80D-43CA-AB75-C4B6EBC0ABD5}" ShortID="646726008">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -2957,7 +3134,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3035,8 +3212,8 @@
 												<Path2D Name="Water_env_loop_Path" ID="{27C18EE1-0D3D-4F52-B080-6ACB152C6C37}">
 													<PointList>
 														<Point>
-															<XPos>-39.24051</XPos>
-															<YPos>22.61146</YPos>
+															<XPos>-27.8481</XPos>
+															<YPos>23.88535</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -3065,8 +3242,8 @@
 												<Path2D Name="Water_env_loop_Path_03" ID="{65A4954D-3FFA-41C9-85A9-A0FF757E0BD0}">
 													<PointList>
 														<Point>
-															<XPos>-33.5443</XPos>
-															<YPos>-28.98089</YPos>
+															<XPos>-32.91139</XPos>
+															<YPos>-26.43312</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -3089,7 +3266,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3163,8 +3340,17 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Water_Surface_Random" ID="{963D3550-2DC3-46DE-8F0E-20AF1218D6EB}" ShortID="1028476749">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.271117078410311"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.381572184429327"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.261075705135856"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.16954051796157"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Water_Surface_Random.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="89999421"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3189,11 +3375,14 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Water_Surface_Random" ID="{E5508B95-7A98-4190-A56D-B2F37B467307}" ShortID="1036518853">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.512110036997255"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.07442694036679"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.291199824959223"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.2097060110594"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Water_Surface_Random.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1028476749"/>
-													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3272,6 +3461,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Water_Surface_Random" ID="{38C55D8C-B242-46C3-88A6-5F14826F6CED}" ShortID="89999421">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.451861797350519"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.45599912479612"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.281158451684767"/>
+														<Property Name="TrimEnd" Type="Real64" Value="7.31011974380395"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Water_Surface_Random.wav</AudioFile>
 													<ConvertedFileIDList>
@@ -3303,8 +3498,8 @@
 												<Path2D Name="Water_Surface_Path_01" ID="{AABA8262-B56D-44DD-9FDB-ADB2179732A3}">
 													<PointList>
 														<Point>
-															<XPos>60.75949</XPos>
-															<YPos>27.07006</YPos>
+															<XPos>44.30379</XPos>
+															<YPos>25.79617</YPos>
 															<Flags>12</Flags>
 															<Time>0</Time>
 														</Point>
@@ -4391,6 +4586,11 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -4403,7 +4603,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="Water_Out_01" ID="{E58EDBC5-2BC3-4A93-9ED1-BDC119FF4E67}" ShortID="990093908">
 													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.112248528066197"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.777998418665712"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.116119166965032"/>
 														<Property Name="TrimEnd" Type="Real64" Value="0.971530363607429"/>
 													</PropertyList>
 													<Language>SFX</Language>
@@ -4438,15 +4640,47 @@
 											<ChildrenList>
 												<AudioFileSource Name="Water_Out_02" ID="{A1B363C1-4A3B-4D62-AF42-DE67DB05959A}" ShortID="287677286">
 													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.973323288379679"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.80982157775391"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.326514202172097"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.01996817440427"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.621931813661137"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.6418999880654"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Water_Out\Water_Out_02.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="175091458"/>
+													</ConvertedFileIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Water_Out_02" ID="{A1B363C1-4A3B-4D62-AF42-DE67DB05959A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water_Out_03" ID="{B7FD20BA-1929-4297-AC83-EBEF44B8540F}" ShortID="457965359">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Water_Out_02" ID="{ADB0EB94-81DB-4C8A-807D-09AF82D729C3}" ShortID="175091458">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.11505738552731"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.715221585710309"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.830278971237619"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Water_Out\Water_Out_02.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="287677286"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Water_Out_02" ID="{ADB0EB94-81DB-4C8A-807D-09AF82D729C3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -4863,7 +5097,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
-																		<YPos>1.9382</YPos>
+																		<YPos>0.04977</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -5154,6 +5388,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Jump_Rock_Impact_01" ID="{17B10FD9-B39B-4E53-A7DC-E2E754EC60F3}" ShortID="39792792">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>

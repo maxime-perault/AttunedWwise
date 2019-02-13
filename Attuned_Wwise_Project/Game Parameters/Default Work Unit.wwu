@@ -33,6 +33,13 @@
 						<Property Name="SlewRateUp" Type="Real64" Value="44"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Wind_Atmosphere" ID="{4B7AD6AD-01BE-449F-BD9F-EB73591245E9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

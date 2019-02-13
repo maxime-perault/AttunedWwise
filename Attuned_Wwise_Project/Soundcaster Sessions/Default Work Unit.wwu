@@ -175,8 +175,8 @@
 				<SoundcasterSession Name="music" ID="{18923301-CF7C-4949-83ED-EC11BF3F8357}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Layer_1" ID="{A47EBAD3-FAEB-4A13-8ADC-2524B0BC2E21}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
-							<Position X="0" Y="0"/>
+							<ObjectRef Name="Music" ID="{19AA06B1-DE5D-4F16-8447-CE927E7A72A8}" WorkUnitID="{73FACB83-3E67-4D97-BA1A-DE8162648059}"/>
+							<Position X="0" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -197,6 +197,10 @@
 							<Value>6</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Wind_Atmosphere" ID="{4B7AD6AD-01BE-449F-BD9F-EB73591245E9}"/>
+							<Value>0.02</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
 							<Value>0</Value>
 						</RTPCValue>
@@ -206,7 +210,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Water_Speed" ID="{75AECCD3-B6E0-467E-8370-99ADB15174F5}"/>
-							<Value>0</Value>
+							<Value>0.858934169278997</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}"/>
@@ -247,8 +251,9 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Active" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}"/>
-						<CurrentStateRef Name="Active" ID="{2BF0D425-52DC-4716-89AF-A984B041F481}"/>
-						<CurrentStateRef Name="Active" ID="{D5ABB54E-2875-4FDD-B58F-200EE2AD6206}"/>
+						<CurrentStateRef Name="Inactive" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
+						<CurrentStateRef Name="Inactive" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
+						<CurrentStateRef Name="Glide_Outro" ID="{DB1882D5-B051-4949-B8A9-7B8F050C013A}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>

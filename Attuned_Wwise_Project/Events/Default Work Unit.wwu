@@ -923,26 +923,34 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Glide" ID="{D51FA0A1-CF9D-4C7C-9384-526B65ADD3F3}" ShortID="219374399">
+				<Event Name="Play_Music" ID="{0E09CCA0-3A7A-4A65-A14D-57A7387DEE34}">
 					<ChildrenList>
-						<Event Name="Layer_1" ID="{A47EBAD3-FAEB-4A13-8ADC-2524B0BC2E21}">
-							<ChildrenList>
-								<Action Name="" ID="{4A7099D5-34A2-4D73-B7D3-46F98D7C1685}" ShortID="379347744">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="22"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Active" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}" WorkUnitID="{FF475A09-5F00-45F3-B891-A343013AB5E0}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Layer_2" ID="{5B021A3C-C112-4E4C-BDE8-CF502AEB4531}"/>
-						<Event Name="Layer_3" ID="{0C44132B-6CFF-4E9B-A228-4675B458BAD9}"/>
+						<Action Name="" ID="{1BC12C08-3713-416A-9B10-7545ECE6B396}" ShortID="104216704">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{19AA06B1-DE5D-4F16-8447-CE927E7A72A8}" WorkUnitID="{73FACB83-3E67-4D97-BA1A-DE8162648059}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
-				</Folder>
+				</Event>
+				<Event Name="Play_Glide" ID="{964C72DE-D5EE-4679-8EE5-E4A390EB44DE}">
+					<ChildrenList>
+						<Action Name="" ID="{EE6FD927-A177-4FBE-8059-FEB62B714443}" ShortID="455741160">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Glide" ID="{175DDD8B-2440-450F-84AE-C6D67A1DEC7B}" WorkUnitID="{73FACB83-3E67-4D97-BA1A-DE8162648059}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
