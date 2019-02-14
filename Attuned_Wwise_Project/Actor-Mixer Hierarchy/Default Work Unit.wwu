@@ -4115,7 +4115,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5432,7 +5432,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5447,8 +5447,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="Jump_Rock_Impact_02" ID="{CE5F2ABE-7ED1-414A-B832-51BB4F1A27CA}" ShortID="691717848">
 											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.248151877710148"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.519021885069817"/>
-												<Property Name="TrimEnd" Type="Real64" Value="1.04678151231253"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.758436020607075"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Jump_Rock_Impact_02.wav</AudioFile>
@@ -6088,7 +6089,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>20</Value>
+										<Value>23</Value>
 									</ValueList>
 								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -6110,7 +6111,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="Sing_Valhalla_1" ID="{1D2BA7F3-9430-4F97-AE16-B382A035CC61}" ShortID="467913745">
 									<PropertyList>
-										<Property Name="TrimBegin" Type="Real64" Value="0.790340285400659"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.31665607487434"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sing_Valhalla_1.wav</AudioFile>
@@ -6128,9 +6129,10 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>20</Value>
+										<Value>23</Value>
 									</ValueList>
 								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -6196,6 +6198,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sing_Valhalla_2" ID="{76C75622-528B-4493-A845-22B060CE74B0}" ShortID="813130692">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="1.25"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sing_Valhalla_2.wav</AudioFile>
 								</AudioFileSource>
@@ -6209,9 +6214,10 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>20</Value>
+										<Value>23</Value>
 									</ValueList>
 								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -6277,6 +6283,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sing_Valhalla_3" ID="{9515BC68-166A-4421-B075-2ABB368EB2B5}" ShortID="612409165">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="32.8070175438596"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sing_Valhalla_3.wav</AudioFile>
 								</AudioFileSource>
@@ -6293,9 +6302,10 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>20</Value>
+										<Value>23</Value>
 									</ValueList>
 								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -6361,6 +6371,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Sing_Valhalla_4" ID="{D6E90762-34F7-43CE-98B3-C2378A3E6D40}" ShortID="605080077">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.131578947368421"/>
+										<Property Name="TrimEnd" Type="Real64" Value="59.2763157894737"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Sing_Valhalla_4.wav</AudioFile>
 								</AudioFileSource>
@@ -6700,6 +6714,11 @@
 									<Modifier Name="" ID="{51473F9A-F255-41F8-8277-B0709ACF999F}"/>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -7867,6 +7886,11 @@
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="1"/>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>38</Value>
+									</ValueList>
+								</Property>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -8361,7 +8385,7 @@
 					<ChildrenList>
 						<AudioFileSource Name="Outro_Glide" ID="{07A74B00-4FCF-4E67-8A6C-784A37FB51CF}" ShortID="145788824">
 							<PropertyList>
-								<Property Name="TrimBegin" Type="Real64" Value="0.683949643249177"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.729496289813504"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Outro_Glide.wav</AudioFile>

@@ -256,7 +256,7 @@
 						<CurrentStateRef Name="Cinematique_Door" ID="{F281E9EE-0DC6-4BE0-8DA1-F5AD8A85ED41}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>
+						<CurrentSwitchRef Name="Rock" ID="{F5FFF549-71BD-4045-AA4B-FD2FBB87F558}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

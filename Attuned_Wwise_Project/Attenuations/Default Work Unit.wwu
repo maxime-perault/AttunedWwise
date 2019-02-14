@@ -145,7 +145,7 @@
 				</Attenuation>
 				<Attenuation Name="gameplay" ID="{05A4EA0D-322E-4EDC-A4B8-A078D377037C}" ShortID="211350433">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1800"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -161,7 +161,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1500</XPos>
+											<XPos>1800</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
