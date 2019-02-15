@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\antoine.danielou\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\antoine.danielou\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\antoine.danielou\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\maxime.perault\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\maxime.perault\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\maxime.perault\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\antoine.danielou\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\maxime.perault\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -417,7 +417,7 @@
 				</File>
 				<File Id="467913745" Language="SFX">
 					<ShortName>Sing_Valhalla_1.wav</ShortName>
-					<Path>SFX\Sing_Valhalla_1_8956FC97.wem</Path>
+					<Path>SFX\Sing_Valhalla_1_64204155.wem</Path>
 				</File>
 				<File Id="469191095" Language="SFX">
 					<ShortName>Archs_04.wav</ShortName>
@@ -461,7 +461,7 @@
 				</File>
 				<File Id="535649777" Language="SFX">
 					<ShortName>Intro_Glide.wav</ShortName>
-					<Path>SFX\Intro_Glide_D26F5225.wem</Path>
+					<Path>SFX\Intro_Glide_F6324A93.wem</Path>
 				</File>
 				<File Id="538575220" Language="SFX">
 					<ShortName>Jump_Sand_01.wav</ShortName>
@@ -589,7 +589,7 @@
 				</File>
 				<File Id="719778427" Language="SFX">
 					<ShortName>Receptors_Activation_04.wav</ShortName>
-					<Path>SFX\Receptors_Activation_04_AFF388F3.wem</Path>
+					<Path>SFX\Receptors_Activation_04_EAE5729D.wem</Path>
 				</File>
 				<File Id="723003882" Language="SFX">
 					<ShortName>Random_Ambience\Random_element_01.wav</ShortName>
@@ -721,7 +721,7 @@
 				</File>
 				<File Id="887703809" Language="SFX">
 					<ShortName>Receptors_Activation_03.wav</ShortName>
-					<Path>SFX\Receptors_Activation_03_79F325DB.wem</Path>
+					<Path>SFX\Receptors_Activation_03_57D9F1CF.wem</Path>
 				</File>
 				<File Id="889369514" Language="SFX">
 					<ShortName>S_SFX_Door_Chains.wav</ShortName>
@@ -789,7 +789,7 @@
 				</File>
 				<File Id="996430665" Language="SFX">
 					<ShortName>Receptors_Activation_02.wav</ShortName>
-					<Path>SFX\Receptors_Activation_02_00422A30.wem</Path>
+					<Path>SFX\Receptors_Activation_02_55264139.wem</Path>
 				</File>
 				<File Id="998929950" Language="SFX">
 					<ShortName>Neutral_earth_2.wav</ShortName>
@@ -805,7 +805,7 @@
 				</File>
 				<File Id="1020259801" Language="SFX">
 					<ShortName>Receptors_Activation_01.wav</ShortName>
-					<Path>SFX\Receptors_Activation_01_49A7BD52.wem</Path>
+					<Path>SFX\Receptors_Activation_01_C51264DC.wem</Path>
 				</File>
 				<File Id="1028476749" Language="SFX">
 					<ShortName>Water_Surface_Random.wav</ShortName>

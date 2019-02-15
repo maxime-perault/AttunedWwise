@@ -51,7 +51,7 @@
 				</Attenuation>
 				<Attenuation Name="whisper" ID="{4B7BC01F-ACA7-43F2-A832-7B729F4932C0}" ShortID="420860828">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="2000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -68,7 +68,7 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>5000</XPos>
+											<XPos>2000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -98,7 +98,7 @@
 				</Attenuation>
 				<Attenuation Name="Sing" ID="{D321D2CB-9E30-456C-8A0E-9F58ED45FD43}" ShortID="204046319">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="8000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="3800"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -115,7 +115,7 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>8000</XPos>
+											<XPos>3800</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

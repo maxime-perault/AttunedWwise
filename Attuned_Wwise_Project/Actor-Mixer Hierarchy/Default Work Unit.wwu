@@ -6140,14 +6140,14 @@
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<Custom CreatedFrom="{D321D2CB-9E30-456C-8A0E-9F58ED45FD43}">
-										<Attenuation Name="Sing (Custom)" ID="{A30277A3-EC9C-463B-9097-0DD5FECBE33B}" ShortID="680007048">
+										<Attenuation Name="Sing (Custom)" ID="{D65BB808-8577-414C-B4F8-CBC3CC865CF3}" ShortID="339127087">
 											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+												<Property Name="RadiusMax" Type="Real64" Value="3800"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
 													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{A396EE5C-EB0F-47C5-B6CF-3FBDF6534133}">
+														<Curve Name="VolumeDry" ID="{7102F5E4-2C96-4334-BCC3-D9C602B97073}">
 															<PropertyList>
 																<Property Name="Flags" Type="int32" Value="3"/>
 															</PropertyList>
@@ -6159,7 +6159,7 @@
 																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5000</XPos>
+																	<XPos>3800</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -6227,7 +6227,7 @@
 									<Custom CreatedFrom="{D321D2CB-9E30-456C-8A0E-9F58ED45FD43}">
 										<Attenuation Name="Sing (Custom)" ID="{294DC6F1-75F7-4334-8ECB-486D6160BE38}" ShortID="302956148">
 											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+												<Property Name="RadiusMax" Type="Real64" Value="3800"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -6244,7 +6244,7 @@
 																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5000</XPos>
+																	<XPos>3800</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -6315,7 +6315,7 @@
 									<Custom CreatedFrom="{D321D2CB-9E30-456C-8A0E-9F58ED45FD43}">
 										<Attenuation Name="Sing (Custom)" ID="{66558657-CDCB-47C3-B88C-1225A6526E53}" ShortID="125758811">
 											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="5000"/>
+												<Property Name="RadiusMax" Type="Real64" Value="3800"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -6332,7 +6332,7 @@
 																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5000</XPos>
+																	<XPos>3800</XPos>
 																	<YPos>-22.32646</YPos>
 																	<Flags>37</Flags>
 																</Point>
