@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
 	<RootPaths>
-		<ProjectRoot>C:\Users\maxime.perault\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\maxime.perault\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\maxime.perault\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\maxime.perault\Desktop\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -35,13 +35,17 @@
 				<Event Id="3822226847" Name="S_Ambience_Wind_Atmosphere" ObjectPath="\Events\Default Work Unit\Ambience\S_Ambience_Wind_Atmosphere"/>
 				<Event Id="4184703957" Name="S_Random_Ambience" ObjectPath="\Events\Default Work Unit\Ambience\S_Random_Ambience"/>
 				<Event Id="3861649801" Name="S_SFX_Archs_Activation" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Archs_Activation"/>
+				<Event Id="269376373" Name="S_SFX_Awe_Voicekit" ObjectPath="\Events\Default Work Unit\S_SFX_Awe_Voicekit"/>
 				<Event Id="626905557" Name="S_SFX_Cloth_Jump_Start" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Cloth_Jump_Start"/>
 				<Event Id="4236223805" Name="S_SFX_Dash_Rock" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Dash_Rock"/>
 				<Event Id="1111711532" Name="S_SFX_Door_Chains" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Door_Chains"/>
 				<Event Id="3715476462" Name="S_SFX_Door_Open" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Door_Open"/>
 				<Event Id="210248148" Name="S_SFX_Explosion_Rock" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Explosion_Rock"/>
 				<Event Id="722645744" Name="S_SFX_Footsteps" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Footsteps"/>
+				<Event Id="1663093101" Name="S_SFX_HighFall_Neutral_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_HighFall_Neutral_Impact"/>
+				<Event Id="535641698" Name="S_SFX_HighFall_Sand_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_HighFall_Sand_Impact"/>
 				<Event Id="1584412401" Name="S_SFX_Intro_Glide" ObjectPath="\Events\Default Work Unit\S_SFX_Intro_Glide"/>
+				<Event Id="927093868" Name="S_SFX_Jump_HighFall_Rock_Impact" ObjectPath="\Events\Default Work Unit\S_SFX_Jump_HighFall_Rock_Impact"/>
 				<Event Id="2215696624" Name="S_SFX_Jump_Neutral_Impact" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Jump_Neutral_Impact"/>
 				<Event Id="2108083846" Name="S_SFX_Jump_Rock_Impact" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Jump_Rock_Impact"/>
 				<Event Id="3816297981" Name="S_SFX_Jump_Sand_Impact" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Jump_Sand_Impact"/>
@@ -51,6 +55,7 @@
 				<Event Id="40182341" Name="S_SFX_Sand_Impulse" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Sand_Impulse"/>
 				<Event Id="528538789" Name="S_SFX_Stop_Glide" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Stop_Glide"/>
 				<Event Id="1994281723" Name="S_SFX_Terrain_Wind_Speed" ObjectPath="\Events\Default Work Unit\Ambience\S_SFX_Terrain_Wind_Speed"/>
+				<Event Id="2318968271" Name="S_SFX_Voicekit_Scream" ObjectPath="\Events\Default Work Unit\S_SFX_Voicekit_Scream"/>
 				<Event Id="3597130940" Name="S_SFX_Water_Axe_Change" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_Axe_Change"/>
 				<Event Id="784655102" Name="S_SFX_Water_Glide" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_Glide"/>
 				<Event Id="727030578" Name="S_SFX_Water_In" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_In"/>
@@ -69,783 +74,803 @@
 			<IncludedMemoryFiles>
 				<File Id="9921030" Language="SFX">
 					<ShortName>Sand_V1_02.wav</ShortName>
-					<Path>SFX\Sand_V1_02_56D34C19.wem</Path>
+					<Path>SFX\Sand_V1_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="13954618" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_02.wav</ShortName>
-					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_02_56D34C19.wem</Path>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="24022672" Language="SFX">
 					<ShortName>Percu_01.wav</ShortName>
-					<Path>SFX\Percu_01_8956FC97.wem</Path>
+					<Path>SFX\Percu_01_81D52EC7.wem</Path>
 				</File>
 				<File Id="33584292" Language="SFX">
 					<ShortName>Jump_Sand_08.wav</ShortName>
-					<Path>SFX\Jump_Sand_08_56D34C19.wem</Path>
+					<Path>SFX\Jump_Sand_08_46BD80C9.wem</Path>
 				</File>
 				<File Id="36747054" Language="SFX">
 					<ShortName>Mix_Musique_Trailer.wav</ShortName>
-					<Path>SFX\Mix_Musique_Trailer_8956FC97.wem</Path>
+					<Path>SFX\Mix_Musique_Trailer_E60452FC.wem</Path>
 				</File>
 				<File Id="37870188" Language="SFX">
 					<ShortName>Jump_Sand_06.wav</ShortName>
-					<Path>SFX\Jump_Sand_06_56D34C19.wem</Path>
+					<Path>SFX\Jump_Sand_06_46BD80C9.wem</Path>
 				</File>
 				<File Id="42755631" Language="SFX">
 					<ShortName>Rock Falls\Rock_Fall_01.wav</ShortName>
-					<Path>SFX\Rock Falls\Rock_Fall_01_92F9DB67.wem</Path>
+					<Path>SFX\Rock Falls\Rock_Fall_01_BAC89A37.wem</Path>
 				</File>
 				<File Id="42788496" Language="SFX">
 					<ShortName>Sand_V2_04.wav</ShortName>
-					<Path>SFX\Sand_V2_04_56D34C19.wem</Path>
+					<Path>SFX\Sand_V2_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="43269671" Language="SFX">
 					<ShortName>Archs_06.wav</ShortName>
-					<Path>SFX\Archs_06_56D34C19.wem</Path>
+					<Path>SFX\Archs_06_46BD80C9.wem</Path>
+				</File>
+				<File Id="45074322" Language="SFX">
+					<ShortName>Voiceki_Fall_02.wav</ShortName>
+					<Path>SFX\Voiceki_Fall_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="55398265" Language="SFX">
 					<ShortName>Rock_Slide_Random\Rock_Slide_6.wav</ShortName>
-					<Path>SFX\Rock_Slide_Random\Rock_Slide_6_DED97DAC.wem</Path>
+					<Path>SFX\Rock_Slide_Random\Rock_Slide_6_5017AE3C.wem</Path>
 				</File>
 				<File Id="56152404" Language="SFX">
 					<ShortName>Dash\Dash_Voicekit_03.wav</ShortName>
-					<Path>SFX\Dash\Dash_Voicekit_03_EC6F47A6.wem</Path>
+					<Path>SFX\Dash\Dash_Voicekit_03_95A53BB6.wem</Path>
 				</File>
 				<File Id="59018201" Language="SFX">
 					<ShortName>Jump_End\JumpEnd_Voickit_03.wav</ShortName>
-					<Path>SFX\Jump_End\JumpEnd_Voickit_03_56D34C19.wem</Path>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="59979895" Language="SFX">
 					<ShortName>Sand_Impulse\Sand_Impulse_02.wav</ShortName>
-					<Path>SFX\Sand_Impulse\Sand_Impulse_02_78F80B4F.wem</Path>
+					<Path>SFX\Sand_Impulse\Sand_Impulse_02_A147775F.wem</Path>
 				</File>
 				<File Id="60064663" Language="SFX">
 					<ShortName>Sand_V2_03.wav</ShortName>
-					<Path>SFX\Sand_V2_03_56D34C19.wem</Path>
+					<Path>SFX\Sand_V2_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="70514387" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_06.wav</ShortName>
-					<Path>SFX\Random_Sand_Particules\Sand_Paricules_06_E373A5D2.wem</Path>
+					<Path>SFX\Random_Sand_Particules\Sand_Paricules_06_ADAE30A2.wem</Path>
 				</File>
 				<File Id="71182020" Language="SFX">
 					<ShortName>Jump_End\JumpEnd_Voickit_06.wav</ShortName>
-					<Path>SFX\Jump_End\JumpEnd_Voickit_06_56D34C19.wem</Path>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_06_46BD80C9.wem</Path>
 				</File>
 				<File Id="73572450" Language="SFX">
 					<ShortName>Jump_Temple_impact\Jump_Temple_impact_03.wav</ShortName>
-					<Path>SFX\Jump_Temple_impact\Jump_Temple_impact_03_56D34C19.wem</Path>
+					<Path>SFX\Jump_Temple_impact\Jump_Temple_impact_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="84515452" Language="SFX">
 					<ShortName>State_Focus_Intro.wav</ShortName>
-					<Path>SFX\State_Focus_Intro_8956FC97.wem</Path>
+					<Path>SFX\State_Focus_Intro_E60452FC.wem</Path>
 				</File>
 				<File Id="88472290" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_03.wav</ShortName>
-					<Path>SFX\Random_Sand_Particules\Sand_Paricules_03_103E31F1.wem</Path>
+					<Path>SFX\Random_Sand_Particules\Sand_Paricules_03_54E2A121.wem</Path>
 				</File>
 				<File Id="89999421" Language="SFX">
 					<ShortName>Water_Surface_Random.wav</ShortName>
-					<Path>SFX\Water_Surface_Random_A1904EFF.wem</Path>
+					<Path>SFX\Water_Surface_Random_276C1A4F.wem</Path>
 				</File>
 				<File Id="97843282" Language="SFX">
 					<ShortName>Jump_End\JumpEnd_Voickit_04.wav</ShortName>
-					<Path>SFX\Jump_End\JumpEnd_Voickit_04_56D34C19.wem</Path>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="101835873" Language="SFX">
 					<ShortName>Glide_Layer_2.wav</ShortName>
-					<Path>SFX\Glide_Layer_2_8956FC97.wem</Path>
+					<Path>SFX\Glide_Layer_2_81D52EC7.wem</Path>
 				</File>
 				<File Id="104269959" Language="SFX">
 					<ShortName>Jump_Start\JumpStart_Voickit_02.wav</ShortName>
-					<Path>SFX\Jump_Start\JumpStart_Voickit_02_56D34C19.wem</Path>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="109372009" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_06.wav</ShortName>
-					<Path>SFX\Water_Axe_Change\Water_Axe_Change_06_56D34C19.wem</Path>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_06_46BD80C9.wem</Path>
 				</File>
 				<File Id="110883096" Language="SFX">
 					<ShortName>Rock_03.wav</ShortName>
-					<Path>SFX\Rock_03_56D34C19.wem</Path>
+					<Path>SFX\Rock_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="112612088" Language="SFX">
 					<ShortName>Whisper\Whisper_7.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_7_3E824591.wem</Path>
+					<Path>SFX\Whisper\Whisper_7_55BBC5A1.wem</Path>
 				</File>
 				<File Id="114880258" Language="SFX">
 					<ShortName>Intro_Glide.wav</ShortName>
-					<Path>SFX\Intro_Glide_8956FC97.wem</Path>
+					<Path>SFX\Intro_Glide_E60452FC.wem</Path>
 				</File>
 				<File Id="115972338" Language="SFX">
 					<ShortName>Whisper\Whisper_10.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_10_ADF534D9.wem</Path>
+					<Path>SFX\Whisper\Whisper_10_654CE0E9.wem</Path>
 				</File>
 				<File Id="122822209" Language="SFX">
 					<ShortName>Neutral_earth_1.wav</ShortName>
-					<Path>SFX\Neutral_earth_1_56D34C19.wem</Path>
+					<Path>SFX\Neutral_earth_1_46BD80C9.wem</Path>
 				</File>
 				<File Id="126457969" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_07.wav</ShortName>
-					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_07_56D34C19.wem</Path>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_07_46BD80C9.wem</Path>
 				</File>
 				<File Id="133144550" Language="SFX">
 					<ShortName>Rock_04.wav</ShortName>
-					<Path>SFX\Rock_04_56D34C19.wem</Path>
+					<Path>SFX\Rock_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="134322282" Language="SFX">
 					<ShortName>Jump_Neutral_Impact_04.wav</ShortName>
-					<Path>SFX\Jump_Neutral_Impact_04_56D34C19.wem</Path>
+					<Path>SFX\Jump_Neutral_Impact_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="135216139" Language="SFX">
 					<ShortName>Rock_02.wav</ShortName>
-					<Path>SFX\Rock_02_56D34C19.wem</Path>
+					<Path>SFX\Rock_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="135381122" Language="SFX">
 					<ShortName>Broken_Rock\BrokenRock_Voickit_07.wav</ShortName>
-					<Path>SFX\Broken_Rock\BrokenRock_Voickit_07_A581C2FB.wem</Path>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_07_94212C2B.wem</Path>
 				</File>
 				<File Id="137751712" Language="SFX">
 					<ShortName>Jump_End\JumpEnd_Voickit_07.wav</ShortName>
-					<Path>SFX\Jump_End\JumpEnd_Voickit_07_56D34C19.wem</Path>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_07_46BD80C9.wem</Path>
 				</File>
 				<File Id="145788824" Language="SFX">
 					<ShortName>Outro_Glide.wav</ShortName>
-					<Path>SFX\Outro_Glide_0C210CAB.wem</Path>
+					<Path>SFX\Outro_Glide_B5134E72.wem</Path>
 				</File>
 				<File Id="153618838" Language="SFX">
 					<ShortName>Whisper\Whisper_9.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_9_71FB0FF4.wem</Path>
+					<Path>SFX\Whisper\Whisper_9_D6E2D3C4.wem</Path>
 				</File>
 				<File Id="155208662" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_05.wav</ShortName>
-					<Path>SFX\Random_Sand_Particules\Sand_Paricules_05_56D34C19.wem</Path>
+					<Path>SFX\Random_Sand_Particules\Sand_Paricules_05_46BD80C9.wem</Path>
 				</File>
 				<File Id="169664777" Language="SFX">
 					<ShortName>Dash\Dash_Voicekit_05.wav</ShortName>
-					<Path>SFX\Dash\Dash_Voicekit_05_6A25254E.wem</Path>
+					<Path>SFX\Dash\Dash_Voicekit_05_9A5CBEDE.wem</Path>
 				</File>
 				<File Id="173269715" Language="SFX">
 					<ShortName>Percu_02.wav</ShortName>
-					<Path>SFX\Percu_02_8956FC97.wem</Path>
+					<Path>SFX\Percu_02_81D52EC7.wem</Path>
 				</File>
 				<File Id="175091458" Language="SFX">
 					<ShortName>Water_Out\Water_Out_02.wav</ShortName>
-					<Path>SFX\Water_Out\Water_Out_02_3494F88E.wem</Path>
+					<Path>SFX\Water_Out\Water_Out_02_0EE11EDE.wem</Path>
 				</File>
 				<File Id="177894506" Language="SFX">
 					<ShortName>Rock Falls\Rock_Fall_05.wav</ShortName>
-					<Path>SFX\Rock Falls\Rock_Fall_05_D92845C9.wem</Path>
+					<Path>SFX\Rock Falls\Rock_Fall_05_96689459.wem</Path>
 				</File>
 				<File Id="181625886" Language="SFX">
 					<ShortName>Jump_Sand_03.wav</ShortName>
-					<Path>SFX\Jump_Sand_03_56D34C19.wem</Path>
+					<Path>SFX\Jump_Sand_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="187713402" Language="SFX">
 					<ShortName>Rock_Slide_Random\Rock_Slide_2.wav</ShortName>
-					<Path>SFX\Rock_Slide_Random\Rock_Slide_2_56D34C19.wem</Path>
+					<Path>SFX\Rock_Slide_Random\Rock_Slide_2_46BD80C9.wem</Path>
 				</File>
 				<File Id="190327341" Language="SFX">
 					<ShortName>Jump_Neutral_Impact_01.wav</ShortName>
-					<Path>SFX\Jump_Neutral_Impact_01_56D34C19.wem</Path>
+					<Path>SFX\Jump_Neutral_Impact_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="190583100" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_10.wav</ShortName>
-					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_10_56D34C19.wem</Path>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_10_46BD80C9.wem</Path>
 				</File>
 				<File Id="203951011" Language="SFX">
 					<ShortName>Whisper\Whisper_4.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_4_96DC8774.wem</Path>
+					<Path>SFX\Whisper\Whisper_4_DA0D1F44.wem</Path>
 				</File>
 				<File Id="206149572" Language="SFX">
 					<ShortName>water_glide_01.wav</ShortName>
-					<Path>SFX\water_glide_01_8956FC97.wem</Path>
+					<Path>SFX\water_glide_01_81D52EC7.wem</Path>
 				</File>
 				<File Id="210175545" Language="SFX">
 					<ShortName>Whisper\Whisper_11.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_11_EB287B9F.wem</Path>
+					<Path>SFX\Whisper\Whisper_11_B44169AF.wem</Path>
 				</File>
 				<File Id="225023140" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_01.wav</ShortName>
-					<Path>SFX\Water_Axe_Change\Water_Axe_Change_01_56D34C19.wem</Path>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="237327550" Language="SFX">
 					<ShortName>Rock_Slide_Random\Rock_Slide_1.wav</ShortName>
-					<Path>SFX\Rock_Slide_Random\Rock_Slide_1_0A28B986.wem</Path>
+					<Path>SFX\Rock_Slide_Random\Rock_Slide_1_B8979ED6.wem</Path>
 				</File>
 				<File Id="242014298" Language="SFX">
 					<ShortName>Random_Sand_Sliding\Sand_Slidnig_03.wav</ShortName>
-					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_03_159BED43.wem</Path>
+					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_03_85DD62B3.wem</Path>
 				</File>
 				<File Id="245829089" Language="SFX">
 					<ShortName>Rock_2.wav</ShortName>
-					<Path>SFX\Rock_2_56D34C19.wem</Path>
+					<Path>SFX\Rock_2_46BD80C9.wem</Path>
 				</File>
 				<File Id="267587800" Language="SFX">
 					<ShortName>Jump_Start\JumpStart_Voickit_01.wav</ShortName>
-					<Path>SFX\Jump_Start\JumpStart_Voickit_01_56D34C19.wem</Path>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="268275696" Language="SFX">
 					<ShortName>Jump_Sand_02.wav</ShortName>
-					<Path>SFX\Jump_Sand_02_56D34C19.wem</Path>
+					<Path>SFX\Jump_Sand_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="271667344" Language="SFX">
 					<ShortName>Random_Sand_Sliding\Sand_Slidnig_07.wav</ShortName>
-					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_07_F144D4CB.wem</Path>
+					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_07_D211C6BB.wem</Path>
 				</File>
 				<File Id="274068828" Language="SFX">
 					<ShortName>Jump_Start\JumpStart_Voickit_08.wav</ShortName>
-					<Path>SFX\Jump_Start\JumpStart_Voickit_08_56D34C19.wem</Path>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_08_46BD80C9.wem</Path>
 				</File>
 				<File Id="276649637" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_04.wav</ShortName>
-					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_04_56D34C19.wem</Path>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="286510612" Language="SFX">
 					<ShortName>State_Door_Cinematique.wav</ShortName>
-					<Path>SFX\State_Door_Cinematique_56D34C19.wem</Path>
+					<Path>SFX\State_Door_Cinematique_474E68A2.wem</Path>
 				</File>
 				<File Id="287677286" Language="SFX">
 					<ShortName>Water_Out\Water_Out_02.wav</ShortName>
-					<Path>SFX\Water_Out\Water_Out_02_5D00FD02.wem</Path>
+					<Path>SFX\Water_Out\Water_Out_02_AB0649B2.wem</Path>
 				</File>
 				<File Id="288949398" Language="SFX">
 					<ShortName>Jump_Sand_07.wav</ShortName>
-					<Path>SFX\Jump_Sand_07_56D34C19.wem</Path>
+					<Path>SFX\Jump_Sand_07_46BD80C9.wem</Path>
 				</File>
 				<File Id="289569212" Language="SFX">
 					<ShortName>Jump_End\JumpEnd_Voickit_01.wav</ShortName>
-					<Path>SFX\Jump_End\JumpEnd_Voickit_01_56D34C19.wem</Path>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="291897132" Language="SFX">
 					<ShortName>Jump_Temple_impact\Jump_Temple_impact_01.wav</ShortName>
-					<Path>SFX\Jump_Temple_impact\Jump_Temple_impact_01_56D34C19.wem</Path>
+					<Path>SFX\Jump_Temple_impact\Jump_Temple_impact_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="302705299" Language="SFX">
 					<ShortName>Env_Brown_Noise_Sand_Loop.wav</ShortName>
-					<Path>SFX\Env_Brown_Noise_Sand_Loop_8956FC97.wem</Path>
+					<Path>SFX\Env_Brown_Noise_Sand_Loop_81D52EC7.wem</Path>
 				</File>
 				<File Id="309594970" Language="SFX">
 					<ShortName>Percu_03.wav</ShortName>
-					<Path>SFX\Percu_03_8956FC97.wem</Path>
+					<Path>SFX\Percu_03_81D52EC7.wem</Path>
 				</File>
 				<File Id="313385276" Language="SFX">
 					<ShortName>Sand_Impulse\Sand_Impulse_01.wav</ShortName>
-					<Path>SFX\Sand_Impulse\Sand_Impulse_01_19CA10B9.wem</Path>
+					<Path>SFX\Sand_Impulse\Sand_Impulse_01_DFD98289.wem</Path>
 				</File>
 				<File Id="318552797" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_4.wav</ShortName>
-					<Path>SFX\Explosion_Rock\Explosion_Rock_4_56D34C19.wem</Path>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_4_46BD80C9.wem</Path>
 				</File>
 				<File Id="338030450" Language="SFX">
 					<ShortName>Jump_Neutral_Impact_03.wav</ShortName>
-					<Path>SFX\Jump_Neutral_Impact_03_56D34C19.wem</Path>
+					<Path>SFX\Jump_Neutral_Impact_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="340965368" Language="SFX">
 					<ShortName>Water_Out\Water_Out_01.wav</ShortName>
-					<Path>SFX\Water_Out\Water_Out_01_0831FB63.wem</Path>
+					<Path>SFX\Water_Out\Water_Out_01_C8D5EB73.wem</Path>
 				</File>
 				<File Id="347773686" Language="SFX">
 					<ShortName>Percu_05.wav</ShortName>
-					<Path>SFX\Percu_05_8956FC97.wem</Path>
+					<Path>SFX\Percu_05_81D52EC7.wem</Path>
 				</File>
 				<File Id="355749244" Language="SFX">
 					<ShortName>Jump_Start\JumpStart_Voickit_04.wav</ShortName>
-					<Path>SFX\Jump_Start\JumpStart_Voickit_04_56D34C19.wem</Path>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="361260495" Language="SFX">
 					<ShortName>Random_Ambience\Random_element_04.wav</ShortName>
-					<Path>SFX\Random_Ambience\Random_element_04_56D34C19.wem</Path>
+					<Path>SFX\Random_Ambience\Random_element_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="364724400" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_04.wav</ShortName>
-					<Path>SFX\Water_Axe_Change\Water_Axe_Change_04_56D34C19.wem</Path>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="367445609" Language="SFX">
 					<ShortName>Random_Ambience\Random_element_05.wav</ShortName>
-					<Path>SFX\Random_Ambience\Random_element_05_56D34C19.wem</Path>
+					<Path>SFX\Random_Ambience\Random_element_05_46BD80C9.wem</Path>
 				</File>
 				<File Id="370504841" Language="SFX">
 					<ShortName>Broken_Rock\BrokenRock_Voickit_04.wav</ShortName>
-					<Path>SFX\Broken_Rock\BrokenRock_Voickit_04_127BCB9D.wem</Path>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_04_1D95724D.wem</Path>
 				</File>
 				<File Id="380825031" Language="SFX">
 					<ShortName>Jump_Start\JumpStart_Voickit_03.wav</ShortName>
-					<Path>SFX\Jump_Start\JumpStart_Voickit_03_56D34C19.wem</Path>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="383756994" Language="SFX">
 					<ShortName>Outro_Glide.wav</ShortName>
-					<Path>SFX\Outro_Glide_8956FC97.wem</Path>
+					<Path>SFX\Outro_Glide_E60452FC.wem</Path>
 				</File>
 				<File Id="384432404" Language="SFX">
 					<ShortName>Sand_V2_01.wav</ShortName>
-					<Path>SFX\Sand_V2_01_56D34C19.wem</Path>
+					<Path>SFX\Sand_V2_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="394040407" Language="SFX">
 					<ShortName>Archs_08.wav</ShortName>
-					<Path>SFX\Archs_08_56D34C19.wem</Path>
+					<Path>SFX\Archs_08_46BD80C9.wem</Path>
 				</File>
 				<File Id="403297469" Language="SFX">
 					<ShortName>Env_Brown_Noise_Water_Loop.wav</ShortName>
-					<Path>SFX\Env_Brown_Noise_Water_Loop_8956FC97.wem</Path>
+					<Path>SFX\Env_Brown_Noise_Water_Loop_81D52EC7.wem</Path>
 				</File>
 				<File Id="403953597" Language="SFX">
 					<ShortName>Jump_Sand_04.wav</ShortName>
-					<Path>SFX\Jump_Sand_04_56D34C19.wem</Path>
+					<Path>SFX\Jump_Sand_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="421914021" Language="SFX">
 					<ShortName>Water_In\Water_In_01.wav</ShortName>
-					<Path>SFX\Water_In\Water_In_01_91675056.wem</Path>
+					<Path>SFX\Water_In\Water_In_01_0ED02826.wem</Path>
 				</File>
 				<File Id="434710467" Language="SFX">
 					<ShortName>Temple\Temple_03.wav</ShortName>
-					<Path>SFX\Temple\Temple_03_56D34C19.wem</Path>
+					<Path>SFX\Temple\Temple_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="435972597" Language="SFX">
 					<ShortName>Dash\Dash_VoiceKit_02.wav</ShortName>
-					<Path>SFX\Dash\Dash_VoiceKit_02_369D0B4D.wem</Path>
+					<Path>SFX\Dash\Dash_VoiceKit_02_F7BDDE3D.wem</Path>
 				</File>
 				<File Id="444279221" Language="SFX">
 					<ShortName>Env_Brown_Noise_Rock_Loop.wav</ShortName>
-					<Path>SFX\Env_Brown_Noise_Rock_Loop_8956FC97.wem</Path>
+					<Path>SFX\Env_Brown_Noise_Rock_Loop_81D52EC7.wem</Path>
 				</File>
 				<File Id="447722339" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_01.wav</ShortName>
-					<Path>SFX\Random_Sand_Particules\Sand_Paricules_01_79341BC8.wem</Path>
+					<Path>SFX\Random_Sand_Particules\Sand_Paricules_01_0D62C478.wem</Path>
 				</File>
 				<File Id="450258983" Language="SFX">
 					<ShortName>Corridor_atmosphere_loop.wav</ShortName>
-					<Path>SFX\Corridor_atmosphere_loop_8956FC97.wem</Path>
+					<Path>SFX\Corridor_atmosphere_loop_E60452FC.wem</Path>
 				</File>
 				<File Id="467913745" Language="SFX">
 					<ShortName>Sing_Valhalla_1.wav</ShortName>
-					<Path>SFX\Sing_Valhalla_1_64204155.wem</Path>
+					<Path>SFX\Sing_Valhalla_1_F04D0C88.wem</Path>
 				</File>
 				<File Id="469191095" Language="SFX">
 					<ShortName>Archs_04.wav</ShortName>
-					<Path>SFX\Archs_04_56D34C19.wem</Path>
+					<Path>SFX\Archs_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="476394009" Language="SFX">
 					<ShortName>Jump_End\JumpEnd_Voickit_02.wav</ShortName>
-					<Path>SFX\Jump_End\JumpEnd_Voickit_02_56D34C19.wem</Path>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="487228937" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_5.wav</ShortName>
-					<Path>SFX\Explosion_Rock\Explosion_Rock_5_56D34C19.wem</Path>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_5_46BD80C9.wem</Path>
 				</File>
 				<File Id="492546283" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_08.wav</ShortName>
-					<Path>SFX\Random_Sand_Particules\Sand_Paricules_08_32CB8E49.wem</Path>
+					<Path>SFX\Random_Sand_Particules\Sand_Paricules_08_EA99A019.wem</Path>
 				</File>
 				<File Id="511751440" Language="SFX">
 					<ShortName>Whisper\Whisper_1.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_1_DD158BAF.wem</Path>
+					<Path>SFX\Whisper\Whisper_1_FE85AABF.wem</Path>
 				</File>
 				<File Id="512718015" Language="SFX">
 					<ShortName>Temple\Temple_04.wav</ShortName>
-					<Path>SFX\Temple\Temple_04_56D34C19.wem</Path>
+					<Path>SFX\Temple\Temple_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="521395316" Language="SFX">
 					<ShortName>Archs_07.wav</ShortName>
-					<Path>SFX\Archs_07_56D34C19.wem</Path>
+					<Path>SFX\Archs_07_46BD80C9.wem</Path>
 				</File>
 				<File Id="525562156" Language="SFX">
 					<ShortName>Water_In\Water_In_03.wav</ShortName>
-					<Path>SFX\Water_In\Water_In_03_0DBE7F15.wem</Path>
+					<Path>SFX\Water_In\Water_In_03_FFCD41E5.wem</Path>
 				</File>
 				<File Id="530101482" Language="SFX">
 					<ShortName>Random_Sand_Sliding\Sand_Slidnig_02.wav</ShortName>
-					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_02_63F531B5.wem</Path>
+					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_02_74789F25.wem</Path>
 				</File>
 				<File Id="532913117" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_08.wav</ShortName>
-					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_08_56D34C19.wem</Path>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_08_46BD80C9.wem</Path>
 				</File>
 				<File Id="535649777" Language="SFX">
 					<ShortName>Intro_Glide.wav</ShortName>
-					<Path>SFX\Intro_Glide_F6324A93.wem</Path>
+					<Path>SFX\Intro_Glide_BC5FB114.wem</Path>
 				</File>
 				<File Id="538575220" Language="SFX">
 					<ShortName>Jump_Sand_01.wav</ShortName>
-					<Path>SFX\Jump_Sand_01_56D34C19.wem</Path>
+					<Path>SFX\Jump_Sand_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="542128448" Language="SFX">
 					<ShortName>Jump_Neutral_Impact_02.wav</ShortName>
-					<Path>SFX\Jump_Neutral_Impact_02_56D34C19.wem</Path>
+					<Path>SFX\Jump_Neutral_Impact_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="543179606" Language="SFX">
 					<ShortName>Dash\Dash_VoiceKit_01.wav</ShortName>
-					<Path>SFX\Dash\Dash_VoiceKit_01_C2ED553B.wem</Path>
+					<Path>SFX\Dash\Dash_VoiceKit_01_C572CAEB.wem</Path>
+				</File>
+				<File Id="547397228" Language="SFX">
+					<ShortName>Awe_Voicekit.wav</ShortName>
+					<Path>SFX\Awe_Voicekit_EA1DEFFF.wem</Path>
 				</File>
 				<File Id="552018818" Language="SFX">
 					<ShortName>Whisper\Whisper_2.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_2_D6CB9583.wem</Path>
+					<Path>SFX\Whisper\Whisper_2_06A57233.wem</Path>
 				</File>
 				<File Id="555257121" Language="SFX">
 					<ShortName>Rock Falls\Rock_Fall_02.wav</ShortName>
-					<Path>SFX\Rock Falls\Rock_Fall_02_ABB26925.wem</Path>
+					<Path>SFX\Rock Falls\Rock_Fall_02_27C39D95.wem</Path>
 				</File>
 				<File Id="574227043" Language="SFX">
 					<ShortName>Glide_Layer_3.wav</ShortName>
-					<Path>SFX\Glide_Layer_3_8956FC97.wem</Path>
+					<Path>SFX\Glide_Layer_3_81D52EC7.wem</Path>
 				</File>
 				<File Id="576290424" Language="SFX">
 					<ShortName>S_SFX_Door_Open.wav</ShortName>
-					<Path>SFX\S_SFX_Door_Open_56D34C19.wem</Path>
+					<Path>SFX\S_SFX_Door_Open_46BD80C9.wem</Path>
 				</File>
 				<File Id="584492632" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_01.wav</ShortName>
-					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_01_56D34C19.wem</Path>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="586306831" Language="SFX">
 					<ShortName>Neutral_earth_3.wav</ShortName>
-					<Path>SFX\Neutral_earth_3_56D34C19.wem</Path>
+					<Path>SFX\Neutral_earth_3_46BD80C9.wem</Path>
 				</File>
 				<File Id="595362506" Language="SFX">
 					<ShortName>Random_Sand_Sliding\Sand_Slidnig_04.wav</ShortName>
-					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_04_69C8F33D.wem</Path>
+					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_04_518872AD.wem</Path>
 				</File>
 				<File Id="603282285" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_02.wav</ShortName>
-					<Path>SFX\Water_Axe_Change\Water_Axe_Change_02_56D34C19.wem</Path>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="605080077" Language="SFX">
 					<ShortName>Sing_Valhalla_4.wav</ShortName>
-					<Path>SFX\Sing_Valhalla_4_56D34C19.wem</Path>
+					<Path>SFX\Sing_Valhalla_4_D9C83116.wem</Path>
 				</File>
 				<File Id="606681895" Language="SFX">
 					<ShortName>Random_Sand_Sliding\Sand_Slidnig_06.wav</ShortName>
-					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_06_7EA62934.wem</Path>
+					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_06_DB612104.wem</Path>
 				</File>
 				<File Id="607690952" Language="SFX">
 					<ShortName>Jump_Temple_impact\Jump_Temple_impact_02.wav</ShortName>
-					<Path>SFX\Jump_Temple_impact\Jump_Temple_impact_02_56D34C19.wem</Path>
+					<Path>SFX\Jump_Temple_impact\Jump_Temple_impact_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="612409165" Language="SFX">
 					<ShortName>Sing_Valhalla_3.wav</ShortName>
-					<Path>SFX\Sing_Valhalla_3_56D34C19.wem</Path>
+					<Path>SFX\Sing_Valhalla_3_A4B39E47.wem</Path>
 				</File>
 				<File Id="617643359" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_02.wav</ShortName>
-					<Path>SFX\Random_Sand_Particules\Sand_Paricules_02_2F843BEB.wem</Path>
+					<Path>SFX\Random_Sand_Particules\Sand_Paricules_02_A04363BB.wem</Path>
 				</File>
 				<File Id="627520731" Language="SFX">
 					<ShortName>Percu_04.wav</ShortName>
-					<Path>SFX\Percu_04_8956FC97.wem</Path>
+					<Path>SFX\Percu_04_81D52EC7.wem</Path>
 				</File>
 				<File Id="631460228" Language="SFX">
 					<ShortName>Neutral_earth_4.wav</ShortName>
-					<Path>SFX\Neutral_earth_4_56D34C19.wem</Path>
+					<Path>SFX\Neutral_earth_4_46BD80C9.wem</Path>
 				</File>
 				<File Id="642489597" Language="SFX">
 					<ShortName>Random_Ambience\Random_element_06.wav</ShortName>
-					<Path>SFX\Random_Ambience\Random_element_06_56D34C19.wem</Path>
+					<Path>SFX\Random_Ambience\Random_element_06_46BD80C9.wem</Path>
 				</File>
 				<File Id="643917322" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_7.wav</ShortName>
-					<Path>SFX\Explosion_Rock\Explosion_Rock_7_56D34C19.wem</Path>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_7_46BD80C9.wem</Path>
 				</File>
 				<File Id="650304559" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_03.wav</ShortName>
-					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_03_56D34C19.wem</Path>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="675802329" Language="SFX">
 					<ShortName>Sand_Thrown_01.wav</ShortName>
-					<Path>SFX\Sand_Thrown_01_8956FC97.wem</Path>
+					<Path>SFX\Sand_Thrown_01_81D52EC7.wem</Path>
 				</File>
 				<File Id="679919154" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_6.wav</ShortName>
-					<Path>SFX\Explosion_Rock\Explosion_Rock_6_56D34C19.wem</Path>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_6_46BD80C9.wem</Path>
 				</File>
 				<File Id="684477909" Language="SFX">
 					<ShortName>Rock Falls\Rock_Fall_04.wav</ShortName>
-					<Path>SFX\Rock Falls\Rock_Fall_04_BE36F110.wem</Path>
+					<Path>SFX\Rock Falls\Rock_Fall_04_37BB1200.wem</Path>
 				</File>
 				<File Id="687723195" Language="SFX">
 					<ShortName>Random_Ambience\Random_element_07.wav</ShortName>
-					<Path>SFX\Random_Ambience\Random_element_07_56D34C19.wem</Path>
+					<Path>SFX\Random_Ambience\Random_element_07_46BD80C9.wem</Path>
 				</File>
 				<File Id="691717848" Language="SFX">
 					<ShortName>Jump_Rock_Impact_02.wav</ShortName>
-					<Path>SFX\Jump_Rock_Impact_02_40421226.wem</Path>
+					<Path>SFX\Jump_Rock_Impact_02_E455228C.wem</Path>
 				</File>
 				<File Id="695396329" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_07.wav</ShortName>
-					<Path>SFX\Water_Axe_Change\Water_Axe_Change_07_56D34C19.wem</Path>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_07_46BD80C9.wem</Path>
 				</File>
 				<File Id="703377150" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_05.wav</ShortName>
-					<Path>SFX\Water_Axe_Change\Water_Axe_Change_05_56D34C19.wem</Path>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_05_46BD80C9.wem</Path>
 				</File>
 				<File Id="708209847" Language="SFX">
 					<ShortName>Rock_1.wav</ShortName>
-					<Path>SFX\Rock_1_56D34C19.wem</Path>
+					<Path>SFX\Rock_1_46BD80C9.wem</Path>
 				</File>
 				<File Id="708920394" Language="SFX">
 					<ShortName>Glide_Layer_1.wav</ShortName>
-					<Path>SFX\Glide_Layer_1_8956FC97.wem</Path>
+					<Path>SFX\Glide_Layer_1_81D52EC7.wem</Path>
 				</File>
 				<File Id="712614809" Language="SFX">
 					<ShortName>Broken_Rock\BrokenRock_Voickit_01.wav</ShortName>
-					<Path>SFX\Broken_Rock\BrokenRock_Voickit_01_7BDD1845.wem</Path>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_01_51CD80B5.wem</Path>
 				</File>
 				<File Id="719778427" Language="SFX">
 					<ShortName>Receptors_Activation_04.wav</ShortName>
-					<Path>SFX\Receptors_Activation_04_EAE5729D.wem</Path>
+					<Path>SFX\Receptors_Activation_04_A8F50EAD.wem</Path>
 				</File>
 				<File Id="723003882" Language="SFX">
 					<ShortName>Random_Ambience\Random_element_01.wav</ShortName>
-					<Path>SFX\Random_Ambience\Random_element_01_56D34C19.wem</Path>
+					<Path>SFX\Random_Ambience\Random_element_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="725977748" Language="SFX">
 					<ShortName>Temple\Temple_01.wav</ShortName>
-					<Path>SFX\Temple\Temple_01_56D34C19.wem</Path>
+					<Path>SFX\Temple\Temple_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="742107628" Language="SFX">
 					<ShortName>Water_In\Water_In_02.wav</ShortName>
-					<Path>SFX\Water_In\Water_In_02_E76CA80F.wem</Path>
+					<Path>SFX\Water_In\Water_In_02_679D447F.wem</Path>
 				</File>
 				<File Id="748112971" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_2.wav</ShortName>
-					<Path>SFX\Explosion_Rock\Explosion_Rock_2_56D34C19.wem</Path>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_2_46BD80C9.wem</Path>
 				</File>
 				<File Id="753197224" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_03.wav</ShortName>
-					<Path>SFX\Water_Axe_Change\Water_Axe_Change_03_56D34C19.wem</Path>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="761076149" Language="SFX">
 					<ShortName>Dash\Dash_Voicekit_04.wav</ShortName>
-					<Path>SFX\Dash\Dash_Voicekit_04_B784305E.wem</Path>
+					<Path>SFX\Dash\Dash_Voicekit_04_EF209C6E.wem</Path>
 				</File>
 				<File Id="765421079" Language="SFX">
 					<ShortName>Archs_03.wav</ShortName>
-					<Path>SFX\Archs_03_56D34C19.wem</Path>
+					<Path>SFX\Archs_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="769609296" Language="SFX">
 					<ShortName>Rock_Slide_Random\Rock_Slide_3.wav</ShortName>
-					<Path>SFX\Rock_Slide_Random\Rock_Slide_3_9C22C960.wem</Path>
+					<Path>SFX\Rock_Slide_Random\Rock_Slide_3_1584EC10.wem</Path>
 				</File>
 				<File Id="780541535" Language="SFX">
 					<ShortName>Rock_4.wav</ShortName>
-					<Path>SFX\Rock_4_56D34C19.wem</Path>
+					<Path>SFX\Rock_4_46BD80C9.wem</Path>
 				</File>
 				<File Id="784334009" Language="SFX">
 					<ShortName>Rock_Slide_Random\Rock_Slide_5.wav</ShortName>
-					<Path>SFX\Rock_Slide_Random\Rock_Slide_5_8D709099.wem</Path>
+					<Path>SFX\Rock_Slide_Random\Rock_Slide_5_68A63E69.wem</Path>
 				</File>
 				<File Id="784744620" Language="SFX">
 					<ShortName>Whisper\Whisper_5.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_5_345B04D6.wem</Path>
+					<Path>SFX\Whisper\Whisper_5_9D139D06.wem</Path>
 				</File>
 				<File Id="790919215" Language="SFX">
 					<ShortName>Env_Brown_Noise_Loop.wav</ShortName>
-					<Path>SFX\Env_Brown_Noise_Loop_8956FC97.wem</Path>
+					<Path>SFX\Env_Brown_Noise_Loop_81D52EC7.wem</Path>
 				</File>
 				<File Id="791604576" Language="SFX">
 					<ShortName>Rock_01.wav</ShortName>
-					<Path>SFX\Rock_01_56D34C19.wem</Path>
+					<Path>SFX\Rock_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="793608092" Language="SFX">
 					<ShortName>State_Door_Cinematique.wav</ShortName>
-					<Path>SFX\State_Door_Cinematique_8956FC97.wem</Path>
+					<Path>SFX\State_Door_Cinematique_E60452FC.wem</Path>
 				</File>
 				<File Id="797467293" Language="SFX">
 					<ShortName>Whisper\Whisper_6.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_6_647B87A6.wem</Path>
+					<Path>SFX\Whisper\Whisper_6_944C83B6.wem</Path>
 				</File>
 				<File Id="798846047" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_06.wav</ShortName>
-					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_06_56D34C19.wem</Path>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_06_46BD80C9.wem</Path>
 				</File>
 				<File Id="802155764" Language="SFX">
 					<ShortName>Dash\Dash_Voicekit_06.wav</ShortName>
-					<Path>SFX\Dash\Dash_Voicekit_06_580DB0EC.wem</Path>
+					<Path>SFX\Dash\Dash_Voicekit_06_FCE8DAFC.wem</Path>
 				</File>
 				<File Id="803219860" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_3.wav</ShortName>
-					<Path>SFX\Explosion_Rock\Explosion_Rock_3_56D34C19.wem</Path>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_3_46BD80C9.wem</Path>
 				</File>
 				<File Id="813130692" Language="SFX">
 					<ShortName>Sing_Valhalla_2.wav</ShortName>
-					<Path>SFX\Sing_Valhalla_2_56D34C19.wem</Path>
+					<Path>SFX\Sing_Valhalla_2_8B82BF1B.wem</Path>
 				</File>
 				<File Id="818233503" Language="SFX">
 					<ShortName>Sand_V1_04.wav</ShortName>
-					<Path>SFX\Sand_V1_04_56D34C19.wem</Path>
+					<Path>SFX\Sand_V1_04_46BD80C9.wem</Path>
 				</File>
 				<File Id="818503871" Language="SFX">
 					<ShortName>Broken_Rock\BrokenRock_Voickit_05.wav</ShortName>
-					<Path>SFX\Broken_Rock\BrokenRock_Voickit_05_78A82ECE.wem</Path>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_05_EF51F6BE.wem</Path>
 				</File>
 				<File Id="823668542" Language="SFX">
 					<ShortName>Jump_Start\JumpStart_Voickit_05.wav</ShortName>
-					<Path>SFX\Jump_Start\JumpStart_Voickit_05_56D34C19.wem</Path>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_05_46BD80C9.wem</Path>
 				</File>
 				<File Id="833861451" Language="SFX">
 					<ShortName>Dash_Rock.wav</ShortName>
-					<Path>SFX\Dash_Rock_BD647747.wem</Path>
+					<Path>SFX\Dash_Rock_A198E297.wem</Path>
 				</File>
 				<File Id="848271311" Language="SFX">
 					<ShortName>Sand_V1_03.wav</ShortName>
-					<Path>SFX\Sand_V1_03_56D34C19.wem</Path>
+					<Path>SFX\Sand_V1_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="848575906" Language="SFX">
 					<ShortName>S_SFX_Dash_Rock.wav</ShortName>
-					<Path>SFX\S_SFX_Dash_Rock_2BF35CD2.wem</Path>
+					<Path>SFX\S_SFX_Dash_Rock_2FD9BA02.wem</Path>
 				</File>
 				<File Id="852594658" Language="SFX">
 					<ShortName>Archs_01.wav</ShortName>
-					<Path>SFX\Archs_01_56D34C19.wem</Path>
+					<Path>SFX\Archs_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="853509859" Language="SFX">
 					<ShortName>Random_Ambience\Random_element_02.wav</ShortName>
-					<Path>SFX\Random_Ambience\Random_element_02_56D34C19.wem</Path>
+					<Path>SFX\Random_Ambience\Random_element_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="857924929" Language="SFX">
 					<ShortName>Footstep_Rock_Lfe\rockimpact.wav</ShortName>
-					<Path>SFX\Footstep_Rock_Lfe\rockimpact_56D34C19.wem</Path>
+					<Path>SFX\Footstep_Rock_Lfe\rockimpact_46BD80C9.wem</Path>
 				</File>
 				<File Id="859308396" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_05.wav</ShortName>
-					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_05_56D34C19.wem</Path>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_05_46BD80C9.wem</Path>
 				</File>
 				<File Id="873269572" Language="SFX">
 					<ShortName>Whisper\Whisper_3.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_3_498B0666.wem</Path>
+					<Path>SFX\Whisper\Whisper_3_A400EF36.wem</Path>
 				</File>
 				<File Id="883202677" Language="SFX">
 					<ShortName>Archs_05.wav</ShortName>
-					<Path>SFX\Archs_05_56D34C19.wem</Path>
+					<Path>SFX\Archs_05_46BD80C9.wem</Path>
 				</File>
 				<File Id="886108902" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_1.wav</ShortName>
-					<Path>SFX\Explosion_Rock\Explosion_Rock_1_56D34C19.wem</Path>
+					<Path>SFX\Explosion_Rock\Explosion_Rock_1_46BD80C9.wem</Path>
 				</File>
 				<File Id="887703809" Language="SFX">
 					<ShortName>Receptors_Activation_03.wav</ShortName>
-					<Path>SFX\Receptors_Activation_03_57D9F1CF.wem</Path>
+					<Path>SFX\Receptors_Activation_03_8AC2E59F.wem</Path>
+				</File>
+				<File Id="889039418" Language="SFX">
+					<ShortName>Fall_Scream_02.wav</ShortName>
+					<Path>SFX\Fall_Scream_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="889369514" Language="SFX">
 					<ShortName>S_SFX_Door_Chains.wav</ShortName>
-					<Path>SFX\S_SFX_Door_Chains_56D34C19.wem</Path>
+					<Path>SFX\S_SFX_Door_Chains_46BD80C9.wem</Path>
 				</File>
 				<File Id="894442699" Language="SFX">
 					<ShortName>Sand_V1_01.wav</ShortName>
-					<Path>SFX\Sand_V1_01_56D34C19.wem</Path>
+					<Path>SFX\Sand_V1_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="897292130" Language="SFX">
 					<ShortName>Sand_V2_02.wav</ShortName>
-					<Path>SFX\Sand_V2_02_FEE17549.wem</Path>
+					<Path>SFX\Sand_V2_02_076072D9.wem</Path>
 				</File>
 				<File Id="902677411" Language="SFX">
 					<ShortName>Random_Sand_Sliding\Sand_Slidnig_05.wav</ShortName>
-					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_05_3AB5B35F.wem</Path>
+					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_05_A1AD164F.wem</Path>
+				</File>
+				<File Id="915066737" Language="SFX">
+					<ShortName>Voiceki_Fall_01.wav</ShortName>
+					<Path>SFX\Voiceki_Fall_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="916344115" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_07.wav</ShortName>
-					<Path>SFX\Random_Sand_Particules\Sand_Paricules_07_4D4D69C8.wem</Path>
+					<Path>SFX\Random_Sand_Particules\Sand_Paricules_07_A2B24D38.wem</Path>
 				</File>
 				<File Id="918955241" Language="SFX">
 					<ShortName>Broken_Rock\BrokenRock_Voickit_06.wav</ShortName>
-					<Path>SFX\Broken_Rock\BrokenRock_Voickit_06_8E7A1D00.wem</Path>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_06_2F7BA610.wem</Path>
 				</File>
 				<File Id="920320048" Language="SFX">
 					<ShortName>Broken_Rock\BrokenRock_Voickit_02.wav</ShortName>
-					<Path>SFX\Broken_Rock\BrokenRock_Voickit_02_CFDCA8D1.wem</Path>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_02_45C52E61.wem</Path>
 				</File>
 				<File Id="921028254" Language="SFX">
 					<ShortName>Random_Ambience\Random_element_03.wav</ShortName>
-					<Path>SFX\Random_Ambience\Random_element_03_56D34C19.wem</Path>
+					<Path>SFX\Random_Ambience\Random_element_03_46BD80C9.wem</Path>
+				</File>
+				<File Id="927708852" Language="SFX">
+					<ShortName>Fall_Scream_01.wav</ShortName>
+					<Path>SFX\Fall_Scream_01_46BD80C9.wem</Path>
 				</File>
 				<File Id="939654181" Language="SFX">
 					<ShortName>Jump_End\JumpEnd_Voickit_05.wav</ShortName>
-					<Path>SFX\Jump_End\JumpEnd_Voickit_05_56D34C19.wem</Path>
+					<Path>SFX\Jump_End\JumpEnd_Voickit_05_46BD80C9.wem</Path>
 				</File>
 				<File Id="943616428" Language="SFX">
 					<ShortName>Random_Sand_Sliding\Sand_Slidnig_01.wav</ShortName>
-					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_01_83ACA859.wem</Path>
+					<Path>SFX\Random_Sand_Sliding\Sand_Slidnig_01_129B80E9.wem</Path>
 				</File>
 				<File Id="950407684" Language="SFX">
 					<ShortName>Water_In\Water_In_04.wav</ShortName>
-					<Path>SFX\Water_In\Water_In_04_C9D3630D.wem</Path>
+					<Path>SFX\Water_In\Water_In_04_457EC79D.wem</Path>
 				</File>
 				<File Id="955460444" Language="SFX">
 					<ShortName>Archs_02.wav</ShortName>
-					<Path>SFX\Archs_02_56D34C19.wem</Path>
+					<Path>SFX\Archs_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="961583622" Language="SFX">
 					<ShortName>Temple\Temple_02.wav</ShortName>
-					<Path>SFX\Temple\Temple_02_56D34C19.wem</Path>
+					<Path>SFX\Temple\Temple_02_46BD80C9.wem</Path>
 				</File>
 				<File Id="967541556" Language="SFX">
 					<ShortName>Broken_Rock\BrokenRock_Voickit_03.wav</ShortName>
-					<Path>SFX\Broken_Rock\BrokenRock_Voickit_03_15125056.wem</Path>
+					<Path>SFX\Broken_Rock\BrokenRock_Voickit_03_12394BE6.wem</Path>
 				</File>
 				<File Id="969973501" Language="SFX">
 					<ShortName>Water_Axe_Change\Water_Axe_Change_08.wav</ShortName>
-					<Path>SFX\Water_Axe_Change\Water_Axe_Change_08_56D34C19.wem</Path>
+					<Path>SFX\Water_Axe_Change\Water_Axe_Change_08_46BD80C9.wem</Path>
 				</File>
 				<File Id="986821730" Language="SFX">
 					<ShortName>Rock Falls\Rock_Fall_03.wav</ShortName>
-					<Path>SFX\Rock Falls\Rock_Fall_03_56D34C19.wem</Path>
+					<Path>SFX\Rock Falls\Rock_Fall_03_46BD80C9.wem</Path>
 				</File>
 				<File Id="996430665" Language="SFX">
 					<ShortName>Receptors_Activation_02.wav</ShortName>
-					<Path>SFX\Receptors_Activation_02_55264139.wem</Path>
+					<Path>SFX\Receptors_Activation_02_91E1F849.wem</Path>
 				</File>
 				<File Id="998929950" Language="SFX">
 					<ShortName>Neutral_earth_2.wav</ShortName>
-					<Path>SFX\Neutral_earth_2_56D34C19.wem</Path>
+					<Path>SFX\Neutral_earth_2_46BD80C9.wem</Path>
 				</File>
 				<File Id="1006875054" Language="SFX">
 					<ShortName>Jump_Start\JumpStart_Voickit_07.wav</ShortName>
-					<Path>SFX\Jump_Start\JumpStart_Voickit_07_56D34C19.wem</Path>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_07_46BD80C9.wem</Path>
 				</File>
 				<File Id="1007421856" Language="SFX">
 					<ShortName>Jump_Sand_05.wav</ShortName>
-					<Path>SFX\Jump_Sand_05_56D34C19.wem</Path>
+					<Path>SFX\Jump_Sand_05_46BD80C9.wem</Path>
 				</File>
 				<File Id="1020259801" Language="SFX">
 					<ShortName>Receptors_Activation_01.wav</ShortName>
-					<Path>SFX\Receptors_Activation_01_C51264DC.wem</Path>
+					<Path>SFX\Receptors_Activation_01_A295820C.wem</Path>
 				</File>
 				<File Id="1028476749" Language="SFX">
 					<ShortName>Water_Surface_Random.wav</ShortName>
-					<Path>SFX\Water_Surface_Random_FC4858AD.wem</Path>
+					<Path>SFX\Water_Surface_Random_7A56873D.wem</Path>
 				</File>
 				<File Id="1036518853" Language="SFX">
 					<ShortName>Water_Surface_Random.wav</ShortName>
-					<Path>SFX\Water_Surface_Random_3B62D5E9.wem</Path>
+					<Path>SFX\Water_Surface_Random_E41F5979.wem</Path>
 				</File>
 				<File Id="1038500271" Language="SFX">
 					<ShortName>Rock_Slide_Env.wav</ShortName>
-					<Path>SFX\Rock_Slide_Env_8956FC97.wem</Path>
+					<Path>SFX\Rock_Slide_Env_81D52EC7.wem</Path>
 				</File>
 				<File Id="1044963177" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_09.wav</ShortName>
-					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_09_56D34C19.wem</Path>
+					<Path>SFX\Cloth_Jump_Start\Cloth_Jump_Start_09_46BD80C9.wem</Path>
 				</File>
 				<File Id="1052072078" Language="SFX">
 					<ShortName>Rock_3.wav</ShortName>
-					<Path>SFX\Rock_3_56D34C19.wem</Path>
+					<Path>SFX\Rock_3_46BD80C9.wem</Path>
 				</File>
 				<File Id="1055886223" Language="SFX">
 					<ShortName>Water_env_loop.wav</ShortName>
-					<Path>SFX\Water_env_loop_8956FC97.wem</Path>
+					<Path>SFX\Water_env_loop_81D52EC7.wem</Path>
 				</File>
 				<File Id="1058505165" Language="SFX">
 					<ShortName>Water_In\Water_In_05.wav</ShortName>
-					<Path>SFX\Water_In\Water_In_05_56D34C19.wem</Path>
+					<Path>SFX\Water_In\Water_In_05_46BD80C9.wem</Path>
 				</File>
 				<File Id="1069201703" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_04.wav</ShortName>
-					<Path>SFX\Random_Sand_Particules\Sand_Paricules_04_C6DE9D06.wem</Path>
+					<Path>SFX\Random_Sand_Particules\Sand_Paricules_04_36C55D36.wem</Path>
 				</File>
 				<File Id="1070909009" Language="SFX">
 					<ShortName>Jump_Start\JumpStart_Voickit_06.wav</ShortName>
-					<Path>SFX\Jump_Start\JumpStart_Voickit_06_56D34C19.wem</Path>
+					<Path>SFX\Jump_Start\JumpStart_Voickit_06_46BD80C9.wem</Path>
 				</File>
 				<File Id="1071477255" Language="SFX">
 					<ShortName>Whisper\Whisper_8.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_8_4834DD3E.wem</Path>
+					<Path>SFX\Whisper\Whisper_8_966C454E.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

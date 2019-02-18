@@ -176,7 +176,7 @@
 					<ModuleList>
 						<Module>
 							<ObjectRef Name="Music" ID="{19AA06B1-DE5D-4F16-8447-CE927E7A72A8}" WorkUnitID="{73FACB83-3E67-4D97-BA1A-DE8162648059}"/>
-							<Position X="0" Y="1"/>
+							<Position X="0" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -251,8 +251,8 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Active_01" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}"/>
-						<CurrentStateRef Name="Inactive_03" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
-						<CurrentStateRef Name="Inactive_02" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
+						<CurrentStateRef Name="Active_03" ID="{2BF0D425-52DC-4716-89AF-A984B041F481}"/>
+						<CurrentStateRef Name="Active_02" ID="{D5ABB54E-2875-4FDD-B58F-200EE2AD6206}"/>
 						<CurrentStateRef Name="Cinematique_Door" ID="{F281E9EE-0DC6-4BE0-8DA1-F5AD8A85ED41}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">

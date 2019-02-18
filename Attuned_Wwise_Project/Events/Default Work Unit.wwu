@@ -1007,6 +1007,106 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="S_SFX_HighFall_Neutral_Impact" ID="{188EDDB1-036D-4782-A4EC-76287A534E2E}">
+					<ChildrenList>
+						<Action Name="" ID="{085CA741-4434-4E04-BF19-4B88876B9D6E}" ShortID="556430750">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="S_SFX_Jump_Neutral_Impact_01" ID="{21F7BE6D-AE77-4CE7-A52E-66F8C6130597}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2A1C1431-D31C-4295-BB5D-D2A0508F8796}" ShortID="204383741">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fall" ID="{1DA553CF-F136-4434-878C-78E305FCA15E}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_SFX_HighFall_Sand_Impact" ID="{4CB9D2B3-CCD7-40E2-A587-38D04D10D3E3}">
+					<ChildrenList>
+						<Action Name="" ID="{F4B2FD0D-EBEB-4A03-91CC-1DA3E4990BF7}" ShortID="680685172">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="S_SFX_Jump_Sand_Impact_01" ID="{57E3DCFA-7DCD-4A8B-904F-56551AF93473}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B0C56B4D-8BFD-4BA3-BB1A-F9016CDACC0B}" ShortID="404449168">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fall" ID="{1DA553CF-F136-4434-878C-78E305FCA15E}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_SFX_Jump_HighFall_Rock_Impact" ID="{5C4A09A4-85C1-46B3-834D-ED59683BAE52}">
+					<ChildrenList>
+						<Action Name="" ID="{4870295E-FE66-49E2-924E-15774E0A4CAA}" ShortID="878181787">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="S_SFX_Jump_Rock_Impact_01" ID="{5D50B5DD-6867-433D-AA7C-A152EC5DABDA}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{601BDD15-7F32-4F2C-80C8-7D25DD56C2A1}" ShortID="587555513">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fall" ID="{1DA553CF-F136-4434-878C-78E305FCA15E}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_SFX_Voicekit_Scream" ID="{4F46D63D-953A-4B17-8D7D-4BBEAABABA22}">
+					<ChildrenList>
+						<Action Name="" ID="{E891BCD0-0309-45B8-B16B-610458263A99}" ShortID="917317553">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scream" ID="{B4E1E690-1340-4BED-8AD7-D0DA030AC0B5}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_SFX_Awe_Voicekit" ID="{1E0B5C10-D08C-40EF-9656-51B354D4F30A}">
+					<ChildrenList>
+						<Action Name="" ID="{CE8A5A31-3A1C-4B60-817A-89B09D8DAC8F}" ShortID="445001160">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Awe_Voicekit" ID="{D59B5726-0302-4476-A0EE-E999D15F4D2A}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
