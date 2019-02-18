@@ -1560,11 +1560,6 @@
 								<MusicSegment Name="Percussion_Glide" ID="{28548178-1D00-443F-B1D0-DA9A70081189}" ShortID="29109244">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="36923.0833333333"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

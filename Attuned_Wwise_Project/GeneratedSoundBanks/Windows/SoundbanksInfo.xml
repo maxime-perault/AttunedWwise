@@ -218,7 +218,7 @@
 				</File>
 				<File Id="145788824" Language="SFX">
 					<ShortName>Outro_Glide.wav</ShortName>
-					<Path>SFX\Outro_Glide_B5134E72.wem</Path>
+					<Path>SFX\Outro_Glide_E1B88543.wem</Path>
 				</File>
 				<File Id="153618838" Language="SFX">
 					<ShortName>Whisper\Whisper_9.wav</ShortName>
@@ -227,6 +227,10 @@
 				<File Id="155208662" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_05.wav</ShortName>
 					<Path>SFX\Random_Sand_Particules\Sand_Paricules_05_46BD80C9.wem</Path>
+				</File>
+				<File Id="155587627" Language="SFX">
+					<ShortName>State_final_1stpart_test.wav</ShortName>
+					<Path>SFX\State_final_1stpart_test_E60452FC.wem</Path>
 				</File>
 				<File Id="169664777" Language="SFX">
 					<ShortName>Dash\Dash_Voicekit_05.wav</ShortName>
@@ -644,10 +648,6 @@
 					<ShortName>Rock_Slide_Random\Rock_Slide_5.wav</ShortName>
 					<Path>SFX\Rock_Slide_Random\Rock_Slide_5_68A63E69.wem</Path>
 				</File>
-				<File Id="784744620" Language="SFX">
-					<ShortName>Whisper\Whisper_5.wav</ShortName>
-					<Path>SFX\Whisper\Whisper_5_9D139D06.wem</Path>
-				</File>
 				<File Id="790919215" Language="SFX">
 					<ShortName>Env_Brown_Noise_Loop.wav</ShortName>
 					<Path>SFX\Env_Brown_Noise_Loop_81D52EC7.wem</Path>
@@ -714,7 +714,7 @@
 				</File>
 				<File Id="857924929" Language="SFX">
 					<ShortName>Footstep_Rock_Lfe\rockimpact.wav</ShortName>
-					<Path>SFX\Footstep_Rock_Lfe\rockimpact_46BD80C9.wem</Path>
+					<Path>SFX\Footstep_Rock_Lfe\rockimpact_2427D816.wem</Path>
 				</File>
 				<File Id="859308396" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_05.wav</ShortName>
@@ -736,13 +736,13 @@
 					<ShortName>Receptors_Activation_03.wav</ShortName>
 					<Path>SFX\Receptors_Activation_03_8AC2E59F.wem</Path>
 				</File>
-				<File Id="889039418" Language="SFX">
-					<ShortName>Fall_Scream_02.wav</ShortName>
-					<Path>SFX\Fall_Scream_02_46BD80C9.wem</Path>
-				</File>
 				<File Id="889369514" Language="SFX">
 					<ShortName>S_SFX_Door_Chains.wav</ShortName>
 					<Path>SFX\S_SFX_Door_Chains_46BD80C9.wem</Path>
+				</File>
+				<File Id="889778153" Language="SFX">
+					<ShortName>State_final_2ndpart_test.wav</ShortName>
+					<Path>SFX\State_final_2ndpart_test_E60452FC.wem</Path>
 				</File>
 				<File Id="894442699" Language="SFX">
 					<ShortName>Sand_V1_01.wav</ShortName>

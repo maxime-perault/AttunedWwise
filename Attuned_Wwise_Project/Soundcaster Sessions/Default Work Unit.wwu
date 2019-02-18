@@ -116,6 +116,10 @@
 							<Value>6</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Wind_Atmosphere" ID="{4B7AD6AD-01BE-449F-BD9F-EB73591245E9}"/>
+							<Value>0.57</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
 							<Value>0</Value>
 						</RTPCValue>
@@ -125,7 +129,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Water_Speed" ID="{75AECCD3-B6E0-467E-8370-99ADB15174F5}"/>
-							<Value>0</Value>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}"/>
@@ -165,11 +169,13 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{C05B6D63-9F66-488D-95DA-CB277D715AAC}"/>
-						<CurrentStateRef Name="Glide_Outro" ID="{DB1882D5-B051-4949-B8A9-7B8F050C013A}"/>
+						<CurrentStateRef Name="Inactive_01" ID="{746002C9-D5AD-4A23-B2D5-7516ED5B78BD}"/>
+						<CurrentStateRef Name="Inactive_03" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
+						<CurrentStateRef Name="Inactive_02" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
+						<CurrentStateRef Name="Final" ID="{CB76D312-57C3-4F97-9AEB-5C43B140A349}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>
+						<CurrentSwitchRef Name="Rock" ID="{F5FFF549-71BD-4045-AA4B-FD2FBB87F558}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="music" ID="{18923301-CF7C-4949-83ED-EC11BF3F8357}">
@@ -253,10 +259,10 @@
 						<CurrentStateRef Name="Inactive_01" ID="{746002C9-D5AD-4A23-B2D5-7516ED5B78BD}"/>
 						<CurrentStateRef Name="Inactive_03" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
 						<CurrentStateRef Name="Inactive_02" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
-						<CurrentStateRef Name="Final" ID="{CB76D312-57C3-4F97-9AEB-5C43B140A349}"/>
+						<CurrentStateRef Name="Outro_Final" ID="{8F2D1CA1-D374-4E62-ACD6-089137469CCC}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Rock" ID="{F5FFF549-71BD-4045-AA4B-FD2FBB87F558}"/>
+						<CurrentSwitchRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

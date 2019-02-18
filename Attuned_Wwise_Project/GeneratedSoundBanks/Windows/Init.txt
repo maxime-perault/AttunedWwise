@@ -17,7 +17,9 @@ State	ID	Name	State Group			Notes
 	0	None	Music			
 	565529991	Final	Music			
 	764575084	Focus_Intro	Music			
+	2087255359	Outro_Final	Music			
 	2126046527	Cinematique_Door	Music			
+	2988336284	Intro_Final	Music			
 	3860618124	Glide_Outro	Music			
 	4063189299	Corridor	Music			
 	4284651479	Glide_Intro	Music			
@@ -46,6 +48,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
+	323097125	Wwise Meter (Custom)	Wwise Meter			
 	419691232	New_Wwise_Recorder	Wwise Recorder			
 	1067243857	Wwise Meter (Custom)	Wwise Meter			
 
