@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="S_SFX_HighFall_Neutral_Impact" ID="{188EDDB1-036D-4782-A4EC-76287A534E2E}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Sing_Valhalla_1" ID="{3923EB27-8BE3-4B86-897F-E050ECCDC875}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
 							<Position X="0" Y="4"/>
 						</Module>

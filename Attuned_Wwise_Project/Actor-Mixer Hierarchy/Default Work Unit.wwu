@@ -5672,7 +5672,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9148,6 +9148,109 @@
 						<ActiveSource Name="State_Door_Cinematique" ID="{737957DA-BDD7-4129-A41F-2E4934A4E445}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<ActorMixer Name="UI" ID="{7CF422AA-D40E-4B81-952F-6A72CD76B607}" ShortID="277944691">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="UI_AOE" ID="{4F07EC26-C226-458B-AE9E-DBB70F77971E}" ShortID="39160098">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_AOE" ID="{A0175400-29B1-43EF-ACDF-65D4D3EDCCC3}" ShortID="488166404">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.256578947368421"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.968749999999999"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI_AOE.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_AOE" ID="{A0175400-29B1-43EF-ACDF-65D4D3EDCCC3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_camera_start" ID="{26EE5684-DC08-4313-98A3-F5BA7680F1F1}" ShortID="383193463">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_camera_start" ID="{A7F0C103-A696-404F-A1E4-4284B445147B}" ShortID="617432109">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.214912280701754"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.844298245614036"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>UI_camera_start.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_camera_start" ID="{A7F0C103-A696-404F-A1E4-4284B445147B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_selection" ID="{315B26CC-2A39-4D47-AB17-714DB9A4C799}" ShortID="1012481741">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_selection" ID="{B40D6150-2D88-4101-8B30-4B86D2C6416C}" ShortID="1001900458">
+									<Language>SFX</Language>
+									<AudioFile>UI_selection.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_selection" ID="{B40D6150-2D88-4101-8B30-4B86D2C6416C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Validation" ID="{6F807281-F80E-4F2F-B8DF-ED3A03ECFB50}" ShortID="670827388">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Validation" ID="{C2208826-B51A-4B08-A30B-7345F64E49C5}" ShortID="103459914">
+									<Language>SFX</Language>
+									<AudioFile>UI_Validation.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Validation" ID="{C2208826-B51A-4B08-A30B-7345F64E49C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

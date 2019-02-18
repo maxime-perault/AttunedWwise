@@ -26,7 +26,9 @@
 						<ObjectRef Name="Stop_Sing_01" ID="{EC862124-BF39-4611-9C64-7DFFE47F4B0B}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Glide" ID="{964C72DE-D5EE-4679-8EE5-E4A390EB44DE}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Jump_HighFall_Rock_Impact" ID="{5C4A09A4-85C1-46B3-834D-ED59683BAE52}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_UI_Validation" ID="{993A6DE6-14DF-46BF-A850-C9CB043C8A6B}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Dash_Rock" ID="{403283D7-2FA3-46C8-B649-29B8AA8A97DA}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_UI_selection" ID="{73C1E090-D11C-46DB-8250-6B5365DAAEF4}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Jump_Temple_impact" ID="{31BF7B08-FD21-46F1-A87C-528D72C93E3D}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_Ambience_Sing_04" ID="{345AE721-DDF4-4703-B6A2-9A97E34499FE}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Sing_04" ID="{6030E7A1-48B8-4713-8895-4E92CAFD6F9F}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
@@ -41,6 +43,7 @@
 						<ObjectRef Name="S_Ambience_Sing_01" ID="{96AACD51-729D-4A17-B52C-DD91524B7A41}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Water_Out" ID="{9084E7E4-CFAC-4A17-9087-4259DE8A9723}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Door_Open" ID="{3B80E790-530E-4A1D-9145-EAF92B380F57}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_UI_AOE" ID="{F6386130-9DCE-4A3C-9529-2DE87DD1C867}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Music" ID="{0E09CCA0-3A7A-4A65-A14D-57A7387DEE34}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Archs_Activation" ID="{9DB07EF2-CFB4-4AB5-83D8-A7E2B859B78B}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Jump_Rock_Impact" ID="{BD6B0400-0A04-4AC6-BE94-555BD4786B49}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
@@ -52,6 +55,7 @@
 						<ObjectRef Name="S_Ambience_Water_Terrain" ID="{8E2D7544-A94A-4C77-9176-635C034C6EC7}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Sing_02" ID="{DC5E98E0-59AB-4E06-AC08-9E05C0510088}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Water_Axe_Change" ID="{053FF8A0-125A-4E32-9E1A-AD5DFCAC2637}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_UI_camera_start" ID="{FDE3AD84-AC4C-4E4B-83BB-C9FBB36A5165}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Terrain_Wind_Speed" ID="{8D842559-7B22-4E93-BB5E-34A2C106D7A7}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Whisper" ID="{E0A19976-C892-4F3D-9B19-AF02009623F9}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

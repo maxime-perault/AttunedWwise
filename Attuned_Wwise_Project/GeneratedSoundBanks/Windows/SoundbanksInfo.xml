@@ -60,6 +60,10 @@
 				<Event Id="784655102" Name="S_SFX_Water_Glide" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_Glide"/>
 				<Event Id="727030578" Name="S_SFX_Water_In" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_In"/>
 				<Event Id="1421783309" Name="S_SFX_Water_Out" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_Out"/>
+				<Event Id="3803391745" Name="S_UI_AOE" ObjectPath="\Events\Default Work Unit\S_UI_AOE"/>
+				<Event Id="3200923444" Name="S_UI_camera_start" ObjectPath="\Events\Default Work Unit\S_UI_camera_start"/>
+				<Event Id="1577618218" Name="S_UI_selection" ObjectPath="\Events\Default Work Unit\S_UI_selection"/>
+				<Event Id="998571409" Name="S_UI_Validation" ObjectPath="\Events\Default Work Unit\S_UI_Validation"/>
 				<Event Id="1375816878" Name="Stop_Ambience_Rock_Terrain" ObjectPath="\Events\Default Work Unit\Ambience\Stop_Ambience_Rock_Terrain"/>
 				<Event Id="3632108711" Name="Stop_Ambience_Sand_Terrain" ObjectPath="\Events\Default Work Unit\Ambience\Stop_Ambience_Sand_Terrain"/>
 				<Event Id="2882800018" Name="Stop_Ambience_Water_Terrain" ObjectPath="\Events\Default Work Unit\Ambience\Stop_Ambience_Water_Terrain"/>
@@ -163,6 +167,10 @@
 				<File Id="101835873" Language="SFX">
 					<ShortName>Glide_Layer_2.wav</ShortName>
 					<Path>SFX\Glide_Layer_2_81D52EC7.wem</Path>
+				</File>
+				<File Id="103459914" Language="SFX">
+					<ShortName>UI_Validation.wav</ShortName>
+					<Path>SFX\UI_Validation_46BD80C9.wem</Path>
 				</File>
 				<File Id="104269959" Language="SFX">
 					<ShortName>Jump_Start\JumpStart_Voickit_02.wav</ShortName>
@@ -444,6 +452,10 @@
 					<ShortName>Explosion_Rock\Explosion_Rock_5.wav</ShortName>
 					<Path>SFX\Explosion_Rock\Explosion_Rock_5_46BD80C9.wem</Path>
 				</File>
+				<File Id="488166404" Language="SFX">
+					<ShortName>UI_AOE.wav</ShortName>
+					<Path>SFX\UI_AOE_79EBF1D5.wem</Path>
+				</File>
 				<File Id="492546283" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_08.wav</ShortName>
 					<Path>SFX\Random_Sand_Particules\Sand_Paricules_08_EA99A019.wem</Path>
@@ -539,6 +551,10 @@
 				<File Id="612409165" Language="SFX">
 					<ShortName>Sing_Valhalla_3.wav</ShortName>
 					<Path>SFX\Sing_Valhalla_3_A4B39E47.wem</Path>
+				</File>
+				<File Id="617432109" Language="SFX">
+					<ShortName>UI_camera_start.wav</ShortName>
+					<Path>SFX\UI_camera_start_B54E3A9B.wem</Path>
 				</File>
 				<File Id="617643359" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_02.wav</ShortName>
@@ -819,6 +835,10 @@
 				<File Id="998929950" Language="SFX">
 					<ShortName>Neutral_earth_2.wav</ShortName>
 					<Path>SFX\Neutral_earth_2_46BD80C9.wem</Path>
+				</File>
+				<File Id="1001900458" Language="SFX">
+					<ShortName>UI_selection.wav</ShortName>
+					<Path>SFX\UI_selection_46BD80C9.wem</Path>
 				</File>
 				<File Id="1006875054" Language="SFX">
 					<ShortName>Jump_Start\JumpStart_Voickit_07.wav</ShortName>

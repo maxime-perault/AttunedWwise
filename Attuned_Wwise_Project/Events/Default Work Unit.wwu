@@ -1107,6 +1107,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="S_UI_AOE" ID="{F6386130-9DCE-4A3C-9529-2DE87DD1C867}">
+					<ChildrenList>
+						<Action Name="" ID="{483A6551-EDBC-4246-BD2C-D8A00EFD848A}" ShortID="294993858">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_AOE" ID="{4F07EC26-C226-458B-AE9E-DBB70F77971E}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_UI_camera_start" ID="{FDE3AD84-AC4C-4E4B-83BB-C9FBB36A5165}">
+					<ChildrenList>
+						<Action Name="" ID="{A1525754-CBB3-4BA8-851F-A5E0C054B594}" ShortID="1016043745">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_camera_start" ID="{26EE5684-DC08-4313-98A3-F5BA7680F1F1}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_UI_selection" ID="{73C1E090-D11C-46DB-8250-6B5365DAAEF4}">
+					<ChildrenList>
+						<Action Name="" ID="{69FE1B9D-B5B0-46FE-887F-D59F41002C25}" ShortID="857055955">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_selection" ID="{315B26CC-2A39-4D47-AB17-714DB9A4C799}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="S_UI_Validation" ID="{993A6DE6-14DF-46BF-A850-C9CB043C8A6B}">
+					<ChildrenList>
+						<Action Name="" ID="{0A022B10-2A59-4463-8351-BA9CCE80EDBE}" ShortID="562897445">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Validation" ID="{6F807281-F80E-4F2F-B8DF-ED3A03ECFB50}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

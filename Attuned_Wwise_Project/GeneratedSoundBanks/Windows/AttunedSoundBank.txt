@@ -16,10 +16,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	778016973	S_Ambience_Water_Terrain			\Default Work Unit\Ambience\S_Ambience_Water_Terrain	
 	784655102	S_SFX_Water_Glide			\Default Work Unit\SFX\S_SFX_Water_Glide	
 	927093868	S_SFX_Jump_HighFall_Rock_Impact			\Default Work Unit\S_SFX_Jump_HighFall_Rock_Impact	
+	998571409	S_UI_Validation			\Default Work Unit\S_UI_Validation	
 	1111711532	S_SFX_Door_Chains			\Default Work Unit\SFX\S_SFX_Door_Chains	
 	1310516440	Stop_Terrain_Wind_Speed			\Default Work Unit\Ambience\Stop_Terrain_Wind_Speed	
 	1375816878	Stop_Ambience_Rock_Terrain			\Default Work Unit\Ambience\Stop_Ambience_Rock_Terrain	
 	1421783309	S_SFX_Water_Out			\Default Work Unit\SFX\S_SFX_Water_Out	
+	1577618218	S_UI_selection			\Default Work Unit\S_UI_selection	
 	1584412401	S_SFX_Intro_Glide			\Default Work Unit\S_SFX_Intro_Glide	
 	1663093101	S_SFX_HighFall_Neutral_Impact			\Default Work Unit\S_SFX_HighFall_Neutral_Impact	
 	1672519463	S_Ambience_Rock_Terrain			\Default Work Unit\Ambience\S_Ambience_Rock_Terrain	
@@ -37,9 +39,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3113485664	Stop_Random_Ambience			\Default Work Unit\Ambience\Stop_Random_Ambience	
 	3117168918	S_SFX_Outro_Glide			\Default Work Unit\S_SFX_Outro_Glide	
+	3200923444	S_UI_camera_start			\Default Work Unit\S_UI_camera_start	
 	3597130940	S_SFX_Water_Axe_Change			\Default Work Unit\SFX\S_SFX_Water_Axe_Change	
 	3632108711	Stop_Ambience_Sand_Terrain			\Default Work Unit\Ambience\Stop_Ambience_Sand_Terrain	
 	3715476462	S_SFX_Door_Open			\Default Work Unit\SFX\S_SFX_Door_Open	
+	3803391745	S_UI_AOE			\Default Work Unit\S_UI_AOE	
 	3816297981	S_SFX_Jump_Sand_Impact			\Default Work Unit\SFX\S_SFX_Jump_Sand_Impact	
 	3822226847	S_Ambience_Wind_Atmosphere			\Default Work Unit\Ambience\S_Ambience_Wind_Atmosphere	
 	3861649801	S_SFX_Archs_Activation			\Default Work Unit\SFX\S_SFX_Archs_Activation	
@@ -157,6 +161,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	89999421	Water_Surface_Random	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Water_Surface_Random_276C1A4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Water_Terrain\Water_Surface\Water_Surface_Random		120070
 	97843282	JumpEnd_Voickit_04	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Jump_End\JumpEnd_Voickit_04_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceKit\Jump_End\JumpEnd_Voickit_04		6003
 	101835873	Glide_Layer_2	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Glide_Layer_2_81D52EC7.wem		\Interactive Music Hierarchy\Default Work Unit\Glide\Glide\Percussion_Glide\Glide_Layer_2		625770
+	103459914	UI_Validation	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\UI_Validation_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Validation		96436
 	104269959	JumpStart_Voickit_02	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Jump_Start\JumpStart_Voickit_02_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceKit\Jump_Start\JumpStart_Voickit_02		5698
 	109372009	Water_Axe_Change_06	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Water_Axe_Change\Water_Axe_Change_06_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Water_Glide\Water_Axe_Change\Water_Axe_Change_06		11433
 	110883096	Rock_03	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Rock_03_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Rock\Rock_03		12028
@@ -227,6 +232,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	469191095	Archs_04	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Archs_04_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Archs\Archs_04		177148
 	476394009	JumpEnd_Voickit_02	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Jump_End\JumpEnd_Voickit_02_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceKit\Jump_End\JumpEnd_Voickit_02		6760
 	487228937	Explosion_Rock_5	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Explosion_Rock\Explosion_Rock_5_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\Explosion_Rock\Explosion_Rock_5		72886
+	488166404	UI_AOE	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\UI_AOE_79EBF1D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_AOE		16161
 	492546283	Sand_Paricules_08	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Random_Sand_Particules\Sand_Paricules_08_EA99A019.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Sand_Terrain\Random_Sand_Particules\Sand_Paricules_08		37826
 	511751440	Whisper_1	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Whisper\Whisper_1_FE85AABF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Corridor_Atmosphere\Whisper\Whisper_1		232783
 	512718015	Temple_04	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Temple\Temple_04_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Temple\Temple_04		5944
@@ -251,6 +257,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	606681895	Sand_Slidnig_06	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Random_Sand_Sliding\Sand_Slidnig_06_DB612104.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Sand_Terrain\Random_Sand_Sliding\Sand_Slidnig_06		151995
 	607690952	Jump_Temple_impact_02	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Jump_Temple_impact\Jump_Temple_impact_02_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\S_SFX_Jump_Temple_impact\Jump_Temple_impact_02		8077
 	612409165	Sing_Valhalla_3	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Sing_Valhalla_3_A4B39E47.wem		\Actor-Mixer Hierarchy\Default Work Unit\Corridor_Atmosphere\Sing_Valhalla_3		561197
+	617432109	UI_camera_start	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\UI_camera_start_B54E3A9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_camera_start		211781
 	617643359	Sand_Paricules_02	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Random_Sand_Particules\Sand_Paricules_02_A04363BB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Sand_Terrain\Random_Sand_Particules\Sand_Paricules_02		21264
 	627520731	Percu_04	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Percu_04_81D52EC7.wem		\Interactive Music Hierarchy\Default Work Unit\Glide\Glide\Percu\Percu_04		265195
 	631460228	Neutral_earth_4	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Neutral_earth_4_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Neutral_Earth\Neutral_earth_4		5460
@@ -321,6 +328,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	986821730	Rock_Fall_03	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Rock Falls\Rock_Fall_03_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Ambience\Rock_Terrain\Rock Falls\Rock_Fall_03		46333
 	996430665	Receptors_Activation_02	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Receptors_Activation_02_91E1F849.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Receptors\Receptors_Activation_02		36330
 	998929950	Neutral_earth_2	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Neutral_earth_2_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\S_SFX_Footstep_Neutral_Earth\Neutral_earth_2		6287
+	1001900458	UI_selection	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\UI_selection_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_selection		32054
 	1006875054	JumpStart_Voickit_07	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Jump_Start\JumpStart_Voickit_07_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceKit\Jump_Start\JumpStart_Voickit_07		4171
 	1007421856	Jump_Sand_05	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Jump_Sand_05_46BD80C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Terrain_Interaction\S_SFX_Jump_Sand_Impact_01\Jump_Sand_05		22360
 	1020259801	Receptors_Activation_01	C:\Users\marie.david\Documents\GIT-PROJECTS\AttunedWwise\Attuned_Wwise_Project\.cache\Windows\SFX\Receptors_Activation_01_A295820C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gameplay\Receptors\Receptors_Activation_01		36289
