@@ -12,6 +12,8 @@
 						<State Name="Glide_Outro" ID="{DB1882D5-B051-4949-B8A9-7B8F050C013A}"/>
 						<State Name="Glide_Intro" ID="{47CA0E96-5ED5-4A71-8839-4397EF53B013}"/>
 						<State Name="Final" ID="{CB76D312-57C3-4F97-9AEB-5C43B140A349}"/>
+						<State Name="Intro_Final" ID="{BDDDCC3A-0EAD-4BB9-9BB3-4DD97A5FA79B}"/>
+						<State Name="Outro_Final" ID="{8F2D1CA1-D374-4E62-ACD6-089137469CCC}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Percu_Layer_01" ID="{CD414D15-AA47-465C-9EC4-243AAA6F3E4A}">

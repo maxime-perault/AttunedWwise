@@ -8494,6 +8494,9 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="SFX" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+							<ObjectRef Name="New_Wwise_Meter" ID="{E4ECDC77-93ED-4FF5-8DBF-FA454273D0C0}" WorkUnitID="{00CC75D9-2A30-45DD-A6B8-245F706EB16E}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2304C793-6DD0-4F58-AB00-BA85510C849B}"/>
 						</Reference>

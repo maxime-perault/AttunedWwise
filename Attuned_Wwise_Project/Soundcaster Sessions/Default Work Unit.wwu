@@ -250,10 +250,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Active_01" ID="{B2C78EA7-3495-482D-A4B9-C22E494C3305}"/>
-						<CurrentStateRef Name="Active_03" ID="{2BF0D425-52DC-4716-89AF-A984B041F481}"/>
-						<CurrentStateRef Name="Active_02" ID="{D5ABB54E-2875-4FDD-B58F-200EE2AD6206}"/>
-						<CurrentStateRef Name="Cinematique_Door" ID="{F281E9EE-0DC6-4BE0-8DA1-F5AD8A85ED41}"/>
+						<CurrentStateRef Name="Inactive_01" ID="{746002C9-D5AD-4A23-B2D5-7516ED5B78BD}"/>
+						<CurrentStateRef Name="Inactive_03" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
+						<CurrentStateRef Name="Inactive_02" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
+						<CurrentStateRef Name="Final" ID="{CB76D312-57C3-4F97-9AEB-5C43B140A349}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Rock" ID="{F5FFF549-71BD-4045-AA4B-FD2FBB87F558}"/>

@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{00CC75D9-2A30-45DD-A6B8-245F706EB16E}" PersistMode="Standalone">
 			<ChildrenList>
 				<Effect Name="New_Wwise_Recorder" ID="{429E74F1-5D61-4491-A4D1-8624A612E667}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3"/>
+				<Effect Name="New_Wwise_Meter" ID="{E4ECDC77-93ED-4FF5-8DBF-FA454273D0C0}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>
