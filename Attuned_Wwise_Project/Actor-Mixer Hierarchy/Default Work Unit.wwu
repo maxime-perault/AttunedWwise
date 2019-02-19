@@ -1155,25 +1155,26 @@
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
-										<RTPC Name="" ID="{BD6F9F54-CCB8-43DE-B66F-861593064D0B}" ShortID="137136254">
+										<RTPC Name="" ID="{BC4B3116-8BDB-4FF9-BBC6-83B52D056F2B}" ShortID="648491218">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Wind_Atmosphere" ID="{4B7AD6AD-01BE-449F-BD9F-EB73591245E9}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+													<ObjectRef Name="Low_pass" ID="{8CD48BF0-090D-4227-ACAA-026D7D4C2004}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
 												</Reference>
 											</ReferenceList>
-											<Curve Name="" ID="{29093A32-E79F-442D-AE9B-EE26767DB5EB}">
+											<Curve Name="" ID="{E82804CB-7CF6-46BE-8D45-4EC47204A911}">
 												<PropertyList>
 													<Property Name="Flags" Type="int32" Value="65537"/>
 												</PropertyList>
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-54</YPos>
+														<YPos>-100</YPos>
 														<Flags>5</Flags>
+														<SegmentShape>Log1</SegmentShape>
 													</Point>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>26</YPos>
+														<YPos>13</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -5161,6 +5162,35 @@
 						<Sound Name="Wind_Speed" ID="{7F659B23-FCC9-4FAD-9AA2-E8D0CF2A3FFB}" ShortID="979743435">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{9A36DD38-5F61-4C91-BF3F-F599EBF9377D}" ShortID="861372238">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Low_pass" ID="{8CD48BF0-090D-4227-ACAA-026D7D4C2004}" WorkUnitID="{FA888D7B-739A-4A97-BE47-8701250D36CA}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{178A765A-7280-4912-97C3-0F324CBF0DC6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-100</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>52</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<RTPCList>
 										<RTPC Name="" ID="{E1F8990E-65D7-43B2-A79E-82658994D6F7}" ShortID="176986039">
@@ -8836,7 +8866,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9040,6 +9070,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Archs_08" ID="{A2B32447-563B-4C22-BC64-0E44AED2515B}" ShortID="178243184">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="SFX" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>

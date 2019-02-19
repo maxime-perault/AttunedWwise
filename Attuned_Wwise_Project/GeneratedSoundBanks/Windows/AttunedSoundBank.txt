@@ -88,8 +88,8 @@ Custom State	ID	Name	State Group	Owner		Notes
 	1066712851	Inactive_01	Percu_Layer_01	\Interactive Music Hierarchy\Default Work Unit\Glide\Glide\Percussion_Glide\Glide_Layer_1		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	324468506	Wind_Atmosphere			\Default Work Unit\Wind_Atmosphere	
 	1031126193	Terrain_Wind_Speed			\Default Work Unit\Terrain_Wind_Speed	
+	1177178531	Low_pass			\Default Work Unit\Low_pass	
 	2580519121	Foot_Speed			\Default Work Unit\Foot_Speed	
 	3789669546	Water_Speed			\Default Work Unit\Water_Speed	
 
