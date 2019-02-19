@@ -454,7 +454,7 @@
 				</File>
 				<File Id="488166404" Language="SFX">
 					<ShortName>UI_AOE.wav</ShortName>
-					<Path>SFX\UI_AOE_79EBF1D5.wem</Path>
+					<Path>SFX\UI_AOE_A8A3BD85.wem</Path>
 				</File>
 				<File Id="492546283" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_08.wav</ShortName>
@@ -554,7 +554,7 @@
 				</File>
 				<File Id="617432109" Language="SFX">
 					<ShortName>UI_camera_start.wav</ShortName>
-					<Path>SFX\UI_camera_start_B54E3A9B.wem</Path>
+					<Path>SFX\UI_camera_start_683C8E0A.wem</Path>
 				</File>
 				<File Id="617643359" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_02.wav</ShortName>
@@ -730,7 +730,7 @@
 				</File>
 				<File Id="857924929" Language="SFX">
 					<ShortName>Footstep_Rock_Lfe\rockimpact.wav</ShortName>
-					<Path>SFX\Footstep_Rock_Lfe\rockimpact_2427D816.wem</Path>
+					<Path>SFX\Footstep_Rock_Lfe\rockimpact_570BBC52.wem</Path>
 				</File>
 				<File Id="859308396" Language="SFX">
 					<ShortName>Cloth_Jump_Start\Cloth_Jump_Start_05.wav</ShortName>

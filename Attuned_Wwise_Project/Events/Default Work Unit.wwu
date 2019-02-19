@@ -200,6 +200,7 @@
 								<Action Name="" ID="{FE309668-6366-481B-8858-CFF9DC6E16A3}" ShortID="845700683">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -248,6 +249,7 @@
 								<Action Name="" ID="{7B408A4A-5094-4720-8126-A7C8BF49AB05}" ShortID="628751985">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -296,6 +298,7 @@
 								<Action Name="" ID="{250F68F2-5D04-454B-A8CD-4C9133140C7A}" ShortID="668865518">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -456,6 +459,7 @@
 								<Action Name="" ID="{317FBB66-DE5F-4D86-B8F9-C09AC4490B39}" ShortID="919353340">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -474,6 +478,7 @@
 								<Action Name="" ID="{150E82BB-1143-45C4-BBA5-0F564AEBF142}" ShortID="672724602">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -492,6 +497,7 @@
 								<Action Name="" ID="{ECBF4D7A-B7B9-4683-84FB-C72026456B25}" ShortID="484293294">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -528,6 +534,7 @@
 								<Action Name="" ID="{62F5DBF2-DEE2-4BB8-B60C-A720054BDC6A}" ShortID="297782003">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -546,6 +553,7 @@
 								<Action Name="" ID="{C76353B9-7D5F-402D-A05B-9B7008277888}" ShortID="773823759">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
