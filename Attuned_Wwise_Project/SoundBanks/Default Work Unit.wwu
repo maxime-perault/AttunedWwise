@@ -36,6 +36,7 @@
 						<ObjectRef Name="S_SFX_HighFall_Neutral_Impact" ID="{188EDDB1-036D-4782-A4EC-76287A534E2E}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Receptors_Activation" ID="{A35F60D4-500B-4786-8DB3-1223D928FE21}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Cloth_Jump_Start" ID="{AF056122-0FDD-47C1-98B7-9FEE789377C2}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="S_SFX_Voiceit_explosion" ID="{DE9D8130-4638-4816-B5B1-9BEE396557D1}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Jump_Neutral_Impact" ID="{A0CF59F4-E912-48D0-8E19-62D9F60F9AC5}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="S_SFX_Jump_Sand_Impact" ID="{6AF08622-6A14-48DB-B11A-F4D48E7C2EA0}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Ambience_Rock_Terrain" ID="{0D7B0144-336A-4956-B23D-B9C5C946FC54}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}" Filter="7" Origin="Manual"/>

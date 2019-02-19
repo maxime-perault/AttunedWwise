@@ -591,16 +591,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{21C88773-F0F9-4EB0-A301-F93882521429}" ShortID="60150869">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Broken_Rock" ID="{7769364B-5640-4056-922C-9F61118111BD}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="S_SFX_Water_Axe_Change" ID="{053FF8A0-125A-4E32-9E1A-AD5DFCAC2637}">
@@ -937,6 +927,24 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="S_SFX_Voiceit_explosion" ID="{DE9D8130-4638-4816-B5B1-9BEE396557D1}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{18CD8991-E9AD-427A-BA70-9FBA7FC82075}" ShortID="748938659">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Broken_Rock" ID="{7769364B-5640-4056-922C-9F61118111BD}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Play_Music" ID="{0E09CCA0-3A7A-4A65-A14D-57A7387DEE34}">
@@ -1131,7 +1139,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="UI_AOE" ID="{4F07EC26-C226-458B-AE9E-DBB70F77971E}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+									<ObjectRef Name="Aoe" ID="{4222B00A-5E1B-428B-9A63-443D2700A63B}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

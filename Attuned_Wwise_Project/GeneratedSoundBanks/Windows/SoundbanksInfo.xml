@@ -55,6 +55,7 @@
 				<Event Id="40182341" Name="S_SFX_Sand_Impulse" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Sand_Impulse"/>
 				<Event Id="528538789" Name="S_SFX_Stop_Glide" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Stop_Glide"/>
 				<Event Id="1994281723" Name="S_SFX_Terrain_Wind_Speed" ObjectPath="\Events\Default Work Unit\Ambience\S_SFX_Terrain_Wind_Speed"/>
+				<Event Id="2828272364" Name="S_SFX_Voiceit_explosion" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Voiceit_explosion"/>
 				<Event Id="2318968271" Name="S_SFX_Voicekit_Scream" ObjectPath="\Events\Default Work Unit\S_SFX_Voicekit_Scream"/>
 				<Event Id="3597130940" Name="S_SFX_Water_Axe_Change" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_Axe_Change"/>
 				<Event Id="784655102" Name="S_SFX_Water_Glide" ObjectPath="\Events\Default Work Unit\SFX\S_SFX_Water_Glide"/>
@@ -76,6 +77,10 @@
 				<Event Id="2109641078" Name="Stop_Whisper" ObjectPath="\Events\Default Work Unit\Ambience\Stop_Whisper"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="9085714" Language="SFX">
+					<ShortName>intro_bridge.wav</ShortName>
+					<Path>SFX\intro_bridge_E60452FC.wem</Path>
+				</File>
 				<File Id="9921030" Language="SFX">
 					<ShortName>Sand_V1_02.wav</ShortName>
 					<Path>SFX\Sand_V1_02_46BD80C9.wem</Path>
@@ -235,10 +240,6 @@
 				<File Id="155208662" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_05.wav</ShortName>
 					<Path>SFX\Random_Sand_Particules\Sand_Paricules_05_46BD80C9.wem</Path>
-				</File>
-				<File Id="155587627" Language="SFX">
-					<ShortName>State_final_1stpart_test.wav</ShortName>
-					<Path>SFX\State_final_1stpart_test_E60452FC.wem</Path>
 				</File>
 				<File Id="169664777" Language="SFX">
 					<ShortName>Dash\Dash_Voicekit_05.wav</ShortName>
@@ -428,6 +429,10 @@
 					<ShortName>Env_Brown_Noise_Rock_Loop.wav</ShortName>
 					<Path>SFX\Env_Brown_Noise_Rock_Loop_81D52EC7.wem</Path>
 				</File>
+				<File Id="446341928" Language="SFX">
+					<ShortName>Aoe.wav</ShortName>
+					<Path>SFX\Aoe_46BD80C9.wem</Path>
+				</File>
 				<File Id="447722339" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_01.wav</ShortName>
 					<Path>SFX\Random_Sand_Particules\Sand_Paricules_01_0D62C478.wem</Path>
@@ -435,6 +440,10 @@
 				<File Id="450258983" Language="SFX">
 					<ShortName>Corridor_atmosphere_loop.wav</ShortName>
 					<Path>SFX\Corridor_atmosphere_loop_E60452FC.wem</Path>
+				</File>
+				<File Id="456191023" Language="SFX">
+					<ShortName>ourto_bridge.wav</ShortName>
+					<Path>SFX\ourto_bridge_E60452FC.wem</Path>
 				</File>
 				<File Id="467913745" Language="SFX">
 					<ShortName>Sing_Valhalla_1.wav</ShortName>
@@ -451,10 +460,6 @@
 				<File Id="487228937" Language="SFX">
 					<ShortName>Explosion_Rock\Explosion_Rock_5.wav</ShortName>
 					<Path>SFX\Explosion_Rock\Explosion_Rock_5_46BD80C9.wem</Path>
-				</File>
-				<File Id="488166404" Language="SFX">
-					<ShortName>UI_AOE.wav</ShortName>
-					<Path>SFX\UI_AOE_A8A3BD85.wem</Path>
 				</File>
 				<File Id="492546283" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_08.wav</ShortName>
@@ -554,7 +559,7 @@
 				</File>
 				<File Id="617432109" Language="SFX">
 					<ShortName>UI_camera_start.wav</ShortName>
-					<Path>SFX\UI_camera_start_683C8E0A.wem</Path>
+					<Path>SFX\UI_camera_start_D62C7159.wem</Path>
 				</File>
 				<File Id="617643359" Language="SFX">
 					<ShortName>Random_Sand_Particules\Sand_Paricules_02.wav</ShortName>
@@ -755,10 +760,6 @@
 				<File Id="889369514" Language="SFX">
 					<ShortName>S_SFX_Door_Chains.wav</ShortName>
 					<Path>SFX\S_SFX_Door_Chains_46BD80C9.wem</Path>
-				</File>
-				<File Id="889778153" Language="SFX">
-					<ShortName>State_final_2ndpart_test.wav</ShortName>
-					<Path>SFX\State_final_2ndpart_test_E60452FC.wem</Path>
 				</File>
 				<File Id="894442699" Language="SFX">
 					<ShortName>Sand_V1_01.wav</ShortName>
