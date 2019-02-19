@@ -351,6 +351,8 @@
 								<Action Name="" ID="{A68061D5-F4A1-45EB-8EF7-12D14AA3FBAA}" ShortID="879034232">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.9"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -369,6 +371,8 @@
 								<Action Name="" ID="{D0EF0CA2-8306-4B14-8F0C-6E1EA13927D4}" ShortID="653142358">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3.6"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -387,6 +391,8 @@
 								<Action Name="" ID="{D731A34F-2AD1-4BC2-9CDA-BEFD61223681}" ShortID="196266607">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3.2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -405,6 +411,8 @@
 								<Action Name="" ID="{10C57DB9-9F9B-4274-934A-934928ECBEAB}" ShortID="910939030">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

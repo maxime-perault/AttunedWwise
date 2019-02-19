@@ -1174,7 +1174,7 @@
 													</Point>
 													<Point>
 														<XPos>1</XPos>
-														<YPos>13</YPos>
+														<YPos>29</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -3582,7 +3582,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -8866,7 +8866,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>1.9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9164,7 +9164,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>9</Value>
+								<Value>10.6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -9227,6 +9227,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_camera_start" ID="{26EE5684-DC08-4313-98A3-F5BA7680F1F1}" ShortID="383193463">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="SFX" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
@@ -9238,8 +9245,10 @@
 							<ChildrenList>
 								<AudioFileSource Name="UI_camera_start" ID="{A7F0C103-A696-404F-A1E4-4284B445147B}" ShortID="617432109">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.214912280701754"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.844298245614036"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.598684210526315"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.88815789473684"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.73464912280702"/>
+										<Property Name="TrimEnd" Type="Real64" Value="8.50438596491227"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>UI_camera_start.wav</AudioFile>
@@ -9269,6 +9278,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_Validation" ID="{6F807281-F80E-4F2F-B8DF-ED3A03ECFB50}" ShortID="670827388">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="SFX" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{896E9C30-1083-465D-910B-4C9FA80CF7D7}"/>
