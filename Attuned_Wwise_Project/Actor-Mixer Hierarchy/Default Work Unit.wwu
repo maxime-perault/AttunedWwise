@@ -444,7 +444,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>9</Value>
+										<Value>7.1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -893,7 +893,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2.9</Value>
+										<Value>-7.7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1154,6 +1154,9 @@
 								<Property Name="3DPosition" Type="int16" Value="2"/>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{BC4B3116-8BDB-4FF9-BBC6-83B52D056F2B}" ShortID="648491218">
 											<ReferenceList>
@@ -1185,7 +1188,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-9.3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3582,7 +3585,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>1.8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3912,7 +3915,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5.4</Value>
+										<Value>-13.1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -4137,7 +4140,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3.3</Value>
+										<Value>-5.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5234,7 +5237,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6.3</Value>
+										<Value>-8.1</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{808475AC-D62E-409F-A242-77D659C77117}" ShortID="528046578">
@@ -5308,20 +5311,20 @@
 																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>0.28284</XPos>
-																<YPos>-382.48664</YPos>
+																<XPos>0.28165</XPos>
+																<YPos>-695.53012</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
-																<XPos>0.89455</XPos>
-																<YPos>-399.57657</YPos>
+																<XPos>0.89573</XPos>
+																<YPos>-585.08382</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>Exp2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>1</XPos>
-																<YPos>-363.72938</YPos>
+																<YPos>-491.26561</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -5394,7 +5397,7 @@
 															</Point>
 															<Point>
 																<XPos>1</XPos>
-																<YPos>0.45845</YPos>
+																<YPos>0.44637</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -5440,7 +5443,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3.3</Value>
+										<Value>-4.6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9164,7 +9167,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>10.6</Value>
+								<Value>11.1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

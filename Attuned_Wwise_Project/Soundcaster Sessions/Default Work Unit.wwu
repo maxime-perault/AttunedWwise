@@ -66,6 +66,10 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Wind_Speed" ID="{7F659B23-FCC9-4FAD-9AA2-E8D0CF2A3FFB}" WorkUnitID="{9C32B779-3FE0-4B59-9E06-4D81943CC20F}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="S_Ambience_Rock_Terrain" ID="{11546E29-69FE-4166-9C6D-59D0C44348C5}" WorkUnitID="{289293B5-F196-40D6-B5D2-13B33EF88828}"/>
 							<Position X="2" Y="4"/>
 						</Module>
@@ -141,7 +145,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}"/>
-							<Value>0.93521421107628</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
@@ -271,7 +275,7 @@
 						<CurrentStateRef Name="Inactive_01" ID="{746002C9-D5AD-4A23-B2D5-7516ED5B78BD}"/>
 						<CurrentStateRef Name="Inactive_03" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
 						<CurrentStateRef Name="Inactive_02" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
-						<CurrentStateRef Name="Intro_Final" ID="{BDDDCC3A-0EAD-4BB9-9BB3-4DD97A5FA79B}"/>
+						<CurrentStateRef Name="Outro_Final" ID="{8F2D1CA1-D374-4E62-ACD6-089137469CCC}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Neutral_Earth" ID="{B3650672-97BF-4DA9-8815-73C170652EBD}"/>
