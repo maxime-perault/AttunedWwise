@@ -141,11 +141,11 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Water_Speed" ID="{75AECCD3-B6E0-467E-8370-99ADB15174F5}"/>
-							<Value>1</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Terrain_Wind_Speed" ID="{B07CEBA2-EFF3-4691-ACD8-BC0D76DB3EDE}"/>
-							<Value>0</Value>
+							<Value>0.79</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
@@ -184,10 +184,10 @@
 						<CurrentStateRef Name="Inactive_01" ID="{746002C9-D5AD-4A23-B2D5-7516ED5B78BD}"/>
 						<CurrentStateRef Name="Inactive_03" ID="{1C671102-ECBB-454C-A5A3-7764557C1B61}"/>
 						<CurrentStateRef Name="Inactive_02" ID="{0B4A1E6A-0FAC-41A2-920D-11C05DC144D5}"/>
-						<CurrentStateRef Name="Final" ID="{CB76D312-57C3-4F97-9AEB-5C43B140A349}"/>
+						<CurrentStateRef Name="Outro_Final" ID="{8F2D1CA1-D374-4E62-ACD6-089137469CCC}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Rock" ID="{F5FFF549-71BD-4045-AA4B-FD2FBB87F558}"/>
+						<CurrentSwitchRef Name="Neutral_Temple" ID="{8D564417-1D0F-4321-BB48-035CA09509D3}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="music" ID="{18923301-CF7C-4949-83ED-EC11BF3F8357}">

@@ -444,7 +444,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7.1</Value>
+										<Value>7.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -893,7 +893,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7.7</Value>
+										<Value>-7.1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1188,7 +1188,7 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9.3</Value>
+										<Value>-11.6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2241,7 +2241,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-3.1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3915,7 +3915,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13.1</Value>
+										<Value>-12.6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5237,7 +5237,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8.1</Value>
+										<Value>-11.5</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{808475AC-D62E-409F-A242-77D659C77117}" ShortID="528046578">
@@ -5526,7 +5526,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5605,7 +5605,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6612,7 +6612,7 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>8.3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6657,7 +6657,7 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6747,7 +6747,7 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6840,7 +6840,7 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6932,7 +6932,7 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2.9</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -7366,7 +7366,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>4.7</Value>
+								<Value>3.5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -8869,7 +8869,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1.9</Value>
+										<Value>1.4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9167,7 +9167,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>11.1</Value>
+								<Value>10.7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -9233,7 +9233,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>3.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9284,7 +9284,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>3.8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
